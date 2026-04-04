@@ -15,6 +15,12 @@ N_TRAIN = 500
 N_EVAL = 100
 N_TEST = 100
 
+# High-impact pairs: Hamming-1 neighbors with >=10-fold KD difference
+# |Δ(-log10 KD)| >= 1.0 corresponds to a 10-fold change in KD
+HIGH_IMPACT_DELTA = 1.0
+N_HIGH_IMPACT_EVAL = 15
+N_HIGH_IMPACT_TEST = 15
+
 
 def main() -> None:
     root = Path(__file__).parent
@@ -29,7 +35,8 @@ def main() -> None:
 
     rng = np.random.default_rng(SEED)
 
-    # Stratify by affinity quartiles so each split covers the full dynamic range
+    # ── Phase 1: stratified random sampling (baseline splits) ────────────
+
     df["quartile"] = pd.qcut(df["h1_mean"], q=4, labels=False)
 
     train_idx: list[int] = []
@@ -58,7 +65,61 @@ def main() -> None:
     all_genos = set(train["genotype"]) | set(eval_["genotype"]) | set(test["genotype"])
     assert len(all_genos) == N_TRAIN + N_EVAL + N_TEST, "Duplicate genotypes across splits"
 
-    # Verify all 16 positions appear in both states in each split
+    # ── Phase 2: supplement with high-impact Hamming-1 pairs ─────────────
+    # Find pairs in the full dataset where a single bit flip causes >=10x KD change,
+    # then inject them so one member lands in train and the other in eval/test.
+
+    high_impact = _find_high_impact_pairs(df, min_delta=HIGH_IMPACT_DELTA)
+    print(f"Found {len(high_impact)} high-impact Hamming-1 pairs (|Δh1_mean| >= {HIGH_IMPACT_DELTA})")
+
+    # Exclude pairs where either member is already assigned to a split
+    high_impact = [
+        p for p in high_impact if p[0] not in all_genos and p[1] not in all_genos
+    ]
+    rng.shuffle(high_impact)
+
+    # Select pairs for eval and test, spreading across different positions
+    eval_extra_pairs = _select_diverse_pairs(high_impact, N_HIGH_IMPACT_EVAL)
+    used = {g for p in eval_extra_pairs for g in (p[0], p[1])}
+    remaining = [p for p in high_impact if p[0] not in used and p[1] not in used]
+    test_extra_pairs = _select_diverse_pairs(remaining, N_HIGH_IMPACT_TEST)
+
+    # Inject pair members: one to train, one to eval/test
+    n_eval_added = 0
+    for ga, gb, _pos, _delta in eval_extra_pairs:
+        row_a = df.loc[df["genotype"] == ga, ["genotype", "h1_mean"]].iloc[0]
+        row_b = df.loc[df["genotype"] == gb, ["genotype", "h1_mean"]].iloc[0]
+        if rng.random() < 0.5:
+            train = pd.concat([train, row_a.to_frame().T], ignore_index=True)
+            eval_ = pd.concat([eval_, row_b.to_frame().T], ignore_index=True)
+        else:
+            train = pd.concat([train, row_b.to_frame().T], ignore_index=True)
+            eval_ = pd.concat([eval_, row_a.to_frame().T], ignore_index=True)
+        n_eval_added += 1
+
+    n_test_added = 0
+    for ga, gb, _pos, _delta in test_extra_pairs:
+        row_a = df.loc[df["genotype"] == ga, ["genotype", "h1_mean"]].iloc[0]
+        row_b = df.loc[df["genotype"] == gb, ["genotype", "h1_mean"]].iloc[0]
+        if rng.random() < 0.5:
+            train = pd.concat([train, row_a.to_frame().T], ignore_index=True)
+            test = pd.concat([test, row_b.to_frame().T], ignore_index=True)
+        else:
+            train = pd.concat([train, row_b.to_frame().T], ignore_index=True)
+            test = pd.concat([test, row_a.to_frame().T], ignore_index=True)
+        n_test_added += 1
+
+    print(f"Injected {n_eval_added} high-impact pairs into train/eval")
+    print(f"Injected {n_test_added} high-impact pairs into train/test")
+
+    # Re-check uniqueness after injection
+    all_genos = set(train["genotype"]) | set(eval_["genotype"]) | set(test["genotype"])
+    assert len(all_genos) == len(train) + len(eval_) + len(test), (
+        "Duplicate genotypes across splits after injection"
+    )
+
+    # ── Verification ─────────────────────────────────────────────────────
+
     for name, part in [("train", train), ("eval", eval_), ("test", test)]:
         for pos in range(16):
             states = {g[pos] for g in part["genotype"]}
@@ -66,11 +127,12 @@ def main() -> None:
                 missing = "germline (0)" if "0" not in states else "somatic (1)"
                 print(f"  WARNING: {name} missing {missing} at position {pos + 1}")
 
-    # Find cross-boundary Hamming-1 pairs for pairwise accuracy
+    # Find ALL cross-boundary Hamming-1 pairs (natural + injected)
     eval_pairs = _find_cross_pairs(train, eval_)
     test_pairs = _find_cross_pairs(train, test)
 
-    # Write splits
+    # ── Write outputs ────────────────────────────────────────────────────
+
     train.to_csv(splits_dir / "train.csv", index=False)
     eval_[["genotype"]].to_csv(splits_dir / "eval_genotypes.csv", index=False)
     eval_.to_csv(splits_dir / "eval_truth.csv", index=False)
@@ -83,17 +145,68 @@ def main() -> None:
         splits_dir / "test_pairs.csv", index=False
     )
 
-    # Summary
-    print(f"\n{'=' * 55}")
+    # ── Summary ──────────────────────────────────────────────────────────
+
+    print(f"\n{'=' * 60}")
     print("  Split summary")
-    print(f"{'=' * 55}")
+    print(f"{'=' * 60}")
     for name, part in [("Train", train), ("Eval", eval_), ("Test", test)]:
         lo, hi = part["h1_mean"].min(), part["h1_mean"].max()
         print(f"  {name:>5}: {len(part):>4} variants  (h1_mean {lo:.2f} – {hi:.2f})")
     print(f"  Eval cross-boundary Hamming-1 pairs: {len(eval_pairs)}")
     print(f"  Test cross-boundary Hamming-1 pairs: {len(test_pairs)}")
-    print(f"{'=' * 55}")
+    print(f"{'=' * 60}")
     print(f"\nSplits written to {splits_dir}/")
+
+
+def _find_high_impact_pairs(
+    df: pd.DataFrame, min_delta: float
+) -> list[tuple[str, str, int, float]]:
+    """Find all Hamming-1 pairs in the full dataset with large affinity difference.
+
+    Returns list of (genotype_a, genotype_b, bit_position, delta) sorted by
+    descending delta.
+    """
+    h1 = df.set_index("genotype")["h1_mean"]
+    geno_set = set(h1.index)
+    pairs: list[tuple[str, str, int, float]] = []
+    for g in geno_set:
+        for i in range(16):
+            flipped = g[:i] + ("1" if g[i] == "0" else "0") + g[i + 1:]
+            if flipped in geno_set and g < flipped:  # deduplicate
+                delta = abs(h1[g] - h1[flipped])
+                if delta >= min_delta:
+                    pairs.append((g, flipped, i + 1, delta))
+    pairs.sort(key=lambda p: -p[3])
+    return pairs
+
+
+def _select_diverse_pairs(
+    pairs: list[tuple[str, str, int, float]], n: int
+) -> list[tuple[str, str, int, float]]:
+    """Select up to n pairs, preferring diversity across mutation positions."""
+    selected: list[tuple[str, str, int, float]] = []
+    used_positions: set[int] = set()
+    used_genos: set[str] = set()
+
+    # First pass: one pair per position (prioritized by delta via sort order)
+    for p in pairs:
+        if len(selected) >= n:
+            break
+        if p[2] not in used_positions and p[0] not in used_genos and p[1] not in used_genos:
+            selected.append(p)
+            used_positions.add(p[2])
+            used_genos.update((p[0], p[1]))
+
+    # Second pass: fill remaining slots regardless of position
+    for p in pairs:
+        if len(selected) >= n:
+            break
+        if p[0] not in used_genos and p[1] not in used_genos:
+            selected.append(p)
+            used_genos.update((p[0], p[1]))
+
+    return selected
 
 
 def _find_cross_pairs(
