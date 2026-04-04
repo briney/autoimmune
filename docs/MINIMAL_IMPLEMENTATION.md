@@ -34,35 +34,62 @@ Run once before the experiment starts. Deterministic (fixed random seed).
 
 **Input:** `data/cr9114_h1_binding_data.csv` (65,536 rows)
 
-**Output:** Five CSV files in `splits/`:
+**Output:** Seven CSV files in `splits/`:
 
 | File | Rows | Columns | Agent access |
 |------|------|---------|--------------|
-| `train.csv` | 500 | `genotype`, `h1_mean` | Full read |
-| `eval_genotypes.csv` | 100 | `genotype` | Full read |
-| `eval_truth.csv` | 100 | `genotype`, `h1_mean` | **DO NOT READ** |
-| `test_genotypes.csv` | 100 | `genotype` | **DO NOT READ** until final eval |
-| `test_truth.csv` | 100 | `genotype`, `h1_mean` | **DO NOT READ** |
+| `train.csv` | ~530 | `genotype`, `h1_mean` | Full read |
+| `eval_genotypes.csv` | ~115 | `genotype` | Full read |
+| `eval_truth.csv` | ~115 | `genotype`, `h1_mean` | **DO NOT READ** |
+| `eval_pairs.csv` | ~30–35 | `genotype_a`, `genotype_b` | **DO NOT READ** |
+| `test_genotypes.csv` | ~115 | `genotype` | **DO NOT READ** until final eval |
+| `test_truth.csv` | ~115 | `genotype`, `h1_mean` | **DO NOT READ** |
+| `test_pairs.csv` | ~25–30 | `genotype_a`, `genotype_b` | **DO NOT READ** |
 
-**Splitting strategy:**
+Sizes are approximate because high-impact pair injection (phase 2 below) adds
+a variable number of variants on top of the fixed base split.
+
+**Splitting strategy (two phases):**
+
+*Phase 1 — Stratified random sampling:*
 
 1. Drop any rows with missing `h1_mean`.
 2. Bin variants into four affinity strata by `h1_mean` quartiles.
-3. Within each stratum, sample proportionally to fill train (500), eval (100),
-   test (100). Oversample the tails (extreme high and low affinity) slightly
-   to ensure the agent sees the full dynamic range.
+3. Within each stratum, randomly sample 125 train, 25 eval, 25 test
+   (500 / 100 / 100 total).
 4. Verify that all 16 mutation positions appear in both somatic and germline
-   states in every partition. If any position is missing a state, swap in a
-   variant that covers it.
-5. Identify single-mutation neighbor pairs (Hamming distance = 1) that span
-   the train/eval boundary — i.e., one member in train, the other in eval.
-   Write these pair indices to `splits/eval_pairs.csv` for use by `evaluate.py`.
-   Target: ~20–30 cross-boundary pairs.
-6. Same for test pairs → `splits/test_pairs.csv`.
+   states in every partition.
+
+*Phase 2 — High-impact pair injection:*
+
+Random sampling produces relatively few cross-boundary Hamming-1 pairs
+(~8–16), and most of those have modest affinity differences. To ensure
+the pairwise accuracy metric tests something meaningful, we supplement
+the splits with "small change, big effect" pairs: Hamming-1 neighbors
+whose binding affinities differ by ≥10-fold (|Δ(−log₁₀ KD)| ≥ 1.0).
+
+5. Scan the full 65K dataset for all Hamming-1 pairs with |Δh1_mean| ≥ 1.0.
+   This yields ~28,000 candidate pairs. Deduplicate by requiring the
+   lexicographically smaller genotype to appear first, so each pair is
+   counted once.
+6. Select 15 pairs for eval and 15 for test using a diversity-aware
+   strategy: first pick one pair per mutation position (highest delta
+   first), then fill remaining slots regardless of position. This ensures
+   the pairwise metric covers the full range of mutation positions rather
+   than concentrating on the few highest-leverage positions. Pairs are
+   also filtered to avoid sharing genotypes between selected pairs.
+7. For each selected pair, randomly assign one member to train and the
+   other to eval (or test). Both members are new variants not present
+   in the phase-1 splits.
+8. Re-verify uniqueness — no genotype appears in more than one partition.
+9. Find ALL cross-boundary Hamming-1 pairs (both naturally occurring from
+   phase 1 and injected in phase 2). Write to `eval_pairs.csv` and
+   `test_pairs.csv` for use by `evaluate.py`.
+
+The result: ~530 train, ~115 eval, ~115 test, with ~30–35 eval pairs and
+~25–30 test pairs, roughly double what the random split produces alone.
 
 Dependencies: `pandas`, `numpy`. No other libraries.
-
-~80–100 lines of code.
 
 ### 2.2 `evaluate.py`
 
@@ -90,7 +117,7 @@ Pairwise accuracy: 0.68 (23/34 pairs correct)
 | Metric | Definition |
 |--------|------------|
 | Spearman ρ | Rank correlation between `predicted_score` and true `h1_mean` |
-| Top-k precision | Of the top k variants by predicted score, what fraction are in the true top k? Reported for k = 10 (10% of eval set). |
+| Top-k precision | Of the top k variants by predicted score, what fraction are in the true top k? Reported for k ≈ 10% of the partition size. |
 | Pairwise accuracy | For each single-mutation neighbor pair in `eval_pairs.csv` where both members appear in predictions: did the predicted ranking match the true ranking? |
 
 **Behavior:**
@@ -215,10 +242,10 @@ experiments/CR9114/
 ├── structures/
 │   └── cr9114_mature_h1.pdb           # pre-computed Boltz-2 structure (TO PLACE)
 ├── splits/                            # generated by prepare.py
-│   ├── train.csv
-│   ├── eval_genotypes.csv
+│   ├── train.csv                      # ~530 rows (500 base + injected pair members)
+│   ├── eval_genotypes.csv             # ~115 rows
 │   ├── eval_truth.csv
-│   ├── eval_pairs.csv
+│   ├── eval_pairs.csv                 # ~30–35 cross-boundary Hamming-1 pairs
 │   ├── test_genotypes.csv
 │   ├── test_truth.csv
 │   └── test_pairs.csv
