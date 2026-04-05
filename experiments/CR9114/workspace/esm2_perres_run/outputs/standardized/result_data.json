@@ -1,0 +1,4528 @@
+{
+  "embeddings": [
+    {
+      "sequence_id": "0110001100001101",
+      "embedding_path": "/workspace/outputs/standardized/0110001100001101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110101000100110",
+      "embedding_path": "/workspace/outputs/standardized/1110101000100110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010000000001111",
+      "embedding_path": "/workspace/outputs/standardized/1010000000001111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011000000110111",
+      "embedding_path": "/workspace/outputs/standardized/0011000000110111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010001000111111",
+      "embedding_path": "/workspace/outputs/standardized/0010001000111111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100010010001010",
+      "embedding_path": "/workspace/outputs/standardized/1100010010001010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111001100010010",
+      "embedding_path": "/workspace/outputs/standardized/0111001100010010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100010100010100",
+      "embedding_path": "/workspace/outputs/standardized/1100010100010100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101100100010001",
+      "embedding_path": "/workspace/outputs/standardized/0101100100010001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001000100001110",
+      "embedding_path": "/workspace/outputs/standardized/1001000100001110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101101100011001",
+      "embedding_path": "/workspace/outputs/standardized/0101101100011001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100010100101011",
+      "embedding_path": "/workspace/outputs/standardized/1100010100101011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110001000000111",
+      "embedding_path": "/workspace/outputs/standardized/0110001000000111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000110100101100",
+      "embedding_path": "/workspace/outputs/standardized/0000110100101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110000100011100",
+      "embedding_path": "/workspace/outputs/standardized/1110000100011100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101010100111000",
+      "embedding_path": "/workspace/outputs/standardized/1101010100111000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000010100011011",
+      "embedding_path": "/workspace/outputs/standardized/0000010100011011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001000100101001",
+      "embedding_path": "/workspace/outputs/standardized/1001000100101001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010101110000100",
+      "embedding_path": "/workspace/outputs/standardized/1010101110000100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101100100100010",
+      "embedding_path": "/workspace/outputs/standardized/1101100100100010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100010000011111",
+      "embedding_path": "/workspace/outputs/standardized/0100010000011111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000111110010010",
+      "embedding_path": "/workspace/outputs/standardized/0000111110010010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001100000111001",
+      "embedding_path": "/workspace/outputs/standardized/0001100000111001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000011000111011",
+      "embedding_path": "/workspace/outputs/standardized/0000011000111011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000010100110011",
+      "embedding_path": "/workspace/outputs/standardized/0000010100110011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101001100000010",
+      "embedding_path": "/workspace/outputs/standardized/1101001100000010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000110100000101",
+      "embedding_path": "/workspace/outputs/standardized/1000110100000101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110011010000011",
+      "embedding_path": "/workspace/outputs/standardized/0110011010000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011101000100110",
+      "embedding_path": "/workspace/outputs/standardized/1011101000100110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000010110100100",
+      "embedding_path": "/workspace/outputs/standardized/1000010110100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010100000110100",
+      "embedding_path": "/workspace/outputs/standardized/1010100000110100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100111010000101",
+      "embedding_path": "/workspace/outputs/standardized/1100111010000101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000011000010111",
+      "embedding_path": "/workspace/outputs/standardized/0000011000010111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000110000110101",
+      "embedding_path": "/workspace/outputs/standardized/1000110000110101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110011010000100",
+      "embedding_path": "/workspace/outputs/standardized/1110011010000100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010111000110001",
+      "embedding_path": "/workspace/outputs/standardized/1010111000110001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001011100010000",
+      "embedding_path": "/workspace/outputs/standardized/1001011100010000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100101100101101",
+      "embedding_path": "/workspace/outputs/standardized/0100101100101101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001001100100111",
+      "embedding_path": "/workspace/outputs/standardized/1001001100100111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100111000010010",
+      "embedding_path": "/workspace/outputs/standardized/0100111000010010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011001000000011",
+      "embedding_path": "/workspace/outputs/standardized/1011001000000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000111000110100",
+      "embedding_path": "/workspace/outputs/standardized/0000111000110100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010011100011101",
+      "embedding_path": "/workspace/outputs/standardized/0010011100011101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011011100000011",
+      "embedding_path": "/workspace/outputs/standardized/1011011100000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100011000011101",
+      "embedding_path": "/workspace/outputs/standardized/1100011000011101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010111100010011",
+      "embedding_path": "/workspace/outputs/standardized/0010111100010011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111000100011100",
+      "embedding_path": "/workspace/outputs/standardized/0111000100011100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011000000011001",
+      "embedding_path": "/workspace/outputs/standardized/1011000000011001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100100000011111",
+      "embedding_path": "/workspace/outputs/standardized/0100100000011111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010111000001001",
+      "embedding_path": "/workspace/outputs/standardized/0010111000001001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110100000111001",
+      "embedding_path": "/workspace/outputs/standardized/1110100000111001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000111010110110",
+      "embedding_path": "/workspace/outputs/standardized/0000111010110110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000100000010111",
+      "embedding_path": "/workspace/outputs/standardized/1000100000010111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011100100100100",
+      "embedding_path": "/workspace/outputs/standardized/0011100100100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100110000100101",
+      "embedding_path": "/workspace/outputs/standardized/0100110000100101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010001100000011",
+      "embedding_path": "/workspace/outputs/standardized/1010001100000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110010110000100",
+      "embedding_path": "/workspace/outputs/standardized/1110010110000100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110010000111101",
+      "embedding_path": "/workspace/outputs/standardized/0110010000111101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010010000100110",
+      "embedding_path": "/workspace/outputs/standardized/1010010000100110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000101000010101",
+      "embedding_path": "/workspace/outputs/standardized/1000101000010101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100011010101001",
+      "embedding_path": "/workspace/outputs/standardized/0100011010101001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1111010100100001",
+      "embedding_path": "/workspace/outputs/standardized/1111010100100001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000101100001101",
+      "embedding_path": "/workspace/outputs/standardized/1000101100001101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101001100000100",
+      "embedding_path": "/workspace/outputs/standardized/1101001100000100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100101000000111",
+      "embedding_path": "/workspace/outputs/standardized/0100101000000111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000010110000101",
+      "embedding_path": "/workspace/outputs/standardized/1000010110000101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110111000000110",
+      "embedding_path": "/workspace/outputs/standardized/0110111000000110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011101100001000",
+      "embedding_path": "/workspace/outputs/standardized/1011101100001000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110001000010110",
+      "embedding_path": "/workspace/outputs/standardized/0110001000010110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010111000100101",
+      "embedding_path": "/workspace/outputs/standardized/1010111000100101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000001000011111",
+      "embedding_path": "/workspace/outputs/standardized/1000001000011111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001011000110110",
+      "embedding_path": "/workspace/outputs/standardized/1001011000110110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010101100010011",
+      "embedding_path": "/workspace/outputs/standardized/0010101100010011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000010110010010",
+      "embedding_path": "/workspace/outputs/standardized/1000010110010010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000011100010101",
+      "embedding_path": "/workspace/outputs/standardized/0000011100010101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100010110000101",
+      "embedding_path": "/workspace/outputs/standardized/0100010110000101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000101100001110",
+      "embedding_path": "/workspace/outputs/standardized/1000101100001110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110011010000011",
+      "embedding_path": "/workspace/outputs/standardized/1110011010000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100010100110011",
+      "embedding_path": "/workspace/outputs/standardized/0100010100110011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110111100010001",
+      "embedding_path": "/workspace/outputs/standardized/0110111100010001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001100000001111",
+      "embedding_path": "/workspace/outputs/standardized/0001100000001111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001001100110101",
+      "embedding_path": "/workspace/outputs/standardized/0001001100110101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110010100001101",
+      "embedding_path": "/workspace/outputs/standardized/1110010100001101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100100100011111",
+      "embedding_path": "/workspace/outputs/standardized/0100100100011111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101101000110100",
+      "embedding_path": "/workspace/outputs/standardized/1101101000110100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000101000110111",
+      "embedding_path": "/workspace/outputs/standardized/1000101000110111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011000100010111",
+      "embedding_path": "/workspace/outputs/standardized/1011000100010111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010111100000110",
+      "embedding_path": "/workspace/outputs/standardized/1010111100000110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000111110001101",
+      "embedding_path": "/workspace/outputs/standardized/0000111110001101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010111010001100",
+      "embedding_path": "/workspace/outputs/standardized/1010111010001100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000101100010011",
+      "embedding_path": "/workspace/outputs/standardized/0000101100010011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010001000000111",
+      "embedding_path": "/workspace/outputs/standardized/1010001000000111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101100000111100",
+      "embedding_path": "/workspace/outputs/standardized/0101100000111100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011001000011101",
+      "embedding_path": "/workspace/outputs/standardized/0011001000011101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110010010001000",
+      "embedding_path": "/workspace/outputs/standardized/1110010010001000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000111100110011",
+      "embedding_path": "/workspace/outputs/standardized/0000111100110011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110111100100000",
+      "embedding_path": "/workspace/outputs/standardized/1110111100100000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010011000101111",
+      "embedding_path": "/workspace/outputs/standardized/0010011000101111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110010000011011",
+      "embedding_path": "/workspace/outputs/standardized/0110010000011011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100101000010110",
+      "embedding_path": "/workspace/outputs/standardized/1100101000010110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110001000110111",
+      "embedding_path": "/workspace/outputs/standardized/0110001000110111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001100100111000",
+      "embedding_path": "/workspace/outputs/standardized/0001100100111000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010010000010111",
+      "embedding_path": "/workspace/outputs/standardized/1010010000010111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100110010000011",
+      "embedding_path": "/workspace/outputs/standardized/1100110010000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000101100000011",
+      "embedding_path": "/workspace/outputs/standardized/1000101100000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101011100000001",
+      "embedding_path": "/workspace/outputs/standardized/1101011100000001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010101000110111",
+      "embedding_path": "/workspace/outputs/standardized/0010101000110111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110110000011001",
+      "embedding_path": "/workspace/outputs/standardized/1110110000011001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000111010011000",
+      "embedding_path": "/workspace/outputs/standardized/1000111010011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011010100001011",
+      "embedding_path": "/workspace/outputs/standardized/1011010100001011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000101100110101",
+      "embedding_path": "/workspace/outputs/standardized/0000101100110101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100001100011011",
+      "embedding_path": "/workspace/outputs/standardized/1100001100011011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1111000100010100",
+      "embedding_path": "/workspace/outputs/standardized/1111000100010100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101101000000011",
+      "embedding_path": "/workspace/outputs/standardized/1101101000000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100001000101011",
+      "embedding_path": "/workspace/outputs/standardized/0100001000101011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100111100000111",
+      "embedding_path": "/workspace/outputs/standardized/0100111100000111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110110000011001",
+      "embedding_path": "/workspace/outputs/standardized/0110110000011001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101100000111101",
+      "embedding_path": "/workspace/outputs/standardized/0101100000111101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011001100110000",
+      "embedding_path": "/workspace/outputs/standardized/0011001100110000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010101100101010",
+      "embedding_path": "/workspace/outputs/standardized/1010101100101010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000011000101011",
+      "embedding_path": "/workspace/outputs/standardized/0000011000101011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000111110000011",
+      "embedding_path": "/workspace/outputs/standardized/1000111110000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001101100001110",
+      "embedding_path": "/workspace/outputs/standardized/1001101100001110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010010010001100",
+      "embedding_path": "/workspace/outputs/standardized/1010010010001100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001001100001011",
+      "embedding_path": "/workspace/outputs/standardized/0001001100001011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100101010111000",
+      "embedding_path": "/workspace/outputs/standardized/0100101010111000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100111001000100",
+      "embedding_path": "/workspace/outputs/standardized/1100111001000100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100001010000111",
+      "embedding_path": "/workspace/outputs/standardized/1100001010000111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001100100110000",
+      "embedding_path": "/workspace/outputs/standardized/1001100100110000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111000110011100",
+      "embedding_path": "/workspace/outputs/standardized/0111000110011100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100110101001000",
+      "embedding_path": "/workspace/outputs/standardized/1100110101001000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010011101001100",
+      "embedding_path": "/workspace/outputs/standardized/1010011101001100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110100010010111",
+      "embedding_path": "/workspace/outputs/standardized/0110100010010111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001000110101001",
+      "embedding_path": "/workspace/outputs/standardized/0001000110101001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010000010100110",
+      "embedding_path": "/workspace/outputs/standardized/1010000010100110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101011000101011",
+      "embedding_path": "/workspace/outputs/standardized/0101011000101011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100001001001010",
+      "embedding_path": "/workspace/outputs/standardized/1100001001001010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011110000100100",
+      "embedding_path": "/workspace/outputs/standardized/1011110000100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001010100001101",
+      "embedding_path": "/workspace/outputs/standardized/0001010100001101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100000001001110",
+      "embedding_path": "/workspace/outputs/standardized/1100000001001110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110100010011100",
+      "embedding_path": "/workspace/outputs/standardized/0110100010011100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000000110011110",
+      "embedding_path": "/workspace/outputs/standardized/1000000110011110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010110001100010",
+      "embedding_path": "/workspace/outputs/standardized/1010110001100010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010001110010111",
+      "embedding_path": "/workspace/outputs/standardized/0010001110010111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111010100011000",
+      "embedding_path": "/workspace/outputs/standardized/0111010100011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100010101001010",
+      "embedding_path": "/workspace/outputs/standardized/1100010101001010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010011101010010",
+      "embedding_path": "/workspace/outputs/standardized/1010011101010010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1111000000010100",
+      "embedding_path": "/workspace/outputs/standardized/1111000000010100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110101010010100",
+      "embedding_path": "/workspace/outputs/standardized/1110101010010100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100100110001100",
+      "embedding_path": "/workspace/outputs/standardized/1100100110001100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011010000110010",
+      "embedding_path": "/workspace/outputs/standardized/0011010000110010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011100000010110",
+      "embedding_path": "/workspace/outputs/standardized/1011100000010110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100001001111001",
+      "embedding_path": "/workspace/outputs/standardized/1100001001111001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000100110010010",
+      "embedding_path": "/workspace/outputs/standardized/1000100110010010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010011001000101",
+      "embedding_path": "/workspace/outputs/standardized/0010011001000101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011000110001111",
+      "embedding_path": "/workspace/outputs/standardized/0011000110001111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011011100011000",
+      "embedding_path": "/workspace/outputs/standardized/0011011100011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000001001101010",
+      "embedding_path": "/workspace/outputs/standardized/1000001001101010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000010010010111",
+      "embedding_path": "/workspace/outputs/standardized/0000010010010111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110100010100100",
+      "embedding_path": "/workspace/outputs/standardized/0110100010100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100101110000000",
+      "embedding_path": "/workspace/outputs/standardized/1100101110000000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001011000101110",
+      "embedding_path": "/workspace/outputs/standardized/0001011000101110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100001001010001",
+      "embedding_path": "/workspace/outputs/standardized/1100001001010001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110000000010111",
+      "embedding_path": "/workspace/outputs/standardized/0110000000010111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011010100101110",
+      "embedding_path": "/workspace/outputs/standardized/0011010100101110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000100001110110",
+      "embedding_path": "/workspace/outputs/standardized/1000100001110110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010100100110010",
+      "embedding_path": "/workspace/outputs/standardized/0010100100110010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000001110110001",
+      "embedding_path": "/workspace/outputs/standardized/0000001110110001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010011001101110",
+      "embedding_path": "/workspace/outputs/standardized/0010011001101110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100000010001111",
+      "embedding_path": "/workspace/outputs/standardized/0100000010001111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110101010101000",
+      "embedding_path": "/workspace/outputs/standardized/1110101010101000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1111010000010000",
+      "embedding_path": "/workspace/outputs/standardized/1111010000010000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001111000010101",
+      "embedding_path": "/workspace/outputs/standardized/0001111000010101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010000100111101",
+      "embedding_path": "/workspace/outputs/standardized/0010000100111101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100001101010101",
+      "embedding_path": "/workspace/outputs/standardized/1100001101010101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000101001001101",
+      "embedding_path": "/workspace/outputs/standardized/1000101001001101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000001010111101",
+      "embedding_path": "/workspace/outputs/standardized/1000001010111101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010100110000110",
+      "embedding_path": "/workspace/outputs/standardized/1010100110000110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010010101101010",
+      "embedding_path": "/workspace/outputs/standardized/1010010101101010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100001101110010",
+      "embedding_path": "/workspace/outputs/standardized/1100001101110010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110000010011101",
+      "embedding_path": "/workspace/outputs/standardized/0110000010011101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010011101001110",
+      "embedding_path": "/workspace/outputs/standardized/0010011101001110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110110001100010",
+      "embedding_path": "/workspace/outputs/standardized/1110110001100010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010010101011001",
+      "embedding_path": "/workspace/outputs/standardized/1010010101011001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100001010000111",
+      "embedding_path": "/workspace/outputs/standardized/0100001010000111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101110000100011",
+      "embedding_path": "/workspace/outputs/standardized/1101110000100011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110010001101100",
+      "embedding_path": "/workspace/outputs/standardized/1110010001101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011100010101010",
+      "embedding_path": "/workspace/outputs/standardized/0011100010101010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100001001101010",
+      "embedding_path": "/workspace/outputs/standardized/1100001001101010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111101100000010",
+      "embedding_path": "/workspace/outputs/standardized/0111101100000010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101010000010010",
+      "embedding_path": "/workspace/outputs/standardized/1101010000010010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011100000110001",
+      "embedding_path": "/workspace/outputs/standardized/1011100000110001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100001010101000",
+      "embedding_path": "/workspace/outputs/standardized/1100001010101000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000111001101000",
+      "embedding_path": "/workspace/outputs/standardized/1000111001101000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000100001101100",
+      "embedding_path": "/workspace/outputs/standardized/1000100001101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111010000010011",
+      "embedding_path": "/workspace/outputs/standardized/0111010000010011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111011000101100",
+      "embedding_path": "/workspace/outputs/standardized/0111011000101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101010100011000",
+      "embedding_path": "/workspace/outputs/standardized/1101010100011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010001110110110",
+      "embedding_path": "/workspace/outputs/standardized/0010001110110110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011100110100101",
+      "embedding_path": "/workspace/outputs/standardized/0011100110100101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000011001011101",
+      "embedding_path": "/workspace/outputs/standardized/0000011001011101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011110100000101",
+      "embedding_path": "/workspace/outputs/standardized/1011110100000101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100100110011100",
+      "embedding_path": "/workspace/outputs/standardized/1100100110011100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000010001011001",
+      "embedding_path": "/workspace/outputs/standardized/1000010001011001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010101110010010",
+      "embedding_path": "/workspace/outputs/standardized/0010101110010010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101111000111000",
+      "embedding_path": "/workspace/outputs/standardized/0101111000111000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100010010111001",
+      "embedding_path": "/workspace/outputs/standardized/1100010010111001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1111010100001001",
+      "embedding_path": "/workspace/outputs/standardized/1111010100001001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100110110100101",
+      "embedding_path": "/workspace/outputs/standardized/0100110110100101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010101010000110",
+      "embedding_path": "/workspace/outputs/standardized/1010101010000110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000110101000001",
+      "embedding_path": "/workspace/outputs/standardized/1000110101000001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000111001010010",
+      "embedding_path": "/workspace/outputs/standardized/0000111001010010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100100010100101",
+      "embedding_path": "/workspace/outputs/standardized/1100100010100101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000100110110000",
+      "embedding_path": "/workspace/outputs/standardized/1000100110110000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001010100110111",
+      "embedding_path": "/workspace/outputs/standardized/0001010100110111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100010001101010",
+      "embedding_path": "/workspace/outputs/standardized/1100010001101010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111011110100000",
+      "embedding_path": "/workspace/outputs/standardized/0111011110100000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010001101110000",
+      "embedding_path": "/workspace/outputs/standardized/1010001101110000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1111010000000111",
+      "embedding_path": "/workspace/outputs/standardized/1111010000000111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010000110001111",
+      "embedding_path": "/workspace/outputs/standardized/1010000110001111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101001010001100",
+      "embedding_path": "/workspace/outputs/standardized/0101001010001100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110100010110011",
+      "embedding_path": "/workspace/outputs/standardized/0110100010110011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101111000100010",
+      "embedding_path": "/workspace/outputs/standardized/1101111000100010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010110001010011",
+      "embedding_path": "/workspace/outputs/standardized/1010110001010011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010110001010100",
+      "embedding_path": "/workspace/outputs/standardized/0010110001010100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110001101001000",
+      "embedding_path": "/workspace/outputs/standardized/1110001101001000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010111001100100",
+      "embedding_path": "/workspace/outputs/standardized/0010111001100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110010100001010",
+      "embedding_path": "/workspace/outputs/standardized/0110010100001010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011100000011100",
+      "embedding_path": "/workspace/outputs/standardized/0011100000011100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000111001100100",
+      "embedding_path": "/workspace/outputs/standardized/1000111001100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010100010001110",
+      "embedding_path": "/workspace/outputs/standardized/1010100010001110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110010010011011",
+      "embedding_path": "/workspace/outputs/standardized/0110010010011011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110101010101010",
+      "embedding_path": "/workspace/outputs/standardized/0110101010101010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111101110000000",
+      "embedding_path": "/workspace/outputs/standardized/0111101110000000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011111000100100",
+      "embedding_path": "/workspace/outputs/standardized/1011111000100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000011101101100",
+      "embedding_path": "/workspace/outputs/standardized/0000011101101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001111000101100",
+      "embedding_path": "/workspace/outputs/standardized/1001111000101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000100110011001",
+      "embedding_path": "/workspace/outputs/standardized/1000100110011001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010101110100000",
+      "embedding_path": "/workspace/outputs/standardized/1010101110100000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000101110101110",
+      "embedding_path": "/workspace/outputs/standardized/0000101110101110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011110100000101",
+      "embedding_path": "/workspace/outputs/standardized/0011110100000101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001111100001000",
+      "embedding_path": "/workspace/outputs/standardized/1001111100001000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110101110000101",
+      "embedding_path": "/workspace/outputs/standardized/0110101110000101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111010100000010",
+      "embedding_path": "/workspace/outputs/standardized/0111010100000010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110000000111110",
+      "embedding_path": "/workspace/outputs/standardized/0110000000111110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010001010100011",
+      "embedding_path": "/workspace/outputs/standardized/1010001010100011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010110010101100",
+      "embedding_path": "/workspace/outputs/standardized/1010110010101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000100000110111",
+      "embedding_path": "/workspace/outputs/standardized/0000100000110111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111001010101100",
+      "embedding_path": "/workspace/outputs/standardized/0111001010101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000010101101101",
+      "embedding_path": "/workspace/outputs/standardized/1000010101101101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001000110110101",
+      "embedding_path": "/workspace/outputs/standardized/1001000110110101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010010101001111",
+      "embedding_path": "/workspace/outputs/standardized/0010010101001111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001111010000011",
+      "embedding_path": "/workspace/outputs/standardized/0001111010000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111010010100100",
+      "embedding_path": "/workspace/outputs/standardized/0111010010100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001001110100100",
+      "embedding_path": "/workspace/outputs/standardized/0001001110100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001010110001101",
+      "embedding_path": "/workspace/outputs/standardized/1001010110001101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101010110001110",
+      "embedding_path": "/workspace/outputs/standardized/0101010110001110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110001001100101",
+      "embedding_path": "/workspace/outputs/standardized/1110001001100101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110000101000111",
+      "embedding_path": "/workspace/outputs/standardized/1110000101000111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010111101010010",
+      "embedding_path": "/workspace/outputs/standardized/0010111101010010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111001011011000",
+      "embedding_path": "/workspace/outputs/standardized/0111001011011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100110101001001",
+      "embedding_path": "/workspace/outputs/standardized/1100110101001001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110100001100100",
+      "embedding_path": "/workspace/outputs/standardized/0110100001100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110001001101100",
+      "embedding_path": "/workspace/outputs/standardized/0110001001101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000000001011111",
+      "embedding_path": "/workspace/outputs/standardized/0000000001011111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111100010010110",
+      "embedding_path": "/workspace/outputs/standardized/0111100010010110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000100001011110",
+      "embedding_path": "/workspace/outputs/standardized/1000100001011110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001000010101110",
+      "embedding_path": "/workspace/outputs/standardized/1001000010101110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111100111001000",
+      "embedding_path": "/workspace/outputs/standardized/0111100111001000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011011110000100",
+      "embedding_path": "/workspace/outputs/standardized/1011011110000100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101110000111001",
+      "embedding_path": "/workspace/outputs/standardized/0101110000111001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100001001001110",
+      "embedding_path": "/workspace/outputs/standardized/0100001001001110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010001011000110",
+      "embedding_path": "/workspace/outputs/standardized/0010001011000110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001011001001011",
+      "embedding_path": "/workspace/outputs/standardized/1001011001001011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001010101101001",
+      "embedding_path": "/workspace/outputs/standardized/0001010101101001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000110101101011",
+      "embedding_path": "/workspace/outputs/standardized/0000110101101011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010110001011001",
+      "embedding_path": "/workspace/outputs/standardized/1010110001011001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111100011100010",
+      "embedding_path": "/workspace/outputs/standardized/0111100011100010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110110001000101",
+      "embedding_path": "/workspace/outputs/standardized/0110110001000101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010011001000110",
+      "embedding_path": "/workspace/outputs/standardized/0010011001000110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010110001100011",
+      "embedding_path": "/workspace/outputs/standardized/0010110001100011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011110100100100",
+      "embedding_path": "/workspace/outputs/standardized/1011110100100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100110101000001",
+      "embedding_path": "/workspace/outputs/standardized/0100110101000001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010010001111011",
+      "embedding_path": "/workspace/outputs/standardized/0010010001111011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101001110011000",
+      "embedding_path": "/workspace/outputs/standardized/1101001110011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000001111010111",
+      "embedding_path": "/workspace/outputs/standardized/0000001111010111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100001001111101",
+      "embedding_path": "/workspace/outputs/standardized/0100001001111101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101000010011011",
+      "embedding_path": "/workspace/outputs/standardized/1101000010011011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001011010001100",
+      "embedding_path": "/workspace/outputs/standardized/1001011010001100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011010001000001",
+      "embedding_path": "/workspace/outputs/standardized/1011010001000001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011010011001100",
+      "embedding_path": "/workspace/outputs/standardized/0011010011001100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111000011100001",
+      "embedding_path": "/workspace/outputs/standardized/0111000011100001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000000111011010",
+      "embedding_path": "/workspace/outputs/standardized/0000000111011010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010100101000011",
+      "embedding_path": "/workspace/outputs/standardized/0010100101000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101000010101101",
+      "embedding_path": "/workspace/outputs/standardized/0101000010101101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101000101010111",
+      "embedding_path": "/workspace/outputs/standardized/0101000101010111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001010110011100",
+      "embedding_path": "/workspace/outputs/standardized/0001010110011100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010100010100001",
+      "embedding_path": "/workspace/outputs/standardized/1010100010100001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001101001110000",
+      "embedding_path": "/workspace/outputs/standardized/0001101001110000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100000001101001",
+      "embedding_path": "/workspace/outputs/standardized/1100000001101001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001001010001001",
+      "embedding_path": "/workspace/outputs/standardized/1001001010001001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010000101101110",
+      "embedding_path": "/workspace/outputs/standardized/0010000101101110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111100011010010",
+      "embedding_path": "/workspace/outputs/standardized/0111100011010010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101010001100111",
+      "embedding_path": "/workspace/outputs/standardized/0101010001100111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001101001011001",
+      "embedding_path": "/workspace/outputs/standardized/1001101001011001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100000101100100",
+      "embedding_path": "/workspace/outputs/standardized/1100000101100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001100010010111",
+      "embedding_path": "/workspace/outputs/standardized/1001100010010111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010101001001100",
+      "embedding_path": "/workspace/outputs/standardized/0010101001001100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001001101111000",
+      "embedding_path": "/workspace/outputs/standardized/0001001101111000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100110001111000",
+      "embedding_path": "/workspace/outputs/standardized/0100110001111000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000011101011010",
+      "embedding_path": "/workspace/outputs/standardized/0000011101011010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000100001110001",
+      "embedding_path": "/workspace/outputs/standardized/1000100001110001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101010110000101",
+      "embedding_path": "/workspace/outputs/standardized/0101010110000101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100101001110010",
+      "embedding_path": "/workspace/outputs/standardized/0100101001110010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011000101100101",
+      "embedding_path": "/workspace/outputs/standardized/0011000101100101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100101001011110",
+      "embedding_path": "/workspace/outputs/standardized/0100101001011110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011000011101100",
+      "embedding_path": "/workspace/outputs/standardized/0011000011101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000110101110001",
+      "embedding_path": "/workspace/outputs/standardized/0000110101110001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110111001011000",
+      "embedding_path": "/workspace/outputs/standardized/0110111001011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100000001001111",
+      "embedding_path": "/workspace/outputs/standardized/1100000001001111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111000010100101",
+      "embedding_path": "/workspace/outputs/standardized/0111000010100101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110111001000011",
+      "embedding_path": "/workspace/outputs/standardized/0110111001000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011000010100110",
+      "embedding_path": "/workspace/outputs/standardized/0011000010100110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101000001010111",
+      "embedding_path": "/workspace/outputs/standardized/0101000001010111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100111001001101",
+      "embedding_path": "/workspace/outputs/standardized/0100111001001101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111001010011000",
+      "embedding_path": "/workspace/outputs/standardized/0111001010011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101100001011101",
+      "embedding_path": "/workspace/outputs/standardized/0101100001011101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001101011100000",
+      "embedding_path": "/workspace/outputs/standardized/0001101011100000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101110110000001",
+      "embedding_path": "/workspace/outputs/standardized/0101110110000001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011100001010110",
+      "embedding_path": "/workspace/outputs/standardized/1011100001010110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100011011000000",
+      "embedding_path": "/workspace/outputs/standardized/1100011011000000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100100010110001",
+      "embedding_path": "/workspace/outputs/standardized/1100100010110001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010011011011000",
+      "embedding_path": "/workspace/outputs/standardized/0010011011011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001010001100011",
+      "embedding_path": "/workspace/outputs/standardized/1001010001100011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001001101110010",
+      "embedding_path": "/workspace/outputs/standardized/1001001101110010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110001001100100",
+      "embedding_path": "/workspace/outputs/standardized/0110001001100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001001001010100",
+      "embedding_path": "/workspace/outputs/standardized/1001001001010100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011101101010001",
+      "embedding_path": "/workspace/outputs/standardized/0011101101010001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1111100110100000",
+      "embedding_path": "/workspace/outputs/standardized/1111100110100000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010011011100100",
+      "embedding_path": "/workspace/outputs/standardized/0010011011100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011000010100100",
+      "embedding_path": "/workspace/outputs/standardized/1011000010100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011100001101001",
+      "embedding_path": "/workspace/outputs/standardized/1011100001101001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010000010110111",
+      "embedding_path": "/workspace/outputs/standardized/1010000010110111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001100001101101",
+      "embedding_path": "/workspace/outputs/standardized/0001100001101101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001100101111010",
+      "embedding_path": "/workspace/outputs/standardized/0001100101111010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110000111001011",
+      "embedding_path": "/workspace/outputs/standardized/0110000111001011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000110001111110",
+      "embedding_path": "/workspace/outputs/standardized/0000110001111110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011101010101100",
+      "embedding_path": "/workspace/outputs/standardized/0011101010101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1111000010100011",
+      "embedding_path": "/workspace/outputs/standardized/1111000010100011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101001011010110",
+      "embedding_path": "/workspace/outputs/standardized/0101001011010110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101110010000011",
+      "embedding_path": "/workspace/outputs/standardized/0101110010000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010101101111000",
+      "embedding_path": "/workspace/outputs/standardized/0010101101111000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001000110111001",
+      "embedding_path": "/workspace/outputs/standardized/1001000110111001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001101111000000",
+      "embedding_path": "/workspace/outputs/standardized/0001101111000000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010011101101010",
+      "embedding_path": "/workspace/outputs/standardized/0010011101101010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101110100000010",
+      "embedding_path": "/workspace/outputs/standardized/0101110100000010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1111000010011100",
+      "embedding_path": "/workspace/outputs/standardized/1111000010011100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000111001000011",
+      "embedding_path": "/workspace/outputs/standardized/0000111001000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001001010100111",
+      "embedding_path": "/workspace/outputs/standardized/1001001010100111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010100011010010",
+      "embedding_path": "/workspace/outputs/standardized/0010100011010010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100000001100111",
+      "embedding_path": "/workspace/outputs/standardized/1100000001100111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110101101000001",
+      "embedding_path": "/workspace/outputs/standardized/0110101101000001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110000101110010",
+      "embedding_path": "/workspace/outputs/standardized/0110000101110010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100110001001101",
+      "embedding_path": "/workspace/outputs/standardized/0100110001001101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101110000101000",
+      "embedding_path": "/workspace/outputs/standardized/0101110000101000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011010010101000",
+      "embedding_path": "/workspace/outputs/standardized/0011010010101000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110001011001010",
+      "embedding_path": "/workspace/outputs/standardized/0110001011001010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010010001011001",
+      "embedding_path": "/workspace/outputs/standardized/1010010001011001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110100001110000",
+      "embedding_path": "/workspace/outputs/standardized/0110100001110000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011001101101100",
+      "embedding_path": "/workspace/outputs/standardized/0011001101101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001001110100000",
+      "embedding_path": "/workspace/outputs/standardized/1001001110100000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101000001110100",
+      "embedding_path": "/workspace/outputs/standardized/0101000001110100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001110100000110",
+      "embedding_path": "/workspace/outputs/standardized/0001110100000110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001100101001010",
+      "embedding_path": "/workspace/outputs/standardized/0001100101001010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1111000110000100",
+      "embedding_path": "/workspace/outputs/standardized/1111000110000100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001111011010010",
+      "embedding_path": "/workspace/outputs/standardized/0001111011010010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001000111000011",
+      "embedding_path": "/workspace/outputs/standardized/1001000111000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000111111000011",
+      "embedding_path": "/workspace/outputs/standardized/0000111111000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010011011100001",
+      "embedding_path": "/workspace/outputs/standardized/0010011011100001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011010011101100",
+      "embedding_path": "/workspace/outputs/standardized/0011010011101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010110011000110",
+      "embedding_path": "/workspace/outputs/standardized/1010110011000110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010100001010001",
+      "embedding_path": "/workspace/outputs/standardized/1010100001010001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110001011000011",
+      "embedding_path": "/workspace/outputs/standardized/1110001011000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111110100010010",
+      "embedding_path": "/workspace/outputs/standardized/0111110100010010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001110101100000",
+      "embedding_path": "/workspace/outputs/standardized/1001110101100000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010110011010101",
+      "embedding_path": "/workspace/outputs/standardized/0010110011010101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101000111110000",
+      "embedding_path": "/workspace/outputs/standardized/1101000111110000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110000001110010",
+      "embedding_path": "/workspace/outputs/standardized/0110000001110010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110001111000000",
+      "embedding_path": "/workspace/outputs/standardized/1110001111000000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011111010000010",
+      "embedding_path": "/workspace/outputs/standardized/1011111010000010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1111001001000000",
+      "embedding_path": "/workspace/outputs/standardized/1111001001000000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001101101001100",
+      "embedding_path": "/workspace/outputs/standardized/1001101101001100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100100111000110",
+      "embedding_path": "/workspace/outputs/standardized/1100100111000110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000000111100100",
+      "embedding_path": "/workspace/outputs/standardized/1000000111100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110110011010000",
+      "embedding_path": "/workspace/outputs/standardized/1110110011010000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100100001010101",
+      "embedding_path": "/workspace/outputs/standardized/1100100001010101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111010001100010",
+      "embedding_path": "/workspace/outputs/standardized/0111010001100010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010101111010000",
+      "embedding_path": "/workspace/outputs/standardized/0010101111010000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101100111100000",
+      "embedding_path": "/workspace/outputs/standardized/0101100111100000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101010011000101",
+      "embedding_path": "/workspace/outputs/standardized/1101010011000101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100001111000100",
+      "embedding_path": "/workspace/outputs/standardized/0100001111000100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001010101011000",
+      "embedding_path": "/workspace/outputs/standardized/0001010101011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100100101100000",
+      "embedding_path": "/workspace/outputs/standardized/1100100101100000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000100111101010",
+      "embedding_path": "/workspace/outputs/standardized/1000100111101010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101100110000100",
+      "embedding_path": "/workspace/outputs/standardized/1101100110000100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001010011110110",
+      "embedding_path": "/workspace/outputs/standardized/0001010011110110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110001011100001",
+      "embedding_path": "/workspace/outputs/standardized/1110001011100001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101010011010010",
+      "embedding_path": "/workspace/outputs/standardized/0101010011010010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110100101100100",
+      "embedding_path": "/workspace/outputs/standardized/0110100101100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1111000111100000",
+      "embedding_path": "/workspace/outputs/standardized/1111000111100000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100000111100110",
+      "embedding_path": "/workspace/outputs/standardized/0100000111100110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110010111001001",
+      "embedding_path": "/workspace/outputs/standardized/0110010111001001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101110000110110",
+      "embedding_path": "/workspace/outputs/standardized/0101110000110110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100000011111001",
+      "embedding_path": "/workspace/outputs/standardized/1100000011111001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010101011011000",
+      "embedding_path": "/workspace/outputs/standardized/0010101011011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111010101001000",
+      "embedding_path": "/workspace/outputs/standardized/0111010101001000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110110101001010",
+      "embedding_path": "/workspace/outputs/standardized/0110110101001010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110000011101100",
+      "embedding_path": "/workspace/outputs/standardized/1110000011101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101100001011010",
+      "embedding_path": "/workspace/outputs/standardized/1101100001011010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100011011010001",
+      "embedding_path": "/workspace/outputs/standardized/0100011011010001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010100001110001",
+      "embedding_path": "/workspace/outputs/standardized/0010100001110001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000010011010101",
+      "embedding_path": "/workspace/outputs/standardized/0000010011010101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101110101010100",
+      "embedding_path": "/workspace/outputs/standardized/0101110101010100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000101011100010",
+      "embedding_path": "/workspace/outputs/standardized/1000101011100010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000100101001111",
+      "embedding_path": "/workspace/outputs/standardized/0000100101001111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000011111000010",
+      "embedding_path": "/workspace/outputs/standardized/0000011111000010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110010011000001",
+      "embedding_path": "/workspace/outputs/standardized/1110010011000001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101000101010100",
+      "embedding_path": "/workspace/outputs/standardized/0101000101010100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001011011010101",
+      "embedding_path": "/workspace/outputs/standardized/0001011011010101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011000001000110",
+      "embedding_path": "/workspace/outputs/standardized/1011000001000110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110000001110100",
+      "embedding_path": "/workspace/outputs/standardized/0110000001110100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000001011001001",
+      "embedding_path": "/workspace/outputs/standardized/1000001011001001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011010111000001",
+      "embedding_path": "/workspace/outputs/standardized/1011010111000001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011111001000100",
+      "embedding_path": "/workspace/outputs/standardized/0011111001000100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101110110101000",
+      "embedding_path": "/workspace/outputs/standardized/0101110110101000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100100001011101",
+      "embedding_path": "/workspace/outputs/standardized/0100100001011101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000010011010110",
+      "embedding_path": "/workspace/outputs/standardized/0000010011010110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011110101010100",
+      "embedding_path": "/workspace/outputs/standardized/0011110101010100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000101111111000",
+      "embedding_path": "/workspace/outputs/standardized/0000101111111000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001010101000011",
+      "embedding_path": "/workspace/outputs/standardized/1001010101000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101110001000101",
+      "embedding_path": "/workspace/outputs/standardized/0101110001000101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011000011100100",
+      "embedding_path": "/workspace/outputs/standardized/1011000011100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001110111000011",
+      "embedding_path": "/workspace/outputs/standardized/0001110111000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000100011110100",
+      "embedding_path": "/workspace/outputs/standardized/1000100011110100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000101111000011",
+      "embedding_path": "/workspace/outputs/standardized/1000101111000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001000111101100",
+      "embedding_path": "/workspace/outputs/standardized/1001000111101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100001011110001",
+      "embedding_path": "/workspace/outputs/standardized/1100001011110001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011110010000011",
+      "embedding_path": "/workspace/outputs/standardized/1011110010000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001101101100010",
+      "embedding_path": "/workspace/outputs/standardized/0001101101100010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101010001100010",
+      "embedding_path": "/workspace/outputs/standardized/0101010001100010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1111000001011010",
+      "embedding_path": "/workspace/outputs/standardized/1111000001011010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100000111011001",
+      "embedding_path": "/workspace/outputs/standardized/1100000111011001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001000101001110",
+      "embedding_path": "/workspace/outputs/standardized/1001000101001110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110110101001100",
+      "embedding_path": "/workspace/outputs/standardized/0110110101001100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101001001000010",
+      "embedding_path": "/workspace/outputs/standardized/1101001001000010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1111000011000001",
+      "embedding_path": "/workspace/outputs/standardized/1111000011000001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110001111100001",
+      "embedding_path": "/workspace/outputs/standardized/0110001111100001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000100111011010",
+      "embedding_path": "/workspace/outputs/standardized/1000100111011010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010101011000011",
+      "embedding_path": "/workspace/outputs/standardized/1010101011000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001000001110100",
+      "embedding_path": "/workspace/outputs/standardized/1001000001110100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100001011100001",
+      "embedding_path": "/workspace/outputs/standardized/0100001011100001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100010111000010",
+      "embedding_path": "/workspace/outputs/standardized/1100010111000010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000010011010101",
+      "embedding_path": "/workspace/outputs/standardized/1000010011010101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101011011010001",
+      "embedding_path": "/workspace/outputs/standardized/0101011011010001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001010001000011",
+      "embedding_path": "/workspace/outputs/standardized/1001010001000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001110001100011",
+      "embedding_path": "/workspace/outputs/standardized/1001110001100011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001011001101010",
+      "embedding_path": "/workspace/outputs/standardized/0001011001101010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000100011100110",
+      "embedding_path": "/workspace/outputs/standardized/1000100011100110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100110001110001",
+      "embedding_path": "/workspace/outputs/standardized/0100110001110001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010001111000111",
+      "embedding_path": "/workspace/outputs/standardized/0010001111000111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1111000001011000",
+      "embedding_path": "/workspace/outputs/standardized/1111000001011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001101011110010",
+      "embedding_path": "/workspace/outputs/standardized/0001101011110010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000001111010011",
+      "embedding_path": "/workspace/outputs/standardized/0000001111010011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011111001000000",
+      "embedding_path": "/workspace/outputs/standardized/0011111001000000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011100011010001",
+      "embedding_path": "/workspace/outputs/standardized/1011100011010001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001011011010100",
+      "embedding_path": "/workspace/outputs/standardized/1001011011010100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001010011010111",
+      "embedding_path": "/workspace/outputs/standardized/0001010011010111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000111111000001",
+      "embedding_path": "/workspace/outputs/standardized/1000111111000001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100101011101001",
+      "embedding_path": "/workspace/outputs/standardized/0100101011101001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011110101010000",
+      "embedding_path": "/workspace/outputs/standardized/1011110101010000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101001001010000",
+      "embedding_path": "/workspace/outputs/standardized/1101001001010000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101010011000000",
+      "embedding_path": "/workspace/outputs/standardized/1101010011000000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001100001001101",
+      "embedding_path": "/workspace/outputs/standardized/1001100001001101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1111100001010001",
+      "embedding_path": "/workspace/outputs/standardized/1111100001010001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001100001111110",
+      "embedding_path": "/workspace/outputs/standardized/0001100001111110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100010111110000",
+      "embedding_path": "/workspace/outputs/standardized/0100010111110000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1111110100010000",
+      "embedding_path": "/workspace/outputs/standardized/1111110100010000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101001011110000",
+      "embedding_path": "/workspace/outputs/standardized/1101001011110000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001111010110000",
+      "embedding_path": "/workspace/outputs/standardized/1001111010110000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011110001010100",
+      "embedding_path": "/workspace/outputs/standardized/1011110001010100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110100001001101",
+      "embedding_path": "/workspace/outputs/standardized/0110100001001101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110111011000100",
+      "embedding_path": "/workspace/outputs/standardized/0110111011000100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000110101100100",
+      "embedding_path": "/workspace/outputs/standardized/0000110101100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100111011000001",
+      "embedding_path": "/workspace/outputs/standardized/0100111011000001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011011101101000",
+      "embedding_path": "/workspace/outputs/standardized/0011011101101000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100100101100011",
+      "embedding_path": "/workspace/outputs/standardized/0100100101100011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001010011010101",
+      "embedding_path": "/workspace/outputs/standardized/1001010011010101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000010011101001",
+      "embedding_path": "/workspace/outputs/standardized/0000010011101001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101010011100010",
+      "embedding_path": "/workspace/outputs/standardized/0101010011100010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100000101100101",
+      "embedding_path": "/workspace/outputs/standardized/0100000101100101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000000000111111",
+      "embedding_path": "/workspace/outputs/standardized/1000000000111111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100110000000111",
+      "embedding_path": "/workspace/outputs/standardized/0100110000000111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100101000001111",
+      "embedding_path": "/workspace/outputs/standardized/1100101000001111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000001110010001",
+      "embedding_path": "/workspace/outputs/standardized/1000001110010001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100010100001110",
+      "embedding_path": "/workspace/outputs/standardized/1100010100001110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101110000001011",
+      "embedding_path": "/workspace/outputs/standardized/0101110000001011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100000010011110",
+      "embedding_path": "/workspace/outputs/standardized/1100000010011110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001011000100101",
+      "embedding_path": "/workspace/outputs/standardized/1001011000100101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110100100000111",
+      "embedding_path": "/workspace/outputs/standardized/1110100100000111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100100100011100",
+      "embedding_path": "/workspace/outputs/standardized/1100100100011100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110001100100000",
+      "embedding_path": "/workspace/outputs/standardized/1110001100100000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000100100110111",
+      "embedding_path": "/workspace/outputs/standardized/1000100100110111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010100000110110",
+      "embedding_path": "/workspace/outputs/standardized/1010100000110110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010101100110100",
+      "embedding_path": "/workspace/outputs/standardized/1010101100110100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010100000011111",
+      "embedding_path": "/workspace/outputs/standardized/1010100000011111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000101100100111",
+      "embedding_path": "/workspace/outputs/standardized/0000101100100111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100110100001100",
+      "embedding_path": "/workspace/outputs/standardized/1100110100001100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110110010011000",
+      "embedding_path": "/workspace/outputs/standardized/1110110010011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010011110000000",
+      "embedding_path": "/workspace/outputs/standardized/1010011110000000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001100001011011",
+      "embedding_path": "/workspace/outputs/standardized/1001100001011011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001001110000111",
+      "embedding_path": "/workspace/outputs/standardized/1001001110000111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101101100001010",
+      "embedding_path": "/workspace/outputs/standardized/1101101100001010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001111000011001",
+      "embedding_path": "/workspace/outputs/standardized/1001111000011001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010100100010110",
+      "embedding_path": "/workspace/outputs/standardized/1010100100010110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000011110011000",
+      "embedding_path": "/workspace/outputs/standardized/1000011110011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110100100010010",
+      "embedding_path": "/workspace/outputs/standardized/1110100100010010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010100000111010",
+      "embedding_path": "/workspace/outputs/standardized/1010100000111010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000110100011000",
+      "embedding_path": "/workspace/outputs/standardized/1000110100011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101111000001001",
+      "embedding_path": "/workspace/outputs/standardized/1101111000001001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000110000110110",
+      "embedding_path": "/workspace/outputs/standardized/1000110000110110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011000000111001",
+      "embedding_path": "/workspace/outputs/standardized/0011000000111001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110000100011010",
+      "embedding_path": "/workspace/outputs/standardized/0110000100011010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110100000000011",
+      "embedding_path": "/workspace/outputs/standardized/1110100000000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110101000010001",
+      "embedding_path": "/workspace/outputs/standardized/1110101000010001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001010000100110",
+      "embedding_path": "/workspace/outputs/standardized/1001010000100110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000111000101001",
+      "embedding_path": "/workspace/outputs/standardized/1000111000101001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010111101000010",
+      "embedding_path": "/workspace/outputs/standardized/1010111101000010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111000000011101",
+      "embedding_path": "/workspace/outputs/standardized/0111000000011101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010011000101001",
+      "embedding_path": "/workspace/outputs/standardized/0010011000101001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100000100010101",
+      "embedding_path": "/workspace/outputs/standardized/1100000100010101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100111100001011",
+      "embedding_path": "/workspace/outputs/standardized/0100111100001011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100001000111101",
+      "embedding_path": "/workspace/outputs/standardized/1100001000111101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101001000110111",
+      "embedding_path": "/workspace/outputs/standardized/0101001000110111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100011000101001",
+      "embedding_path": "/workspace/outputs/standardized/0100011000101001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1111001100100001",
+      "embedding_path": "/workspace/outputs/standardized/1111001100100001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110110000001011",
+      "embedding_path": "/workspace/outputs/standardized/1110110000001011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001100100000101",
+      "embedding_path": "/workspace/outputs/standardized/1001100100000101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010110000000111",
+      "embedding_path": "/workspace/outputs/standardized/1010110000000111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100011100001100",
+      "embedding_path": "/workspace/outputs/standardized/0100011100001100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001011100100000",
+      "embedding_path": "/workspace/outputs/standardized/1001011100100000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010100110000100",
+      "embedding_path": "/workspace/outputs/standardized/1010100110000100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110011100111000",
+      "embedding_path": "/workspace/outputs/standardized/0110011100111000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010010110011000",
+      "embedding_path": "/workspace/outputs/standardized/1010010110011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000111110000000",
+      "embedding_path": "/workspace/outputs/standardized/1000111110000000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100010100001111",
+      "embedding_path": "/workspace/outputs/standardized/1100010100001111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000110001010011",
+      "embedding_path": "/workspace/outputs/standardized/1000110001010011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000100010010111",
+      "embedding_path": "/workspace/outputs/standardized/1000100010010111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100101110001001",
+      "embedding_path": "/workspace/outputs/standardized/1100101110001001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110001100110101",
+      "embedding_path": "/workspace/outputs/standardized/0110001100110101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001101010110011",
+      "embedding_path": "/workspace/outputs/standardized/0001101010110011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001011110011000",
+      "embedding_path": "/workspace/outputs/standardized/0001011110011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100000010001111",
+      "embedding_path": "/workspace/outputs/standardized/1100000010001111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111000010100010",
+      "embedding_path": "/workspace/outputs/standardized/0111000010100010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010001110010001",
+      "embedding_path": "/workspace/outputs/standardized/1010001110010001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010000010110011",
+      "embedding_path": "/workspace/outputs/standardized/1010000010110011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110010010101000",
+      "embedding_path": "/workspace/outputs/standardized/1110010010101000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000001110011100",
+      "embedding_path": "/workspace/outputs/standardized/0000001110011100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110001110100100",
+      "embedding_path": "/workspace/outputs/standardized/1110001110100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110010110100101",
+      "embedding_path": "/workspace/outputs/standardized/0110010110100101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111101000010101",
+      "embedding_path": "/workspace/outputs/standardized/0111101000010101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011101010001001",
+      "embedding_path": "/workspace/outputs/standardized/0011101010001001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000001010110110",
+      "embedding_path": "/workspace/outputs/standardized/0000001010110110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110000110110100",
+      "embedding_path": "/workspace/outputs/standardized/0110000110110100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100100000111111",
+      "embedding_path": "/workspace/outputs/standardized/0100100000111111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100010110110011",
+      "embedding_path": "/workspace/outputs/standardized/0100010110110011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100101010010100",
+      "embedding_path": "/workspace/outputs/standardized/0100101010010100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110101000000110",
+      "embedding_path": "/workspace/outputs/standardized/0110101000000110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001101110010011",
+      "embedding_path": "/workspace/outputs/standardized/0001101110010011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110001110110001",
+      "embedding_path": "/workspace/outputs/standardized/0110001110110001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010100010110001",
+      "embedding_path": "/workspace/outputs/standardized/0010100010110001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001110100110100",
+      "embedding_path": "/workspace/outputs/standardized/1001110100110100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011010110010010",
+      "embedding_path": "/workspace/outputs/standardized/1011010110010010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010110001001101",
+      "embedding_path": "/workspace/outputs/standardized/0010110001001101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100010001010001",
+      "embedding_path": "/workspace/outputs/standardized/1100010001010001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110010001100010",
+      "embedding_path": "/workspace/outputs/standardized/0110010001100010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010100001110011",
+      "embedding_path": "/workspace/outputs/standardized/0010100001110011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101101101100100",
+      "embedding_path": "/workspace/outputs/standardized/0101101101100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111110110100000",
+      "embedding_path": "/workspace/outputs/standardized/0111110110100000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001011110101100",
+      "embedding_path": "/workspace/outputs/standardized/0001011110101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1101110000001100",
+      "embedding_path": "/workspace/outputs/standardized/1101110000001100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001101101010010",
+      "embedding_path": "/workspace/outputs/standardized/0001101101010010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111100001100100",
+      "embedding_path": "/workspace/outputs/standardized/0111100001100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011101001101100",
+      "embedding_path": "/workspace/outputs/standardized/0011101001101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101100011100110",
+      "embedding_path": "/workspace/outputs/standardized/0101100011100110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101001011000101",
+      "embedding_path": "/workspace/outputs/standardized/0101001011000101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011100010000001",
+      "embedding_path": "/workspace/outputs/standardized/1011100010000001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1001000110110010",
+      "embedding_path": "/workspace/outputs/standardized/1001000110110010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111010010000100",
+      "embedding_path": "/workspace/outputs/standardized/0111010010000100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010000101111011",
+      "embedding_path": "/workspace/outputs/standardized/0010000101111011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100100011011100",
+      "embedding_path": "/workspace/outputs/standardized/0100100011011100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001010001111001",
+      "embedding_path": "/workspace/outputs/standardized/0001010001111001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100000011011110",
+      "embedding_path": "/workspace/outputs/standardized/0100000011011110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110111101010000",
+      "embedding_path": "/workspace/outputs/standardized/0110111101010000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0111000110100011",
+      "embedding_path": "/workspace/outputs/standardized/0111000110100011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101011110101000",
+      "embedding_path": "/workspace/outputs/standardized/0101011110101000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001111001000010",
+      "embedding_path": "/workspace/outputs/standardized/0001111001000010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101111111000000",
+      "embedding_path": "/workspace/outputs/standardized/0101111111000000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010000101001110",
+      "embedding_path": "/workspace/outputs/standardized/1010000101001110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010110001110101",
+      "embedding_path": "/workspace/outputs/standardized/0010110001110101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001111011001001",
+      "embedding_path": "/workspace/outputs/standardized/0001111011001001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100110001101110",
+      "embedding_path": "/workspace/outputs/standardized/0100110001101110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1011010011100100",
+      "embedding_path": "/workspace/outputs/standardized/1011010011100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0011100101000110",
+      "embedding_path": "/workspace/outputs/standardized/0011100101000110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010110011100100",
+      "embedding_path": "/workspace/outputs/standardized/0010110011100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101111001000011",
+      "embedding_path": "/workspace/outputs/standardized/0101111001000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000010011100101",
+      "embedding_path": "/workspace/outputs/standardized/0000010011100101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000110111100110",
+      "embedding_path": "/workspace/outputs/standardized/0000110111100110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001111001001110",
+      "embedding_path": "/workspace/outputs/standardized/0001111001001110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101010101110001",
+      "embedding_path": "/workspace/outputs/standardized/0101010101110001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0010000111010110",
+      "embedding_path": "/workspace/outputs/standardized/0010000111010110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101101001011010",
+      "embedding_path": "/workspace/outputs/standardized/0101101001011010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100100111101010",
+      "embedding_path": "/workspace/outputs/standardized/0100100111101010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010110111010000",
+      "embedding_path": "/workspace/outputs/standardized/1010110111010000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100000011010110",
+      "embedding_path": "/workspace/outputs/standardized/1100000011010110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001010011011011",
+      "embedding_path": "/workspace/outputs/standardized/0001010011011011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0100110011010000",
+      "embedding_path": "/workspace/outputs/standardized/0100110011010000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0110110111001000",
+      "embedding_path": "/workspace/outputs/standardized/0110110111001000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0001111111000001",
+      "embedding_path": "/workspace/outputs/standardized/0001111111000001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000010111001010",
+      "embedding_path": "/workspace/outputs/standardized/0000010111001010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0000010011011100",
+      "embedding_path": "/workspace/outputs/standardized/0000010011011100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000000000111101",
+      "embedding_path": "/workspace/outputs/standardized/1000000000111101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100110000000111",
+      "embedding_path": "/workspace/outputs/standardized/1100110000000111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100100000001111",
+      "embedding_path": "/workspace/outputs/standardized/1100100000001111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000011110010001",
+      "embedding_path": "/workspace/outputs/standardized/1000011110010001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100010101001110",
+      "embedding_path": "/workspace/outputs/standardized/1100010101001110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "0101100000001011",
+      "embedding_path": "/workspace/outputs/standardized/0101100000001011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100000000011110",
+      "embedding_path": "/workspace/outputs/standardized/1100000000011110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000011000100101",
+      "embedding_path": "/workspace/outputs/standardized/1000011000100101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010100100000111",
+      "embedding_path": "/workspace/outputs/standardized/1010100100000111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1100000100011100",
+      "embedding_path": "/workspace/outputs/standardized/1100000100011100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1110001100110000",
+      "embedding_path": "/workspace/outputs/standardized/1110001100110000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1000100100110110",
+      "embedding_path": "/workspace/outputs/standardized/1000100100110110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010100000010110",
+      "embedding_path": "/workspace/outputs/standardized/1010100000010110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010100100110100",
+      "embedding_path": "/workspace/outputs/standardized/1010100100110100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "1010100000010111",
+      "embedding_path": "/workspace/outputs/standardized/1010100000010111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    },
+    {
+      "sequence_id": "mature",
+      "embedding_path": "/workspace/outputs/standardized/mature.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "per_residue"
+    }
+  ],
+  "model_name": "esm2_t33_650M_UR50D",
+  "embedding_dimension": 1280
+}

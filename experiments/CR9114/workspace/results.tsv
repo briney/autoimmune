@@ -1,2 +1,13 @@
 iteration	pipeline	spearman_rho	top10_precision	pairwise_accuracy	notes
 1	genotype_rf (RF on 16-bit genotype, min_samples_leaf=2, 600 trees)	0.9591	0.55	0.75	Baseline; dominant features: bit10 (42%), bit9 (16%), bit4 (16%); very high CV (0.949) matches eval well
+2	ridge_main (Ridge on 16-bit genotype)	0.9143	0.36	0.70	Worse than RF; confirms high nonlinearity/epistasis in genotype-affinity relationship
+3	ridge_inter (Ridge on bits + pairwise interactions)	0.9208	0.45	0.62	Degree-2 interactions insufficient; tree models capture higher-order epistasis better
+4	gbm (GBM depth=3 lr=0.05 n=500)	0.9272	0.36	0.80	GBM alone: worse Spearman but better pairwise vs RF — complementary models; blend helps
+5	rf_gbm_blend (RF=0.9, GBM=0.1)	0.9580	0.55	0.80	First blend improvement: pairwise 0.75→0.80 with minimal Spearman cost
+6	blend3_85_5_10 (RF=0.85, GBM_reg=0.05, GBM_deep=0.10)	0.9586	0.55	0.82	3-way blend with deep GBM; pairwise 0.80→0.82; GBM_deep specializes on top-binders
+7	rf_bits_esm2_pca50 (RF on bits + ESM2 PCA-50 deltas)	0.9436	0.64	0.75	ESM2 adds top-11 signal; worse Spearman (noisy high-dim features)
+8	rf_esm2_fine_94 (RF=0.94, ESM2RF=0.06)	0.9596	0.55	0.72	Best Spearman: ESM2 small-weight correction pushes above RF baseline
+9	4way_esm2_15 (RF=0.80, GBM=0.02, GBMdeep=0.08, ESM2RF=0.10)	0.9583	0.64	0.80	First config to achieve top-11=0.64 and pairwise=0.80 simultaneously
+10	rf_bits_ablang2_pca30 (RF on bits + AbLang2 PCA-30 deltas)	0.9457	0.64	0.82	AbLang2 better than ESM2: top-11=0.64 AND pairwise=0.82 in single model
+11	rf_bits_currab16 (RF on bits + CurrAb PCA-16 deltas)	0.9411	0.55	0.88	CurrAb16 alone achieves pairwise=0.88 (35/40) — best single-model pairwise seen
+12	rf_cr_gbmd_77_8_15 (RF=0.77, GBMdeep=0.08, CurrAb16RF=0.15)	0.9585	0.64	0.88	** CURRENT BEST ** pairwise=0.88 (35/40), top-11=0.64, Spearman near-baseline

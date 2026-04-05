@@ -1,0 +1,12 @@
+{
+  "model_name": "ablang2-paired",
+  "model_family": "ablang2",
+  "chain_separator": "pipe",
+  "input_file": "/workspace/inputs/sequences.json",
+  "output_dir": "/workspace/outputs/raw",
+  "mode": "embedding",
+  "layer": null,
+  "pooling": "mean",
+  "per_position": false,
+  "hf_cache": "/app/ablang2/weights"
+}

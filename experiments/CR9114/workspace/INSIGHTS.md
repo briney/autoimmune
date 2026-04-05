@@ -1,12 +1,17 @@
 # CR9114 Insights
 
-## Current best: Iteration 1 — Genotype RF (Spearman ρ = 0.9591)
+## Current best models
 
-A RandomForestRegressor trained directly on the 16-bit genotype vectors achieves
-outstanding performance: ρ = 0.959, top-11 precision = 0.55, pairwise accuracy = 0.75.
-CV Spearman = 0.949 (3×5-fold), so no overfitting.
+### Primary (best Spearman): `rf_esm2_fine_94`
+- Pipeline: RF=0.94 × RF(bits) + 0.06 × RF(bits+ESM2_PCA50)
+- Eval: ρ=0.9596, top-11=0.55, pairwise=0.72 (29/40)
 
-### Feature importances
+### Best overall (balanced): `fine2_77_8_15` ← **recommended for test**
+- Pipeline: RF=0.77 × RF(bits) + 0.08 × GBM_deep + 0.15 × RF(bits+CurrAb_PCA16)
+- Eval: ρ=0.9585, top-11=0.64, pairwise=0.88 (35/40)
+- Confirmed stable: 6 configurations in (±5% radius) all hit pairwise=0.88
+
+## Feature importances (RF on bits)
 | Bit | HC Pos | Mutation | Importance |
 |-----|--------|----------|------------|
 | 10  | 75     | S→F      | 42.3%      |
@@ -17,37 +22,61 @@ CV Spearman = 0.949 (3×5-fold), so no overfitting.
 | 7   | 59     | N→A      | 3.2%       |
 | others | — | — | <2.2% each |
 
-Bits 10, 9, 4 alone account for ~75% of predictive power. These are all FR3/CDR2
-positions likely at or near the paratope.
+Bits 10, 9, 4 account for ~75% of signal. All in FR3/CDR2.
 
-### ddG tool calibration (10-variant subset)
-- `baddg` and `stabddg` were run on a 10-sample subset.
-- Both tools showed poor rank correlation with true affinity on this small sample;
-  their predicted_score values don't clearly track h1_mean.
-- Not yet incorporated into a model — unclear if they add signal beyond genotype.
+## Key findings across iterations
 
-## Open questions / next experiments
+### Models tried and their role
+- **RF on bits** (core): ρ=0.9591, CV=0.949. Near-optimal nonparametric fit over 16-bit space.
+- **Ridge regression**: Much worse (ρ=0.914 main, 0.921 degree-2). Confirms high-order epistasis.
+- **GBM (shallow, depth=3)**: ρ=0.927 alone; improves pairwise when blended (weights 5–15%).
+- **GBM (deep, depth=5)**: ρ=0.938 alone but top-11=0.64. Best pairwise component.
+- **Multi-seed RF ensemble**: No improvement. RF variance already low at 600 trees.
+- **Stacked meta-model (OOF)**: Worse. OOF noise on 530 samples degrades signal.
 
-1. **Can ddG tools add signal on top of genotype RF?**  
-   Run baddg/stabddg on all ~645 variants, then train a stacked model
-   (genotype_RF prediction + ddG score → affinity). Given the genotype RF already
-   captures ~96% rank correlation, any structural signal must be very precise to help.
+### Embedding models tried
+| Model | Dim | CV (bits+model) | Key contribution |
+|-------|-----|-----------------|-----------------|
+| ESM2 (650M) | 1280 | 0.917 | +Spearman in small blend; mean-pool better than per-residue |
+| AbLang2 (45M) | 480 | 0.927 | top-11=0.64 AND pairwise=0.82 in one model |
+| CurrAb (650M) | 1280 | 0.921 | pairwise=0.85 in standalone blend; best for local discrimination |
+| ESM1b (650M) | 1280 | 0.903 | No unique contribution over ESM2 |
+| ESM2 per-residue | 16×1280 | 0.906-0.919 | Worse than mean-pool (too noisy) |
 
-2. **Pairwise accuracy (0.75) is weak relative to Spearman (0.959).**  
-   The pairs are single-mutation differences. The RF may be uncertain in that
-   fine-grained regime. A model that better captures single-mutation effects
-   (e.g., additive linear model, or ddG deltas) might improve pairwise accuracy.
+**Key insight**: Embedding deltas (variant − mature) are very low-dimensional (~99% variance in first 16 PCs for a 1280-dim model). This reflects the small number of mutations (6-8/121 residues).
 
-3. **Top-11 precision (0.55) leaves room to improve.**  
-   Investigate which top-predicted variants are wrong. Are they consistently off in
-   a correctable way (e.g., all missing a particular interaction)?
+### ddG tools analysis
+- `baddg` and `stabddg` on 10-variant calibration subset:
+  - Both tools correlate with truth (rho≈0.84-0.89) but poorly with RF residuals (r≈0.18-0.22)
+  - Not worth running at scale — marginal information gain over RF
+  - Physics tools may not differentiate within the narrow 6-8 mutation window well
 
-4. **Sequence embeddings (ESM2, AbLang2) as features?**  
-   ESM2 or AbLang2 embeddings of the variant heavy chain, extracted at the mutated
-   positions, could capture higher-order epistatic effects the RF misses.
+### Why the RF is so good
+- 16-bit input, 530 samples → very well-specified problem for tree-based models
+- RF with 600 trees essentially computes nonparametric E[affinity | genotype]
+- Dominant bits (10, 9, 4) explain ~75% variance; RF handles the nonlinearity perfectly
+- The remaining epistatic effects are captured by deep trees
 
-## Strategy
-The genotype RF is already excellent. Incremental improvements are likely. Focus on:
-- Improving pairwise accuracy (most actionable gap)
-- Stacking structural signals on top of the RF
-- Watch for overfitting — the training set is only 530 variants
+## Pareto frontier (eval set)
+| Config | Spearman | Top-11 | Pairwise |
+|--------|---------|--------|---------|
+| rf_esm2_fine_94 | **0.9596** | 0.55 | 0.72 |
+| rf_all3emb_90_4_3_3 | 0.9593 | 0.55 | 0.72 |
+| rfab_gbmd_85_5_10 | 0.9592 | 0.55 | 0.80 |
+| rf_cr_gbmd_87_5_8 | 0.9589 | 0.55 | 0.80 |
+| 4way_1b_5 | 0.9587 | 0.64 | 0.85 |
+| fine2_77_8_15 | 0.9585 | **0.64** | **0.88** |
+
+Spearman differences < 0.002 are within noise (95% CI ≈ ±0.018 for n=115).
+`fine2_77_8_15` dominates on secondary metrics with negligible Spearman loss.
+
+## Hypothesis for what pairwise=0.88 means
+- 35/40 single-mutation pairs correctly ranked
+- Missing 5 pairs likely involve context-dependent effects of low-importance bits
+- CurrAb16 captures antibody-specific local context that helps discriminate these
+
+## Open questions (deprioritized given convergence)
+1. CurrAb per-residue at mutation sites — might add marginal Spearman signal
+2. Larger RF (1000+ trees) — unlikely to improve beyond noise
+3. Neural network MLP on bits — might capture different epistasis patterns
+4. Running ddG tools on all variants — low ROI based on calibration data
