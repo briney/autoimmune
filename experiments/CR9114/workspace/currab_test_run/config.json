@@ -1,0 +1,12 @@
+{
+  "model_name": "brineylab/CurrAb",
+  "model_family": "esm",
+  "chain_separator": "single_cls",
+  "input_file": "/workspace/inputs/sequences.json",
+  "output_dir": "/workspace/outputs/raw",
+  "mode": "embedding",
+  "layer": null,
+  "pooling": "mean",
+  "per_position": false,
+  "hf_cache": "/app/antibody-lm/hf_cache"
+}

@@ -75,6 +75,13 @@ Spearman differences < 0.002 are within noise (95% CI ≈ ±0.018 for n=115).
 - Missing 5 pairs likely involve context-dependent effects of low-importance bits
 - CurrAb16 captures antibody-specific local context that helps discriminate these
 
+## TEST RESULTS (held-out)
+- Model: `predictions_final_best.csv` (RF=0.77, GBMdeep=0.08, CurrAb16RF=0.15)
+- **Spearman ρ = 0.9524** (eval was 0.9585 — drop of 0.006, within noise)
+- Top-11 precision = 0.55 (eval was 0.64 — some drop, may reflect eval tuning bias)
+- Pairwise accuracy = **0.89** (31/35) — better than eval's 0.88 (35/40)!
+- Excellent generalization. The model is robust.
+
 ## Open questions (deprioritized given convergence)
 1. CurrAb per-residue at mutation sites — might add marginal Spearman signal
 2. Larger RF (1000+ trees) — unlikely to improve beyond noise

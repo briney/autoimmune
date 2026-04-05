@@ -1,0 +1,811 @@
+{
+  "model_name": "brineylab/CurrAb",
+  "embedding_dimension": 1280,
+  "results": [
+    {
+      "sequence_id": "0100001100110101",
+      "embedding_path": "/workspace/outputs/raw/0100001100110101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1100110000001110",
+      "embedding_path": "/workspace/outputs/raw/1100110000001110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1011101000010101",
+      "embedding_path": "/workspace/outputs/raw/1011101000010101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1100010000001110",
+      "embedding_path": "/workspace/outputs/raw/1100010000001110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1111001100001100",
+      "embedding_path": "/workspace/outputs/raw/1111001100001100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1001001100110001",
+      "embedding_path": "/workspace/outputs/raw/1001001100110001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1000110110001001",
+      "embedding_path": "/workspace/outputs/raw/1000110110001001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1000000100100111",
+      "embedding_path": "/workspace/outputs/raw/1000000100100111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0000110100100110",
+      "embedding_path": "/workspace/outputs/raw/0000110100100110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1010011110100001",
+      "embedding_path": "/workspace/outputs/raw/1010011110100001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0100101100010010",
+      "embedding_path": "/workspace/outputs/raw/0100101100010010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1000111000011010",
+      "embedding_path": "/workspace/outputs/raw/1000111000011010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1010111010010100",
+      "embedding_path": "/workspace/outputs/raw/1010111010010100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1001010100000111",
+      "embedding_path": "/workspace/outputs/raw/1001010100000111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0000111100110001",
+      "embedding_path": "/workspace/outputs/raw/0000111100110001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1011011000101100",
+      "embedding_path": "/workspace/outputs/raw/1011011000101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1101010000010111",
+      "embedding_path": "/workspace/outputs/raw/1101010000010111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0010010100011100",
+      "embedding_path": "/workspace/outputs/raw/0010010100011100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0110111000011000",
+      "embedding_path": "/workspace/outputs/raw/0110111000011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1010000100100011",
+      "embedding_path": "/workspace/outputs/raw/1010000100100011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1000111110100100",
+      "embedding_path": "/workspace/outputs/raw/1000111110100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0111001100011010",
+      "embedding_path": "/workspace/outputs/raw/0111001100011010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0110101000001010",
+      "embedding_path": "/workspace/outputs/raw/0110101000001010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0101101000100011",
+      "embedding_path": "/workspace/outputs/raw/0101101000100011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0110110000010111",
+      "embedding_path": "/workspace/outputs/raw/0110110000010111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0111100100110100",
+      "embedding_path": "/workspace/outputs/raw/0111100100110100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0101110000100101",
+      "embedding_path": "/workspace/outputs/raw/0101110000100101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0101011000001001",
+      "embedding_path": "/workspace/outputs/raw/0101011000001001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1000101010101100",
+      "embedding_path": "/workspace/outputs/raw/1000101010101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1010000010101111",
+      "embedding_path": "/workspace/outputs/raw/1010000010101111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1000100110010001",
+      "embedding_path": "/workspace/outputs/raw/1000100110010001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0011010100001111",
+      "embedding_path": "/workspace/outputs/raw/0011010100001111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1000111001110000",
+      "embedding_path": "/workspace/outputs/raw/1000111001110000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1000000101101010",
+      "embedding_path": "/workspace/outputs/raw/1000000101101010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0011000010111011",
+      "embedding_path": "/workspace/outputs/raw/0011000010111011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0101111100100000",
+      "embedding_path": "/workspace/outputs/raw/0101111100100000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1110010010010011",
+      "embedding_path": "/workspace/outputs/raw/1110010010010011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1100010001001111",
+      "embedding_path": "/workspace/outputs/raw/1100010001001111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0010110010110110",
+      "embedding_path": "/workspace/outputs/raw/0010110010110110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0101000110010101",
+      "embedding_path": "/workspace/outputs/raw/0101000110010101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0011011100001110",
+      "embedding_path": "/workspace/outputs/raw/0011011100001110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0001000110111100",
+      "embedding_path": "/workspace/outputs/raw/0001000110111100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1010001010111001",
+      "embedding_path": "/workspace/outputs/raw/1010001010111001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0011011100000110",
+      "embedding_path": "/workspace/outputs/raw/0011011100000110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1110000010010111",
+      "embedding_path": "/workspace/outputs/raw/1110000010010111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0110001010101100",
+      "embedding_path": "/workspace/outputs/raw/0110001010101100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0101010100110010",
+      "embedding_path": "/workspace/outputs/raw/0101010100110010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0000010110101001",
+      "embedding_path": "/workspace/outputs/raw/0000010110101001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1100001010010100",
+      "embedding_path": "/workspace/outputs/raw/1100001010010100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0100001010011111",
+      "embedding_path": "/workspace/outputs/raw/0100001010011111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0010000101001110",
+      "embedding_path": "/workspace/outputs/raw/0010000101001110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0101111110010000",
+      "embedding_path": "/workspace/outputs/raw/0101111110010000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0011000011001110",
+      "embedding_path": "/workspace/outputs/raw/0011000011001110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0001001101110100",
+      "embedding_path": "/workspace/outputs/raw/0001001101110100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0111000110001000",
+      "embedding_path": "/workspace/outputs/raw/0111000110001000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1110100110100001",
+      "embedding_path": "/workspace/outputs/raw/1110100110100001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1111001110000010",
+      "embedding_path": "/workspace/outputs/raw/1111001110000010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0001100001101010",
+      "embedding_path": "/workspace/outputs/raw/0001100001101010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1100101001000111",
+      "embedding_path": "/workspace/outputs/raw/1100101001000111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0110101001100001",
+      "embedding_path": "/workspace/outputs/raw/0110101001100001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0011110110101000",
+      "embedding_path": "/workspace/outputs/raw/0011110110101000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1011011001000000",
+      "embedding_path": "/workspace/outputs/raw/1011011001000000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0010101101110010",
+      "embedding_path": "/workspace/outputs/raw/0010101101110010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0011000111011100",
+      "embedding_path": "/workspace/outputs/raw/0011000111011100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1111000010010100",
+      "embedding_path": "/workspace/outputs/raw/1111000010010100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0001011010110000",
+      "embedding_path": "/workspace/outputs/raw/0001011010110000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1001001110100010",
+      "embedding_path": "/workspace/outputs/raw/1001001110100010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0101111100010000",
+      "embedding_path": "/workspace/outputs/raw/0101111100010000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0011101101000011",
+      "embedding_path": "/workspace/outputs/raw/0011101101000011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0110000101110011",
+      "embedding_path": "/workspace/outputs/raw/0110000101110011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1110000111010001",
+      "embedding_path": "/workspace/outputs/raw/1110000111010001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0001110100111100",
+      "embedding_path": "/workspace/outputs/raw/0001110100111100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0101010010010100",
+      "embedding_path": "/workspace/outputs/raw/0101010010010100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0011010111000001",
+      "embedding_path": "/workspace/outputs/raw/0011010111000001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0110001111001001",
+      "embedding_path": "/workspace/outputs/raw/0110001111001001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0001010001001110",
+      "embedding_path": "/workspace/outputs/raw/0001010001001110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1100110011001100",
+      "embedding_path": "/workspace/outputs/raw/1100110011001100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1001110010000100",
+      "embedding_path": "/workspace/outputs/raw/1001110010000100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0001011001001111",
+      "embedding_path": "/workspace/outputs/raw/0001011001001111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0100001111011010",
+      "embedding_path": "/workspace/outputs/raw/0100001111011010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0000110011000110",
+      "embedding_path": "/workspace/outputs/raw/0000110011000110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0111011001010000",
+      "embedding_path": "/workspace/outputs/raw/0111011001010000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1100000011110100",
+      "embedding_path": "/workspace/outputs/raw/1100000011110100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1001000011011110",
+      "embedding_path": "/workspace/outputs/raw/1001000011011110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0000000111101011",
+      "embedding_path": "/workspace/outputs/raw/0000000111101011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1100100011000101",
+      "embedding_path": "/workspace/outputs/raw/1100100011000101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1011010101001010",
+      "embedding_path": "/workspace/outputs/raw/1011010101001010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0000100111011110",
+      "embedding_path": "/workspace/outputs/raw/0000100111011110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0011010111001000",
+      "embedding_path": "/workspace/outputs/raw/0011010111001000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1000000011001111",
+      "embedding_path": "/workspace/outputs/raw/1000000011001111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0100001001100111",
+      "embedding_path": "/workspace/outputs/raw/0100001001100111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0000011011111001",
+      "embedding_path": "/workspace/outputs/raw/0000011011111001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0111001101100100",
+      "embedding_path": "/workspace/outputs/raw/0111001101100100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0010011011101010",
+      "embedding_path": "/workspace/outputs/raw/0010011011101010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1011110010101000",
+      "embedding_path": "/workspace/outputs/raw/1011110010101000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1101001001110100",
+      "embedding_path": "/workspace/outputs/raw/1101001001110100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1101110001100010",
+      "embedding_path": "/workspace/outputs/raw/1101110001100010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0100011011000001",
+      "embedding_path": "/workspace/outputs/raw/0100011011000001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "0001101111000100",
+      "embedding_path": "/workspace/outputs/raw/0001101111000100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1001000111000101",
+      "embedding_path": "/workspace/outputs/raw/1001000111000101.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1000101100100111",
+      "embedding_path": "/workspace/outputs/raw/1000101100100111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1100110100000100",
+      "embedding_path": "/workspace/outputs/raw/1100110100000100.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1110100010011000",
+      "embedding_path": "/workspace/outputs/raw/1110100010011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1010011110000010",
+      "embedding_path": "/workspace/outputs/raw/1010011110000010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1001100000011011",
+      "embedding_path": "/workspace/outputs/raw/1001100000011011.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1001001100000111",
+      "embedding_path": "/workspace/outputs/raw/1001001100000111.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1100101100001010",
+      "embedding_path": "/workspace/outputs/raw/1100101100001010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1001101000011001",
+      "embedding_path": "/workspace/outputs/raw/1001101000011001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1010100100110110",
+      "embedding_path": "/workspace/outputs/raw/1010100100110110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1000011110011001",
+      "embedding_path": "/workspace/outputs/raw/1000011110011001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1110100100011010",
+      "embedding_path": "/workspace/outputs/raw/1110100100011010.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1010100000111000",
+      "embedding_path": "/workspace/outputs/raw/1010100000111000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1010110100011000",
+      "embedding_path": "/workspace/outputs/raw/1010110100011000.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1101011000001001",
+      "embedding_path": "/workspace/outputs/raw/1101011000001001.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    },
+    {
+      "sequence_id": "1000110000100110",
+      "embedding_path": "/workspace/outputs/raw/1000110000100110.npy",
+      "dimension": 1280,
+      "layer": 33,
+      "pooling": "mean"
+    }
+  ]
+}

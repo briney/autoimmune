@@ -11,3 +11,4 @@ iteration	pipeline	spearman_rho	top10_precision	pairwise_accuracy	notes
 10	rf_bits_ablang2_pca30 (RF on bits + AbLang2 PCA-30 deltas)	0.9457	0.64	0.82	AbLang2 better than ESM2: top-11=0.64 AND pairwise=0.82 in single model
 11	rf_bits_currab16 (RF on bits + CurrAb PCA-16 deltas)	0.9411	0.55	0.88	CurrAb16 alone achieves pairwise=0.88 (35/40) — best single-model pairwise seen
 12	rf_cr_gbmd_77_8_15 (RF=0.77, GBMdeep=0.08, CurrAb16RF=0.15)	0.9585	0.64	0.88	** CURRENT BEST ** pairwise=0.88 (35/40), top-11=0.64, Spearman near-baseline
+TEST	predictions_final_best.csv (RF=0.77, GBMdeep=0.08, CurrAb16RF=0.15)	0.9524	0.55	0.89 (31/35)	Test result: strong generalization; rho drops 0.006 from eval; pairwise even better on test
