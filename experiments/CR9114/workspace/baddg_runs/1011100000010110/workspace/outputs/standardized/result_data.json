@@ -1,0 +1,31 @@
+{
+  "scores": [
+    {
+      "total_score": 7.135986,
+      "score_breakdown": {
+        "chains": "ABC_DE",
+        "fold_values": {
+          "fold_1": 7.061035,
+          "fold_2": 7.978271,
+          "fold_3": 6.368652
+        },
+        "n_folds": 3
+      },
+      "units": "kcal/mol",
+      "per_residue_scores": null,
+      "structure_path": null,
+      "ddg": 7.135986,
+      "mutations": [
+        "ND30S",
+        "TD58A",
+        "AD59N",
+        "SD71T",
+        "ID74K",
+        "FD75S",
+        "SD76T",
+        "ND84S",
+        "SD106Y"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "structure_path": "/home/briney/git/autoimmune/experiments/CR9114/structures/cr9114_mature_h1.pdb",
+  "extra": {
+    "mutations": [
+      "ND30S",
+      "ND31S",
+      "SD57T",
+      "TD58A",
+      "AD59N",
+      "FD75S",
+      "TD87R",
+      "FD95Y"
+    ],
+    "chains": "ABC_DE",
+    "seed": 0
+  }
+}

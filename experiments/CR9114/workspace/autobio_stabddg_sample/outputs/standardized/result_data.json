@@ -1,0 +1,25 @@
+{
+  "scores": [
+    {
+      "total_score": 9.589681,
+      "score_breakdown": {
+        "chains": "ABC_DE"
+      },
+      "units": "kcal/mol",
+      "per_residue_scores": null,
+      "structure_path": null,
+      "ddg": 9.589681,
+      "mutations": [
+        "SD29F",
+        "SD52I",
+        "SD57T",
+        "TD58A",
+        "ID74K",
+        "FD75S",
+        "SD76T",
+        "ND77S",
+        "FD95Y"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "pdb_path": "/workspace/inputs/cr9114_mature_h1.pdb",
+  "mutations": "SD29F,SD52I,SD57T,TD58A,ID74K,FD75S,SD76T,ND77S,FD95Y",
+  "chains": "ABC_DE",
+  "checkpoint_path": "/app/stabddg/model_ckpts/stabddg.pt",
+  "output_dir": "/workspace/outputs/raw",
+  "mc_samples": 20,
+  "noise_level": 0.1,
+  "batch_size": 10000,
+  "trials": 1,
+  "seed": 0,
+  "device": "auto"
+}

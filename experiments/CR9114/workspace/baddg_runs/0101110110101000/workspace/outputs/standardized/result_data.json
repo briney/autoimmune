@@ -1,0 +1,30 @@
+{
+  "scores": [
+    {
+      "total_score": 3.789795,
+      "score_breakdown": {
+        "chains": "ABC_DE",
+        "fold_values": {
+          "fold_1": 3.81958,
+          "fold_2": 4.851807,
+          "fold_3": 2.697998
+        },
+        "n_folds": 3
+      },
+      "units": "kcal/mol",
+      "per_residue_scores": null,
+      "structure_path": null,
+      "ddg": 3.789795,
+      "mutations": [
+        "SD29F",
+        "ND31S",
+        "AD59N",
+        "FD75S",
+        "ND77S",
+        "TD87R",
+        "FD95Y",
+        "SD106Y"
+      ]
+    }
+  ]
+}

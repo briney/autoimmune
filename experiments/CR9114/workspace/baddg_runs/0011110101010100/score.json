@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "tool_name": "baddg",
+    "tool_version": "1.0.0",
+    "image_uri": "ghcr.io/briney/autobio-baddg:1.0.0",
+    "wall_time_seconds": 3.933699829969555,
+    "gpu_ids": [
+      0
+    ],
+    "workspace_path": "/home/briney/git/autoimmune/experiments/CR9114/workspace/baddg_runs/0011110101010100/workspace",
+    "timestamp": "2026-04-05T07:06:46.257936Z"
+  },
+  "raw_output_path": "/home/briney/git/autoimmune/experiments/CR9114/workspace/baddg_runs/0011110101010100/workspace/outputs/raw",
+  "scores": [
+    {
+      "total_score": 2.2625326666666665,
+      "per_residue_scores": null,
+      "score_breakdown": {
+        "chains": "ABC_DE",
+        "fold_values": {
+          "fold_1": 2.548584,
+          "fold_2": 2.691162,
+          "fold_3": 1.547852
+        },
+        "n_folds": 3
+      },
+      "units": "kcal/mol",
+      "structure_path": null,
+      "ddg": 2.2625326666666665,
+      "mutations": [
+        "SD29F",
+        "ND30S",
+        "AD59N",
+        "ID74K",
+        "SD76T",
+        "ND84S",
+        "FD95Y",
+        "SD106Y"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+iteration	pipeline	spearman_rho	top10_precision	pairwise_accuracy	notes
+1	genotype_rf (RF on 16-bit genotype, min_samples_leaf=2, 600 trees)	0.9591	0.55	0.75	Baseline; dominant features: bit10 (42%), bit9 (16%), bit4 (16%); very high CV (0.949) matches eval well

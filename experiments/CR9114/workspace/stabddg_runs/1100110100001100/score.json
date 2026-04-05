@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "tool_name": "stabddg",
+    "tool_version": "1.0.0",
+    "image_uri": "ghcr.io/briney/autobio-stabddg:1.0.0",
+    "wall_time_seconds": 8.161518322769552,
+    "gpu_ids": [
+      0
+    ],
+    "workspace_path": "/home/briney/git/autoimmune/experiments/CR9114/workspace/stabddg_runs/1100110100001100/workspace",
+    "timestamp": "2026-04-05T07:04:27.667956Z"
+  },
+  "raw_output_path": "/home/briney/git/autoimmune/experiments/CR9114/workspace/stabddg_runs/1100110100001100/workspace/outputs/raw",
+  "scores": [
+    {
+      "total_score": 8.978102,
+      "per_residue_scores": null,
+      "score_breakdown": {
+        "chains": "ABC_DE"
+      },
+      "units": "kcal/mol",
+      "structure_path": null,
+      "ddg": 8.978102,
+      "mutations": [
+        "ND31S",
+        "SD52I",
+        "AD59N",
+        "ID74K",
+        "FD75S",
+        "SD76T",
+        "ND77S",
+        "FD95Y",
+        "SD106Y"
+      ]
+    }
+  ]
+}

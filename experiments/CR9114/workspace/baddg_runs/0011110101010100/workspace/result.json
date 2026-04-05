@@ -1,0 +1,18 @@
+{
+    "status": "success",
+    "exit_code": 0,
+    "phase": "complete",
+    "error_type": null,
+    "error_message": null,
+    "wall_time_seconds": 3.264,
+    "completed": 1,
+    "total": 1,
+    "outputs": {
+        "raw_files": [
+  "/workspace/outputs/raw/output.csv"
+],
+        "standardized_files": [
+  "/workspace/outputs/standardized/result_data.json"
+]
+    }
+}
