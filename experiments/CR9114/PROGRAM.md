@@ -10,6 +10,19 @@ how to combine them.
 
 ---
 
+## Setup
+
+To set up a new experiment, work with the user to:
+
+1. **Agree on a run tag**: propose a tag based on today's date (e.g. `mar5`). The 
+   branch `autoimmune/<tag>` must not already exist — this is a fresh run.
+2. **Create the branch**: `git checkout -b autoimmune/<tag>` from current master.
+3. **Confirm and go**: Confirm setup looks good.
+
+Once you get confirmation, kick off the experimentation.
+
+---
+
 ## The System
 
 **Antibody:** CR9114, a broadly neutralizing anti-influenza antibody. The heavy
@@ -69,7 +82,7 @@ All paths are relative to `experiments/CR9114/`.
 | `splits/eval_genotypes.csv` | ~115 genotypes to predict | **Read freely** |
 | `data/cr9114_mutation_key.csv` | Bit → HC position → residues | **Read freely** |
 | `data/cr9114_h1_sequences.fasta` | Mature heavy, light, H1 sequences | **Read freely** |
-| `structures/cr9114_mature_h1.pdb` | Boltz-2 predicted complex | **Read freely** |
+| `structures/cr9114_mature_h1.pdb` | Predicted structure of CR9114 bound to H1 | **Read freely** |
 | `splits/eval_truth.csv` | Eval ground truth | **DO NOT READ** |
 | `splits/test_truth.csv` | Test ground truth | **DO NOT READ** |
 | `splits/test_genotypes.csv` | Test genotypes | **DO NOT READ** |
@@ -90,7 +103,6 @@ You have the full `autobio` toolkit.
 autobio list                          # see all tools
 autobio info <tool> --format json     # input schema, parameters, notes
 autobio run <tool> --config cfg.json  # run a tool
-autobio result <output_dir>           # inspect previous results
 ```
 
 ### Key tools for this task
@@ -127,14 +139,24 @@ To model a variant from its genotype:
 
 1. Start from the mature structure (`structures/cr9114_mature_h1.pdb`).
    The mature genotype is all-1s — every position has the somatic residue.
+   In the PDB, the H1 (a trimer) is chains A, B, and C. The CR9114 heavy
+   chain is chain D, and the CR9114 light chain is chain E.
 2. Identify which bits are `0` — those positions revert to germline.
 3. For each `0`-bit at position k, construct a mutation string:
    `{chain}{somatic_1letter}{hc_position}{germline_1letter}`.
-   Example: bit 1 = 0 means Ser→Phe at HC position 29 → `"AS29F"`
-   (assuming heavy chain is chain A; **inspect the PDB to confirm chain IDs
-   and residue numbering**).
+   Example: bit 1 = 0 means Ser→Phe at HC position 29 → `"DS29F"`
+   (reminder, the heavy chain is chain D; **all mutations in the dataset have been
+   performed on the CR9114 heavy chain, so only chain D in the PDB will 
+   be mutated during your experiments**).
 4. Run `evoef2_build_mutant` with the mutation list.
 5. Optionally minimize or relax the result before scoring.
+
+Whether to minimize/relax (and for how many iterations) as well as the 
+scoring function(s) to be used are totally up to you. Any allowed tools 
+in the `autobio` toolkit are possibilities (including ensembling tools or 
+selectively applying one tool to certain mutations and another tool to others) 
+or you can even build your own scoring functions from scracth and run them. 
+Anything is fair game.
 
 For the fully mature genotype (`1111111111111111`), no mutagenesis is needed —
 the reference structure is already that variant.
@@ -168,6 +190,18 @@ python evaluate.py your_predictions.csv --partition test
 
 ## Iteration Protocol
 
+While there is no hard time limit on each iteration, the priority is on rapid 
+iteration rather than trying everything possible before submitting your first 
+evaluation. Failure is totally fine; a series of safe, low-risk experiments that 
+produce only marginal improvements is much less interesting than high-risk "swing for
+the fences" iterations that frequntly perform poorly but occasionally uncover 
+paradigm-shifting improvements. 
+
+This is a difficult problem, and one that is likely to be best attacked by 
+learning from the feedback recieved across many experimental iterations. It is 
+typically considered best practice to test only one experimental variable at a 
+time, in order to isolate its effects. 
+
 ```
 LOOP FOREVER:
 
@@ -179,7 +213,9 @@ LOOP FOREVER:
      State what you will try this iteration and why, based on prior results.
 
   3. EXECUTE
-     Run autobio tools, write analysis scripts, generate predictions.
+     Run autobio tools, write analysis scripts, generate predictions. You are 
+     welcome to cache all of the ouptuts from tool runs, etc in your workspace 
+     so that they're available in subsequent iterations.
 
   4. EVALUATE
      Run evaluate.py. Record metrics in results.tsv.
@@ -195,6 +231,10 @@ LOOP FOREVER:
 not ask for confirmation between iterations. The operator may be away. If a
 tool fails or an approach doesn't work, diagnose the problem, adjust, and
 continue.
+
+ If you ever feel like your results
+are plateauing or you're going in the wrong direction, feel free to shake things 
+up with a totally different strategy.
 
 ---
 
@@ -229,8 +269,11 @@ Overwrite stale insights rather than appending indefinitely. Keep it concise.
    and `splits/`.
 5. You **MAY** write and execute Python scripts for data analysis. Available
    libraries: numpy, scipy, scikit-learn, pandas.
-6. You **MAY** use any `autobio` tool.
-7. Git commit meaningful progress as you go.
+6. You **MAY** use any `autobio` tool that is listed above in the "Key tools 
+   for this task" section. 
+7. You **MAY NOT** use any `autobio` tools that are not listed above in the 
+   "Key tools for this task" section.
+8. Git commit meaningful progress as you go.
 
 ---
 
