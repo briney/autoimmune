@@ -25,13 +25,10 @@ Once you get confirmation, kick off the experimentation.
 
 ## The System
 
-**Antibody:** CR9114, a broadly neutralizing anti-influenza antibody. The heavy
-chain has 16 positions where the mature (affinity-matured) residue differs from
-the inferred germline residue. Each variant is defined by a 16-bit genotype
-string: `1` = somatic residue, `0` = germline residue. The light chain is
-constant across all variants.
-
-**Antigen:** H1 hemagglutinin (H1N1 influenza).
+**Antibody:** The antibody heavy chain has 16 positions where the mature 
+(affinity-matured) residue differs from the inferred germline residue. 
+Each variant is defined by a 16-bit genotype string: `1` = somatic residue, 
+`0` = germline residue. The light chain is constant across all variants. 
 
 **Affinities:** Measured as −log₁₀(KD). Higher = tighter binding. Range:
 ~7.0 (weak, ~100 nM) to ~9.8 (strong, ~150 pM). You do not need to predict
@@ -81,8 +78,8 @@ All paths are relative to `experiments/CR9114/`.
 | `splits/train.csv` | ~530 variants: `genotype`, `h1_mean` | **Read freely** |
 | `splits/eval_genotypes.csv` | ~115 genotypes to predict | **Read freely** |
 | `data/cr9114_mutation_key.csv` | Bit → HC position → residues | **Read freely** |
-| `data/cr9114_h1_sequences.fasta` | Mature heavy, light, H1 sequences | **Read freely** |
-| `structures/cr9114_mature_h1.pdb` | Predicted structure of CR9114 bound to H1 | **Read freely** |
+| `data/cr9114_h1_sequences.fasta` | Mature heavy, light, antigen sequences | **Read freely** |
+| `structures/cr9114_mature_h1.pdb` | Predicted structure of CR9114 bound to its antigen | **Read freely** |
 | `splits/eval_truth.csv` | Eval ground truth | **DO NOT READ** |
 | `splits/test_truth.csv` | Test ground truth | **DO NOT READ** |
 | `splits/test_genotypes.csv` | Test genotypes | **DO NOT READ** |
@@ -139,7 +136,7 @@ To model a variant from its genotype:
 
 1. Start from the mature structure (`structures/cr9114_mature_h1.pdb`).
    The mature genotype is all-1s — every position has the somatic residue.
-   In the PDB, the H1 (a trimer) is chains A, B, and C. The CR9114 heavy
+   In the PDB, the antigen (a trimer) is chains A, B, and C. The CR9114 heavy
    chain is chain D, and the CR9114 light chain is chain E.
 2. Identify which bits are `0` — those positions revert to germline.
 3. For each `0`-bit at position k, construct a mutation string:
@@ -231,10 +228,6 @@ LOOP FOREVER:
 not ask for confirmation between iterations. The operator may be away. If a
 tool fails or an approach doesn't work, diagnose the problem, adjust, and
 continue.
-
- If you ever feel like your results
-are plateauing or you're going in the wrong direction, feel free to shake things 
-up with a totally different strategy.
 
 ---
 
