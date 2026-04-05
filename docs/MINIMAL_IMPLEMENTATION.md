@@ -34,6 +34,15 @@ Run once before the experiment starts. Deterministic (fixed random seed).
 
 **Input:** `data/cr9114_h1_binding_data.csv` (65,536 rows)
 
+**Pre-filter:** Before splitting, the dataset is restricted to variants with
+6–8 somatic mutations (out of 16 possible). In the full dataset, mutation count
+correlates with affinity (Spearman ρ ≈ 0.37) — strongly enough that an agent
+could use it as a trivial proxy. The 6–8 window reduces this to ρ ≈ 0.14 while
+preserving the full affinity range (7.0–9.8 in −log₁₀ KD) and retaining a pool
+of ~32,000 variants. The within-count variance is large (std ≈ 0.65–0.68), so
+there is ample signal for the agent to discover through sequence and structural
+analysis.
+
 **Output:** Seven CSV files in `splits/`:
 
 | File | Rows | Columns | Agent access |
@@ -54,10 +63,11 @@ a variable number of variants on top of the fixed base split.
 *Phase 1 — Stratified random sampling:*
 
 1. Drop any rows with missing `h1_mean`.
-2. Bin variants into four affinity strata by `h1_mean` quartiles.
-3. Within each stratum, randomly sample 125 train, 25 eval, 25 test
+2. Filter to variants with 6–8 somatic mutations (~32,000 variants).
+3. Bin the filtered pool into four affinity strata by `h1_mean` quartiles.
+4. Within each stratum, randomly sample 125 train, 25 eval, 25 test
    (500 / 100 / 100 total).
-4. Verify that all 16 mutation positions appear in both somatic and germline
+5. Verify that all 16 mutation positions appear in both somatic and germline
    states in every partition.
 
 *Phase 2 — High-impact pair injection:*
@@ -68,28 +78,37 @@ the pairwise accuracy metric tests something meaningful, we supplement
 the splits with "small change, big effect" pairs: Hamming-1 neighbors
 whose binding affinities differ by ≥10-fold (|Δ(−log₁₀ KD)| ≥ 1.0).
 
-5. Scan the full 65K dataset for all Hamming-1 pairs with |Δh1_mean| ≥ 1.0.
-   This yields ~28,000 candidate pairs. Deduplicate by requiring the
-   lexicographically smaller genotype to appear first, so each pair is
-   counted once.
-6. Select 15 pairs for eval and 15 for test using a diversity-aware
+6. Scan the 6–8 mutation pool for all Hamming-1 pairs with |Δh1_mean| ≥ 1.0.
+   This yields ~11,000 candidate pairs. Deduplicate by requiring the
+   lexicographically smaller genotype to appear first. Each pair is tagged
+   as "normal" (more mutations → better binding) or **"reverse"** (more
+   mutations → worse binding). The 6–8 window contains ~1,700 reverse pairs.
+7. Select 15 pairs for eval and 15 for test. ~25% of selected pairs are
+   reverse — these are chosen first to guarantee representation. The
+   remaining slots are filled with normal pairs using a diversity-aware
    strategy: first pick one pair per mutation position (highest delta
    first), then fill remaining slots regardless of position. This ensures
    the pairwise metric covers the full range of mutation positions rather
    than concentrating on the few highest-leverage positions. Pairs are
    also filtered to avoid sharing genotypes between selected pairs.
-7. For each selected pair, randomly assign one member to train and the
+8. For each selected pair, randomly assign one member to train and the
    other to eval (or test). Both members are new variants not present
    in the phase-1 splits.
-8. Re-verify uniqueness — no genotype appears in more than one partition.
-9. Find ALL cross-boundary Hamming-1 pairs (both naturally occurring from
-   phase 1 and injected in phase 2). Write to `eval_pairs.csv` and
-   `test_pairs.csv` for use by `evaluate.py`.
+9. Re-verify uniqueness — no genotype appears in more than one partition.
+10. Find ALL cross-boundary Hamming-1 pairs (both naturally occurring from
+    phase 1 and injected in phase 2). Write to `eval_pairs.csv` and
+    `test_pairs.csv` for use by `evaluate.py`.
 
-The result: ~530 train, ~115 eval, ~115 test, with ~30–35 eval pairs and
-~25–30 test pairs, roughly double what the random split produces alone.
+The reverse pairs are critical: they ensure the pairwise accuracy metric
+cannot be gamed by a pipeline that simply uses mutation count as a proxy.
+A variant with 8 mutations that binds worse than its 7-mutation neighbor is
+a case where the agent must rely on actual sequence/structure analysis to
+get the ranking right.
 
-Dependencies: `pandas`, `numpy`. No other libraries.
+The result: ~530 train, ~115 eval, ~115 test, with ~35–40 eval pairs and
+~35–40 test pairs.
+
+Dependencies: `pandas`, `numpy`, `scipy`. No other libraries.
 
 ### 2.2 `evaluate.py`
 
@@ -106,10 +125,10 @@ sees fit.
 **Output (printed to stdout):**
 
 ```
-=== Evaluation (eval, 100 variants) ===
+=== Evaluation (eval, 115 variants) ===
 Spearman rho:      0.42
-Top-10 precision:  0.30
-Pairwise accuracy: 0.68 (23/34 pairs correct)
+Top-11 precision:  0.30
+Pairwise accuracy: 0.68 (27/40 pairs correct)
 ```
 
 **Metrics:**
@@ -154,9 +173,9 @@ all the orchestration code that a traditional framework would provide.
    - Mature CR9114-H1 structure available at structures/cr9114_mature_h1.pdb.
 
 3. DATA
-   - train.csv: 500 variants with genotypes and h1_mean (in splits/).
-     Read this file — it fits in context.
-   - eval_genotypes.csv: 100 genotypes to predict (in splits/).
+   - train.csv: ~530 variants with genotypes and h1_mean (in splits/).
+     All have 6–8 somatic mutations. Read this file — it fits in context.
+   - eval_genotypes.csv: ~115 genotypes to predict (in splits/).
    - Sequences: cr9114_h1_sequences.fasta for building tool inputs.
    - Mutation key: cr9114_mutation_key.csv for decoding genotypes.
 

@@ -24,6 +24,16 @@ constant across all variants.
 ~7.0 (weak, ~100 nM) to ~9.8 (strong, ~150 pM). You do not need to predict
 exact KD — a unitless score that preserves the rank ordering is sufficient.
 
+### Dataset Restriction
+
+All variants in the train/eval/test splits have **6, 7, or 8 somatic
+mutations** (out of 16 possible). This is a deliberate restriction: in the
+full dataset, mutation count correlates with affinity (more mutations →
+generally tighter binding). Restricting to a narrow mutation-count window
+removes that shortcut. Your pipeline must infer affinity from the actual
+sequence and structural properties of each variant — not from how many
+mutations it carries.
+
 ### Mutation Key
 
 | Bit | HC Pos | Region | Germline → Somatic |
@@ -55,8 +65,8 @@ All paths are relative to `experiments/CR9114/`.
 
 | File | Description | Agent access |
 |------|-------------|--------------|
-| `splits/train.csv` | 500 variants: `genotype`, `h1_mean` | **Read freely** |
-| `splits/eval_genotypes.csv` | 100 genotypes to predict | **Read freely** |
+| `splits/train.csv` | ~530 variants: `genotype`, `h1_mean` | **Read freely** |
+| `splits/eval_genotypes.csv` | ~115 genotypes to predict | **Read freely** |
 | `data/cr9114_mutation_key.csv` | Bit → HC position → residues | **Read freely** |
 | `data/cr9114_h1_sequences.fasta` | Mature heavy, light, H1 sequences | **Read freely** |
 | `structures/cr9114_mature_h1.pdb` | Boltz-2 predicted complex | **Read freely** |
@@ -67,7 +77,7 @@ All paths are relative to `experiments/CR9114/`.
 | `splits/test_pairs.csv` | Test pair indices | **DO NOT READ** |
 | `data/cr9114_h1_binding_data.csv` | Full 65K dataset | **DO NOT READ** |
 
-The training set (500 variants) is small enough to fit in context. Read it
+The training set (~530 variants) is small enough to fit in context. Read it
 in full. Study it before reaching for tools.
 
 ---
@@ -231,6 +241,10 @@ Overwrite stale insights rather than appending indefinitely. Keep it concise.
   Then establish a baseline with a single cheap tool.
 - **The affinity range is narrow** (~3 orders of magnitude). Signal is subtle.
   A noisy tool may hurt more than help.
+- **Mutation count is not a useful feature.** All variants have 6–8 mutations,
+  and some variants with more mutations bind *worse* than variants with fewer.
+  Your pipeline must rely on *which* positions are mutated and the resulting
+  sequence/structure, not how many mutations are present.
 - **Sequence-based** and **structure-based** approaches likely complement each
   other. The winning pipeline probably combines both.
 - **Ensemble methods** — combining outputs from multiple tools with learned
