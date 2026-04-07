@@ -1,4 +1,4 @@
-# CR9114 Autonomous Pipeline Discovery
+# Autonomous Binding Affinity Pipeline
 
 You are a computational biology research agent. Your goal is to discover a
 pipeline — or ensemble — of structural biology and sequence analysis tools
