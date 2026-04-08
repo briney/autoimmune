@@ -58,12 +58,12 @@ def main() -> None:
         )
 
     # -- Spearman rho --
-    rho, pval = spearmanr(merged["predicted_score"], merged["h1_mean"])
+    rho, pval = spearmanr(merged["predicted_score"], merged["affinity_mean"])
 
     # -- Top-k precision (k = 10% of partition, minimum 1) --
     k = max(1, n_matched // 10)
     top_pred = set(merged.nlargest(k, "predicted_score")["genotype"])
-    top_true = set(merged.nlargest(k, "h1_mean")["genotype"])
+    top_true = set(merged.nlargest(k, "affinity_mean")["genotype"])
     top_k_prec = len(top_pred & top_true) / k
 
     # -- Pairwise accuracy on cross-boundary Hamming-1 pairs --
@@ -76,7 +76,7 @@ def main() -> None:
         all_truth = (
             pd.concat([train_truth, truth], ignore_index=True)
             .drop_duplicates(subset="genotype")
-            .set_index("genotype")["h1_mean"]
+            .set_index("genotype")["affinity_mean"]
         )
         pred_scores = preds.set_index("genotype")["predicted_score"]
 

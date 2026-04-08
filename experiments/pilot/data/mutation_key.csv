@@ -1,0 +1,17 @@
+antibody,binary_position,heavy_chain_sequence_position_1_based,germline_aa,somatic_aa
+antibody,1,29,F,S
+antibody,2,30,S,N
+antibody,3,31,S,N
+antibody,4,52,I,S
+antibody,5,57,T,S
+antibody,6,58,A,T
+antibody,7,59,N,A
+antibody,8,71,T,S
+antibody,9,74,K,I
+antibody,10,75,S,F
+antibody,11,76,T,S
+antibody,12,77,S,N
+antibody,13,84,S,N
+antibody,14,87,R,T
+antibody,15,95,Y,F
+antibody,16,106,Y,S

@@ -1,6 +1,6 @@
-"""One-time data splitting for CR9114 PoC.
+"""One-time data splitting for the pilot experiment.
 
-Produces stratified train/eval/test splits from the full H1 binding dataset.
+Produces stratified train/eval/test splits from the full binding dataset.
 Restricts to a narrow mutation-count window (6-8 mutations) to prevent the
 agent from using mutation count as a proxy for affinity.
 
@@ -20,7 +20,7 @@ N_EVAL = 100
 N_TEST = 100
 
 # Mutation-count window: restrict to variants with 6-8 somatic mutations.
-# This reduces Spearman(n_mut, h1_mean) from ~0.37 (full dataset) to ~0.14,
+# This reduces Spearman(n_mut, affinity_mean) from ~0.37 (full dataset) to ~0.14,
 # forcing the agent to rely on sequence/structure signal rather than mutation count.
 MUT_COUNT_MIN = 6
 MUT_COUNT_MAX = 8
@@ -42,23 +42,23 @@ def main() -> None:
 
     # ── Load and filter ──────────────────────────────────────────────────
 
-    df = pd.read_csv(root / "data" / "cr9114_h1_binding_data.csv", dtype={"genotype": str})
+    df = pd.read_csv(root / "data" / "binding_data.csv", dtype={"genotype": str})
     n_raw = len(df)
-    df = df.dropna(subset=["h1_mean"])
+    df = df.dropna(subset=["affinity_mean"])
     df["n_mut"] = df["genotype"].apply(lambda g: g.count("1"))
 
     pool_df = df[(df["n_mut"] >= MUT_COUNT_MIN) & (df["n_mut"] <= MUT_COUNT_MAX)].copy()
-    rho_full, _ = spearmanr(df["n_mut"], df["h1_mean"])
-    rho_window, _ = spearmanr(pool_df["n_mut"], pool_df["h1_mean"])
-    print(f"Loaded {n_raw} variants, {len(df)} with H1 data")
+    rho_full, _ = spearmanr(df["n_mut"], df["affinity_mean"])
+    rho_window, _ = spearmanr(pool_df["n_mut"], pool_df["affinity_mean"])
+    print(f"Loaded {n_raw} variants, {len(df)} with affinity data")
     print(f"Mutation window {MUT_COUNT_MIN}-{MUT_COUNT_MAX}: {len(pool_df)} variants")
-    print(f"  Spearman(n_mut, h1_mean): full={rho_full:.3f}, window={rho_window:.3f}")
+    print(f"  Spearman(n_mut, affinity_mean): full={rho_full:.3f}, window={rho_window:.3f}")
 
     rng = np.random.default_rng(SEED)
 
     # ── Phase 1: stratified random sampling ──────────────────────────────
 
-    pool_df["quartile"] = pd.qcut(pool_df["h1_mean"], q=4, labels=False)
+    pool_df["quartile"] = pd.qcut(pool_df["affinity_mean"], q=4, labels=False)
 
     train_idx: list[int] = []
     eval_idx: list[int] = []
@@ -78,9 +78,9 @@ def main() -> None:
         eval_idx.extend(idxs[a:b])
         test_idx.extend(idxs[b:c])
 
-    train = pool_df.loc[train_idx, ["genotype", "h1_mean"]].reset_index(drop=True)
-    eval_ = pool_df.loc[eval_idx, ["genotype", "h1_mean"]].reset_index(drop=True)
-    test = pool_df.loc[test_idx, ["genotype", "h1_mean"]].reset_index(drop=True)
+    train = pool_df.loc[train_idx, ["genotype", "affinity_mean"]].reset_index(drop=True)
+    eval_ = pool_df.loc[eval_idx, ["genotype", "affinity_mean"]].reset_index(drop=True)
+    test = pool_df.loc[test_idx, ["genotype", "affinity_mean"]].reset_index(drop=True)
 
     all_genos = set(train["genotype"]) | set(eval_["genotype"]) | set(test["genotype"])
     assert len(all_genos) == N_TRAIN + N_EVAL + N_TEST, "Duplicate genotypes across splits"
@@ -174,10 +174,10 @@ def main() -> None:
     print(f"{'=' * 65}")
     for name, part in [("Train", train), ("Eval", eval_), ("Test", test)]:
         part_mut = part["genotype"].apply(lambda g: g.count("1"))
-        rho_part, _ = spearmanr(part_mut, part["h1_mean"])
-        lo, hi = part["h1_mean"].min(), part["h1_mean"].max()
+        rho_part, _ = spearmanr(part_mut, part["affinity_mean"])
+        lo, hi = part["affinity_mean"].min(), part["affinity_mean"].max()
         print(f"  {name:>5}: {len(part):>4} variants  "
-              f"(h1_mean {lo:.2f}–{hi:.2f}, rho(n_mut,h1)={rho_part:+.3f})")
+              f"(affinity_mean {lo:.2f}–{hi:.2f}, rho(n_mut,affinity)={rho_part:+.3f})")
     print(f"  Eval cross-boundary Hamming-1 pairs: {len(eval_pairs)}")
     print(f"  Test cross-boundary Hamming-1 pairs: {len(test_pairs)}")
     print(f"{'=' * 65}")
@@ -199,7 +199,7 @@ def _find_high_impact_pairs(df: pd.DataFrame, min_delta: float) -> list[_Pair]:
     Each pair is tagged as "reverse" if the more-mutated member has lower
     affinity (breaks the mutation-count → affinity heuristic).
     """
-    h1 = df.set_index("genotype")["h1_mean"]
+    h1 = df.set_index("genotype")["affinity_mean"]
     nmut = df.set_index("genotype")["n_mut"]
     geno_set = set(h1.index)
     pairs: list[_Pair] = []
@@ -260,8 +260,8 @@ def _inject_pairs(
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
     """Inject pair members: one into train, the other into other partition."""
     for ga, gb, *_ in pairs:
-        row_a = source_df.loc[source_df["genotype"] == ga, ["genotype", "h1_mean"]].iloc[0]
-        row_b = source_df.loc[source_df["genotype"] == gb, ["genotype", "h1_mean"]].iloc[0]
+        row_a = source_df.loc[source_df["genotype"] == ga, ["genotype", "affinity_mean"]].iloc[0]
+        row_b = source_df.loc[source_df["genotype"] == gb, ["genotype", "affinity_mean"]].iloc[0]
         if rng.random() < 0.5:
             train = pd.concat([train, row_a.to_frame().T], ignore_index=True)
             other = pd.concat([other, row_b.to_frame().T], ignore_index=True)
