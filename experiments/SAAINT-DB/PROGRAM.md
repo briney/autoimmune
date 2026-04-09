@@ -185,6 +185,7 @@ meaningfully contribute to accuracy and at what compute cost.
 - Skip: proceed directly to scoring or minimization
 
 **[3] MINIMIZE** (optional, ordered by compute cost):
+- `evoef2_minimize` — performs the same energy minimization operations as `evoef2_repair` (CPU, fast)
 - `openmm_amber_minimize` — gradient-based energy minimization, GPU (~seconds)
 - `openmm_amber_relax` — full relaxation with explicit solvent, GPU (~minutes)
 
