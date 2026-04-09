@@ -261,7 +261,10 @@ def _merge_and_filter(data_dir: Path) -> pd.DataFrame:
     print(f"  Resolution <= {RESOLUTION_CUTOFF} A: {len(df)}")
 
     # Compute prediction target
-    df["neg_log10_KD"] = -np.log10(df["KD_nM"])
+    # Convert KD from nM to M, then compute -log10(KD_M).
+    # This is the standard convention (pKD) and matches the scale that
+    # structure-based binding energy predictors produce.
+    df["neg_log10_KD"] = -np.log10(df["KD_nM"] * 1e-9)
 
     # Clean up
     df = df.drop(columns=["Affinity_KD(nM)"]).reset_index(drop=True)

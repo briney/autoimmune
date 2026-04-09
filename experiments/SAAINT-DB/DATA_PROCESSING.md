@@ -125,7 +125,7 @@ after stripping the asterisk.
 | Resolution <= 3.5 A | 1,745 |
 | Unique PDB IDs | 849 |
 | KD range | 0.0008 -- 12,900 nM |
-| neg_log10_KD range | -4.11 to +3.11 |
+| neg_log10_KD (pKD) range | 4.89 to 12.10 |
 | Ab types | FabH:FabL (891), VH:VL (408), VHH (291), scFv (105), VH (45), other (5) |
 
 Note: Both source files contain multi-model duplicates (same PDB_ID + chain IDs at
@@ -305,11 +305,11 @@ Target ratios: 70% train, 15% eval, 15% test.
 
 After CoV-2 downsampling, the dataset has 544 entries across 267 antigen groups.
 
-| Split | Entries | % | Ag Groups | neg_log10_KD (min/med/max) | Res median |
-|-------|---------|------|-----------|---------------------------|------------|
-| Train | 381 | 70.0 | 186 | -3.62 / -0.32 / +3.11 | 2.60 A |
-| Eval | 82 | 15.1 | 41 | -4.11 / -0.21 / +2.56 | 2.75 A |
-| Test | 81 | 14.9 | 40 | -3.29 / -0.91 / +2.77 | 2.71 A |
+| Split | Entries | % | Ag Groups | pKD (min/med/max) | Res median |
+|-------|---------|------|-----------|-------------------|------------|
+| Train | 381 | 70.0 | 186 | 5.38 / 8.68 / 12.10 | 2.60 A |
+| Eval | 82 | 15.1 | 41 | 4.89 / 8.79 / 11.56 | 2.75 A |
+| Test | 81 | 14.9 | 40 | 5.71 / 8.09 / 11.77 | 2.71 A |
 
 Ab type distribution across splits:
 
@@ -361,7 +361,7 @@ https://files.rcsb.org/download/{pdb_id}.cif
 | `Ag_mol_name(s)` | str | Antigen molecule name(s) (original) |
 | `Resolution` | float | Structure resolution in angstroms |
 | `KD_nM` | float | Dissociation constant in nanomolar |
-| `neg_log10_KD` | float | -log10(KD in nM); higher = tighter binding |
+| `neg_log10_KD` | float | -log10(KD in M); higher = tighter binding (pKD) |
 | `Affinity_method` | str | `SPR` or `BLI` |
 | `antigen_group` | str | Canonical antigen group for splitting |
 
@@ -377,10 +377,14 @@ https://files.rcsb.org/download/{pdb_id}.cif
 
 ## 8. Prediction Target
 
-**Global ranking via -log10(KD)**. The autonomous agent predicts a score for each
-antibody-antigen complex from structural/interface features. Evaluation uses Spearman rho
-(rank correlation) between predicted scores and measured -log10(KD) across all complexes in
-the eval/test set. Higher Spearman rho = better ranking accuracy.
+**Global ranking via pKD = -log10(KD in M)**. The raw KD values are in nanomolar; the
+script converts to molar before taking -log10, producing the standard pKD scale used in
+drug discovery and consistent with what structure-based binding energy predictors output.
+On this scale, higher values = tighter binding (e.g., pKD 9 = 1 nM, pKD 7 = 100 nM).
+
+The autonomous agent predicts a score for each antibody-antigen complex from
+structural/interface features. Evaluation uses Spearman rho (rank correlation) between
+predicted scores and measured pKD across all complexes in the eval/test set.
 
 This differs from the pilot experiment, which ranked variants of a single antibody against
 a single antigen. Here, the ranking is across diverse antibodies and antigens, testing
