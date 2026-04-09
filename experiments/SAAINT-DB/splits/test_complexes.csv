@@ -1,0 +1,82 @@
+complex_id,PDB_ID,H_chain_ID,L_chain_ID,Ag_chain_ID(s),Ab_type,Ag_species,Ag_mol_name(s),Resolution,Affinity_method,antigen_group
+6a4k_H_L_A,6a4k,H,L,A,FabH:FabL,influenza a virus (a/california/7/2009(h1n1)),hemagglutinin,3.15,SPR,influenza-a-virus/hemagglutinin
+6a67_C_D_B,6a67,C,D,B,FabH:FabL,influenza a virus (a/thailand/1(kan-1)/2004(h5n1)),hemagglutinin,2.33,SPR,influenza-a-virus/hemagglutinin
+6h2y_H_L_D,6h2y,H,L,D,FabH:FabL,neisseria meningitidis,lipoprotein gna1870,2.65,SPR,neisseria-meningitidis/lipoprotein-gna1870
+6h3t_H_L_A-B,6h3t,H,L,A;B,VH:VL,bovine schmallenberg virus;bovine schmallenberg virus,envelopment polyprotein;envelopment polyprotein,2.84,BLI,bovine-schmallenberg-virus/envelopment-polyprotein
+6h3u_H_L_B,6h3u,H,L,B,VH:VL,bovine schmallenberg virus,envelopment polyprotein,3.17,BLI,bovine-schmallenberg-virus/envelopment-polyprotein
+6ii4_E_F_C,6ii4,E,F,C,FabH:FabL,influenza a virus,hemagglutinin,3.3,SPR,influenza-a-virus/hemagglutinin
+6ii8_G_I_A,6ii8,G,I,A,FabH:FabL,influenza a virus,hemagglutinin,3.32,SPR,influenza-a-virus/hemagglutinin
+6ii9_H_L_A,6ii9,H,L,A,FabH:FabL,influenza a virus,hemagglutinin,3.5,SPR,influenza-a-virus/hemagglutinin
+6iw2_B_C_A,6iw2,B,C,A,VH:VL,yellow fever virus (strain 17d vaccine),envelope protein e,2.9,SPR,yellow-fever-virus/envelope-protein-e
+6lxi_C_D_B,6lxi,C,D,B,FabH:FabL,influenza a virus (strain a/brevig mission/1/1918 h1n1),neuraminidase,2.5,SPR,influenza-a-virus/neuraminidase
+6lyn_A_B_C,6lyn,A,B,C,FabH:FabL,homo sapiens,cell surface glycoprotein muc18,2.78,BLI,homo-sapiens/cell-surface-glycoprotein-muc18
+6mft_A_B_C,6mft,A,B,C,FabH:FabL,homo sapiens,gp120,2.31,BLI,homo-sapiens/gp120
+6mto_H_L_T,6mto,H,L,T,FabH:FabL,human immunodeficiency virus 1,vrc42 epitope t117-f scaffold,2.63,BLI,human-immunodeficiency-virus-1/vrc42-epitope-t117-f-scaffold
+6ocb_H_L_A,6ocb,H,L,A,FabH:FabL,influenza a virus,hemagglutinin,2.1,BLI,influenza-a-virus/hemagglutinin
+6ot1_J_K_E,6ot1,J,K,E,VH:VL,human immunodeficiency virus 1,bg505 gp120,3.5,SPR,human-immunodeficiency-virus-1/bg505-gp120
+6q0e_H_L_A,6q0e,H,L,A,FabH:FabL,influenza a virus (a/beijing/262/1995(h1n1)),hemagglutinin,2.15,BLI,influenza-a-virus/hemagglutinin
+6q0l_H_L_A,6q0l,H,L,A,FabH:FabL,influenza a virus (a/beijing/262/1995(h1n1)),hemagglutinin,2.5,BLI,influenza-a-virus/hemagglutinin
+6q0o_Z_B_A,6q0o,Z,B,A,FabH:FabL,influenza a virus,hemagglutinin head domain,3.0,BLI,influenza-a-virus/hemagglutinin-head-domain
+6q18_H_L_A,6q18,H,L,A,FabH:FabL,influenza a virus (a/beijing/262/1995(h1n1)),hemagglutinin,2.55,BLI,influenza-a-virus/hemagglutinin
+6q1z_D_C_B,6q1z,D,C,B,FabH:FabL,influenza a virus,neuraminidase,3.45,BLI,influenza-a-virus/neuraminidase
+6q20_H_L_A,6q20,H,L,A,FabH:FabL,influenza a virus (strain a/japan/305/1957 h2n2),neuraminidase,2.45,BLI,influenza-a-virus/neuraminidase
+6q23_E_F_C,6q23,E,F,C,FabH:FabL,influenza a virus (a/california/04/2009 (h1n1),neuraminidase,3.27,BLI,influenza-a-virus/neuraminidase
+6tys_C_D_B,6tys,C,D,B,VH:VL,nipah virus,fusion glycoprotein f0,3.5,BLI,nipah-virus/fusion-glycoprotein-f0
+6urm_D_E_C,6urm,D,E,C,FabH:FabL,influenza a virus,hemagglutinin,2.65,BLI,influenza-a-virus/hemagglutinin
+6vja_H_L_C,6vja,H,L,C,FabH:FabL,homo sapiens,b-lymphocyte antigen cd20,3.3,SPR,homo-sapiens/b-lymphocyte-antigen-cd20
+6waq_A_N.A._B,6waq,A,N.A.,B,VHH,human sars coronavirus,spike glycoprotein,2.2,SPR,human-sars-coronavirus/spike-glycoprotein
+6weq_E_F_A,6weq,E,F,A,FabH:FabL,dengue virus 1,non-structural protein 1,3.2,BLI,dengue-virus-1/non-structural-protein-1
+6wno_B_C_A,6wno,B,C,A,FabH:FabL,plasmodium vivax (strain salvador i),plasmodium vivax reticulocyte binding protein 2b,3.35,BLI,plasmodium-vivax/plasmodium-vivax-reticulocyte-binding-protein-2b
+6wzk_A_B_E,6wzk,A,B,E,FabH:FabL,macaca fascicularis,c-x-c motif chemokine 3,1.8,SPR,macaca-fascicularis/c-x-c-motif-chemokine-3
+6xm2_B_A_K-L,6xm2,B,A,K;L,FabH:FabL,homo sapiens;homo sapiens,transforming growth factor beta-2;transforming growth factor beta-2,1.91,SPR,homo-sapiens/transforming-growth-factor-beta-2
+6xzu_A_N.A._B,6xzu,A,N.A.,B,VHH,mus musculus,complement c3,1.5,BLI,mus-musculus/complement-c3
+7amr_H_L_B,7amr,H,L,B,FabH:FabL,homo sapiens,human t-cell receptor beta chain trbc2,1.95,SPR,homo-sapiens/human-t-cell-receptor-beta-chain-trbc2
+7fah_C_D_B,7fah,C,D,B,FabH:FabL,influenza a virus (strain swl a/california/04/2009 h1n1),hemagglutinin,3.15,SPR,influenza-a-virus/hemagglutinin
+7jn5_H_L_F,7jn5,H,L,F,FabH:FabL,human sars coronavirus,spike glycoprotein,2.71,BLI,human-sars-coronavirus/spike-glycoprotein
+7jtf_A_B_E,7jtf,A,B,E,FabH:FabL,recombinant hepatitis c virus hk6a/jfh-1,envelope glycoprotein e2,3.35,BLI,recombinant-hepatitis-c-virus-hk6a-jfh-1/envelope-glycoprotein-e2
+7jtg_A_B_E,7jtg,A,B,E,FabH:FabL,recombinant hepatitis c virus hk6a/jfh-1,envelope glycoprotein e2,2.6,BLI,recombinant-hepatitis-c-virus-hk6a-jfh-1/envelope-glycoprotein-e2
+7jtr_B_N.A._A,7jtr,B,N.A.,A,scFv,escherichia coli,maltose/maltodextrin-binding periplasmic protein,2.5,SPR,escherichia-coli/maltose-maltodextrin-binding-periplasmic-protein
+7ki4_D_C_B-E,7ki4,D,C,B;E,VH:VL,nipah virus;nipah virus,fusion glycoprotein f0;fusion glycoprotein f0,2.9,BLI,nipah-virus/fusion-glycoprotein-f0
+7l5j_W_L_B,7l5j,W,L,B,FabH:FabL,murine norovirus 1,capsid protein,3.2,SPR,murine-norovirus-1/capsid-protein
+7p5v_G_N.A._A,7p5v,G,N.A.,A,VHH,mus musculus,volume-regulated anion channel subunit lrrc8a,3.06,SPR,mus-musculus/volume-regulated-anion-channel-subunit-lrrc8a
+7p5w_G_N.A._A,7p5w,G,N.A.,A,VHH,mus musculus,volume-regulated anion channel subunit lrrc8a,3.5,SPR,mus-musculus/volume-regulated-anion-channel-subunit-lrrc8a
+7p5y_G_N.A._A,7p5y,G,N.A.,A,VHH,mus musculus,volume-regulated anion channel subunit lrrc8a,3.29,SPR,mus-musculus/volume-regulated-anion-channel-subunit-lrrc8a
+7rco_D_C_A-B,7rco,D,C,A;B,FabH:FabL,homo sapiens;homo sapiens,transforming growth factor beta-2;transforming growth factor beta-2,2.9,SPR,homo-sapiens/transforming-growth-factor-beta-2
+7sjn_D_E_B,7sjn,D,E,B,VH:VL,homo sapiens,serine protease htra1,3.4,SPR,homo-sapiens/serine-protease-htra1
+7so5_H_L_A,7so5,H,L,A,FabH:FabL,clostridioides difficile r20291,toxin b,1.8,BLI,clostridioides-difficile-r20291/toxin-b
+7umm_H_L_A,7umm,H,L,A,FabH:FabL,influenza a virus (a/solomon islands/3/2006(h1n1)),hemagglutinin,3.36,BLI,influenza-a-virus/hemagglutinin
+7uop_B_E_G,7uop,B,E,G,VH:VL,nipah henipavirus,fusion glycoprotein f0,2.8,BLI,nipah-henipavirus/fusion-glycoprotein-f0
+7up9_H_L_G,7up9,H,L,G,VH:VL,nipah henipavirus,fusion glycoprotein f0,2.9,BLI,nipah-henipavirus/fusion-glycoprotein-f0
+7upb_B_E_A,7upb,B,E,A,VH:VL,nipah henipavirus,fusion glycoprotein f0,3.0,BLI,nipah-henipavirus/fusion-glycoprotein-f0
+7upd_B_E_A,7upd,B,E,A,VH:VL,nipah henipavirus,fusion glycoprotein f0,2.4,BLI,nipah-henipavirus/fusion-glycoprotein-f0
+7upk_C_F_A-D,7upk,C,F,A;D,VH:VL,nipah henipavirus;nipah henipavirus,fusion glycoprotein f0;fusion glycoprotein f0,2.8,BLI,nipah-henipavirus/fusion-glycoprotein-f0
+7uxl_A_B_R,7uxl,A,B,R,FabH:FabL,plasmodium falciparum,gametocyte surface protein p45/48,2.86,BLI,plasmodium-falciparum/gametocyte-surface-protein-p45-48
+7uxl_F_E_R,7uxl,F,E,R,FabH:FabL,plasmodium falciparum,gametocyte surface protein p45/48,2.86,BLI,plasmodium-falciparum/gametocyte-surface-protein-p45-48
+7wki_B_N.A._A,7wki,B,N.A.,A,VHH,homo sapiens,complement factor h,2.6,SPR,homo-sapiens/complement-factor-h
+7x8q_C_B_A,7x8q,C,B,A,FabH:FabL,homo sapiens,frizzled-10,2.65,SPR,homo-sapiens/frizzled-10
+7x8t_C_B_A,7x8t,C,B,A,FabH:FabL,homo sapiens,frizzled-10,2.51,SPR,homo-sapiens/frizzled-10
+7xld_B_N.A._A,7xld,B,N.A.,A,VHH,staphylococcus aureus subsp. aureus mu50,iron-regulated surface determinant protein h,1.65,SPR,staphylococcus-aureus-subsp-aureus-mu50/iron-regulated-surface-determinant-protein-h
+7yhk_F_H_A,7yhk,F,H,A,VH:VL,influenza a virus (a/beijing/262/1995(h1n1)),hemagglutinin,3.14,SPR,influenza-a-virus/hemagglutinin
+7zwi_B_C_A,7zwi,B,C,A,FabH:FabL,plasmodium falciparum,gametocyte surface protein p45/48,1.9,SPR,plasmodium-falciparum/gametocyte-surface-protein-p45-48
+7zxk_H_L_C,7zxk,H,L,C,FabH:FabL,homo sapiens,interleukin-27 subunit alpha,2.2,BLI,homo-sapiens/interleukin-27-subunit-alpha
+8cyh_H_L_M,8cyh,H,L,M,FabH:FabL,homo sapiens,"mesothelin, cleaved form",3.38,SPR,homo-sapiens/mesothelin-cleaved-form
+8cz8_A_N.A._M,8cz8,A,N.A.,M,scFv,homo sapiens,"mesothelin, cleaved form",2.6,SPR,homo-sapiens/mesothelin-cleaved-form
+8cz8_B_N.A._M,8cz8,B,N.A.,M,scFv,homo sapiens,"mesothelin, cleaved form",2.6,SPR,homo-sapiens/mesothelin-cleaved-form
+8ez3_H_L_A,8ez3,H,L,A,VH:VL,influenza a virus (a/moscow/10/1999(h3n2)),neuraminidase,2.5,BLI,influenza-a-virus/neuraminidase
+8ez7_H_L_A,8ez7,H,L,A,VH:VL,influenza a virus (a/moscow/10/1999(h3n2)),neuraminidase,2.6,BLI,influenza-a-virus/neuraminidase
+8ez8_H_L_A,8ez8,H,L,A,VH:VL,influenza a virus (a/moscow/10/1999(h3n2)),neuraminidase,2.78,BLI,influenza-a-virus/neuraminidase
+8f5i_H_L_B,8f5i,H,L,B,FabH:FabL,rhodopseudomonas palustris,specialized acyl carrier protein,1.9,SPR,rhodopseudomonas-palustris/specialized-acyl-carrier-protein
+8g3p_C_I_B,8g3p,C,I,B,VH:VL,influenza a virus,neuraminidase,2.5,SPR,influenza-a-virus/neuraminidase
+8g3q_A_L_F,8g3q,A,L,F,VH:VL,influenza a virus,neuraminidase,2.3,SPR,influenza-a-virus/neuraminidase
+8g3v_A_L_G,8g3v,A,L,G,VH:VL,influenza a virus,neuraminidase,2.2,SPR,influenza-a-virus/neuraminidase
+8g4p_A_B_E,8g4p,A,B,E,FabH:FabL,arachis hypogaea,ara h 2 allergen,2.25,BLI,arachis-hypogaea/ara-h-2-allergen
+8g4p_C_D_E,8g4p,C,D,E,FabH:FabL,arachis hypogaea,ara h 2 allergen,2.25,BLI,arachis-hypogaea/ara-h-2-allergen
+8gav_H_L_A,8gav,H,L,A,VH:VL,influenza a virus,neuraminidase,2.7,BLI,influenza-a-virus/neuraminidase
+8gpj_A_C_W-Z,8gpj,A,C,W;Z,VH:VL,homo sapiens;homo sapiens,x16 ufo gp41;x16 ufo gp41,3.5,SPR,homo-sapiens/x16-ufo-gp41
+8ozb_C_N.A._E,8ozb,C,N.A.,E,VHH,homo sapiens,nucleoporin nup35,2.09,BLI,homo-sapiens/nucleoporin-nup35
+8tnt_G_F_C,8tnt,G,F,C,FabH:FabL,epstein-barr virus,glycoprotein 42,3.15,BLI,epstein-barr-virus/glycoprotein-42
+8too_B_A_I,8too,B,A,I,FabH:FabL,epstein-barr virus,glycoprotein 42,2.6,BLI,epstein-barr-virus/glycoprotein-42
+8tp9_D_F_B,8tp9,D,F,B,VH:VL,influenza a virus (a/singapore/1/1957(h2n2)),hemagglutinin,3.1,BLI,influenza-a-virus/hemagglutinin
+8tui_H_L_A,8tui,H,L,A,FabH:FabL,homo sapiens,killer cell immunoglobulin-like receptor 2dl3,2.75,BLI,homo-sapiens/killer-cell-immunoglobulin-like-receptor-2dl3
+8tw3_A_N.A._F,8tw3,A,N.A.,F,VHH,human metapneumovirus a,fusion glycoprotein,2.9,SPR,human-metapneumovirus-a/fusion-glycoprotein
+8v52_D_C_B,8v52,D,C,B,FabH:FabL,homo sapiens,transforming growth factor beta-3,2.5,SPR,homo-sapiens/transforming-growth-factor-beta-3

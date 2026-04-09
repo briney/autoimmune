@@ -1,382 +1,382 @@
-PDB_ID,H_chain_ID,L_chain_ID,Ag_chain_ID(s),Ab_type,Ag_species,Ag_mol_name(s),Resolution,KD_nM,neg_log10_KD,Affinity_method,antigen_group
-6a0z,H,L,A,FabH:FabL,influenza a virus,"hemagglutinin,envelope glycoprotein",2.33,53.0,7.275724130399211,SPR,influenza-a-virus/hemagglutinin-envelope-glycoprotein
-6a3w,A,B,C,VH:VL,homo sapiens,tumor necrosis factor receptor superfamily member 9,2.0,2.3,8.638272163982407,SPR,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-9
-6dc3,H,L,F,FabH:FabL,human respiratory syncytial virus a (strain a2),rsv fusion glycoprotein,3.5,34.0,7.468521082957745,SPR,human-respiratory-syncytial-virus-a/rsv-fusion-glycoprotein
-6dc5,B,C,A,FabH:FabL,human respiratory syncytial virus a (strain a2),rsv fusion glycoprotein,3.5,0.12,9.920818753952375,SPR,human-respiratory-syncytial-virus-a/rsv-fusion-glycoprotein
-6e62,B,C,A,FabH:FabL,plasmodium falciparum,pf48/45,2.7,3.2,8.494850021680094,BLI,plasmodium-falciparum/pf48-45
-6e63,B,C,A,FabH:FabL,plasmodium falciparum,pf48/45,2.6,3.7,8.431798275933005,BLI,plasmodium-falciparum/pf48-45
-6her,B,N.A.,A,VHH,mus musculus,major prion protein,1.2,40.0,7.3979400086720375,SPR,mus-musculus/major-prion-protein
-6hhc,H,L,A,FabH:FabL,homo sapiens,coagulation factor xi,2.7,2.4,8.619788758288394,SPR,homo-sapiens/coagulation-factor-xi
-6i04,C,D,B,FabH:FabL,homo sapiens,hepatocyte growth factor receptor,3.1,0.2,9.698970004336019,BLI,homo-sapiens/hepatocyte-growth-factor-receptor
-6i8s,E,I,A;D,FabH:FabL,homo sapiens;homo sapiens,plasminogen activator inhibitor 1;plasminogen activator inhibitor 1,2.9,0.006,11.221848749616356,SPR,homo-sapiens/plasminogen-activator-inhibitor-1
-6iea,H,L,A,FabH:FabL,rift valley fever virus,nsmgngc,2.0,295.0,6.530177984021837,SPR,rift-valley-fever-virus/nsmgngc
-6ieb,E,F,B,FabH:FabL,rift valley fever virus,nsmgngc,2.41,18.5,7.732828271596986,SPR,rift-valley-fever-virus/nsmgngc
-6iec,C,D,B,VH:VL,rift valley fever virus,nsmgngc,3.2,743.0,6.129011186239425,SPR,rift-valley-fever-virus/nsmgngc
-6iek,B,C,A,FabH:FabL,rift valley fever virus,nsmgngc,2.7,47.7,7.3214816209598865,SPR,rift-valley-fever-virus/nsmgngc
-6ivz,H,L,A,VH:VL,yellow fever virus,envelope protein,2.4,9.7,8.013228265733755,SPR,yellow-fever-virus/envelope-protein
-6j11,D,E,C,VH:VL,middle east respiratory syndrome-related coronavirus,n-terminal domain of spike glycoprotein,3.0,25.0,7.6020599913279625,SPR,middle-east-respiratory-syndrome-related-coronavirus/n-terminal-domain-of-spike-glycoprotein
-6j14,A,B,G,VH:VL,homo sapiens,programmed cell death protein 1,1.4,1.54,8.812479279163536,SPR,homo-sapiens/programmed-cell-death-protein-1
-6j15,A,B,C,FabH:FabL,homo sapiens,programmed cell death protein 1,2.6,1.22,8.913640169325252,SPR,homo-sapiens/programmed-cell-death-protein-1
-6j5f,H,L,A,VH:VL,tick-borne encephalitis virus,envelope protein,1.8,390.0,6.4089353929735005,SPR,tick-borne-encephalitis-virus/envelope-protein
-6jb2,A,N.A.,B,VHH,gallus gallus,lysozyme c,1.5,635.0,6.197226274708024,SPR,gallus-gallus/lysozyme-c
-6jb8,A,N.A.,B,VHH,gallus gallus,lysozyme c,1.65,0.13,9.886056647693163,SPR,gallus-gallus/lysozyme-c
-6jep,H,L,E,FabH:FabL,zika virus,genome polyprotein,2.32,1.06,8.97469413473523,SPR,zika-virus/genome-polyprotein
-6jhs,E,D,C,FabH:FabL,human hepatitis a virus hu/australia/hm175/1976,vp3,3.05,7.1,8.148741651280925,SPR,human-hepatitis-a-virus-hu-australia-hm175-1976/vp3
-6jjp,A,B,C,FabH:FabL,homo sapiens,programmed cell death protein 1,2.9,3.55,8.449771646944907,SPR,homo-sapiens/programmed-cell-death-protein-1
-6k0y,A,B,C,FabH:FabL,homo sapiens,programmed cell death protein 1,1.7,40.3,7.394694953858891,SPR,homo-sapiens/programmed-cell-death-protein-1
-6k7o,B,C,P,FabH:FabL,homo sapiens,leukocyte immunoglobulin-like receptor subfamily b member 4,3.0,2.9,8.537602002101044,BLI,homo-sapiens/leukocyte-immunoglobulin-like-receptor-subfamily-b-member-4
-6knm,A,N.A.,B,VHH,homo sapiens,"apelin receptor,rubredoxin,apelin receptor",3.2,0.083,10.080921907623926,SPR,homo-sapiens/apelin-receptor-rubredoxin-apelin-receptor
-6lgw,A,N.A.,E,scFv,lyssavirus rabies,glycoprotein,2.9,35.3,7.452225294612178,SPR,lyssavirus-rabies/glycoprotein
-6m58,C,D,B,FabH:FabL,homo sapiens,serum albumin,2.95,1.0,9.0,BLI,homo-sapiens/serum-albumin
-6mfp,C,D,A,FabH:FabL,human immunodeficiency virus 1,clade a/e 93th057 hiv-1 gp120 core,3.0,0.6,9.221848749616356,SPR,human-immunodeficiency-virus-1/clade-a-e-93th057-hiv-1-gp120-core
-6mg7,H,L,G,FabH:FabL,human immunodeficiency virus 1,clade a/e 93th057 hiv-1 gp120 core,2.91,2.1,8.67778070526608,SPR,human-immunodeficiency-virus-1/clade-a-e-93th057-hiv-1-gp120-core
-6mhr,A,B,C,FabH:FabL,homo sapiens,tumor necrosis factor receptor superfamily member 9,2.8,22.0,7.657577319177793,SPR,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-9
-6mi2,A,B,C,FabH:FabL,homo sapiens,tumor necrosis factor receptor superfamily member 9,2.72,69.0,7.161150909262744,SPR,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-9
-6mlm,E,I,A,VH:VL,influenza a virus (a/new york/107/2003(h7n2)),hemagglutinin ha1 chain,3.5,0.1,10.0,SPR,influenza-a-virus/hemagglutinin-ha1-chain
-6mpg,3,4,A;2,VH:VL,human immunodeficiency virus 1;human immunodeficiency virus 1,envelope glycoprotein gp41;envelope glycoprotein gp120,3.2,42.4,7.372634143407267,SPR,human-immunodeficiency-virus-1/envelope-glycoprotein-gp120;envelope-glycoprotein-gp41
-6o39,B,A,C,FabH:FabL,homo sapiens,frizzled-5,1.8,1.7,8.769551078621726,BLI,homo-sapiens/frizzled-5
-6o3a,B,A,E,FabH:FabL,homo sapiens,frizzled-7,2.1,5.2,8.2839966563652,BLI,homo-sapiens/frizzled-7
-6o3b,B,A,C,FabH:FabL,homo sapiens,frizzled-7,2.5,4.5,8.346787486224656,BLI,homo-sapiens/frizzled-7
-6o3c,B,N.A.,A,VHH,mus musculus,smoothened homolog,2.8,117.0,6.931814138253839,SPR,mus-musculus/smoothened-homolog
-6o3j,A,B,I,FabH:FabL,human immunodeficiency virus 1,"mper peptide, region 671-683 of hiv-1 gp41",3.42,9.9,8.00436480540245,BLI,human-immunodeficiency-virus-1/mper-peptide-region-671-683-of-hiv-1-gp41
-6o3l,A,B,E,FabH:FabL,human immunodeficiency virus 1,"mper peptide, region 671-683 of hiv-1 gp41",1.98,7.5,8.1249387366083,BLI,human-immunodeficiency-virus-1/mper-peptide-region-671-683-of-hiv-1-gp41
-6o42,B,A,I,FabH:FabL,human immunodeficiency virus 1,"mper peptide, region 671-683 of hiv-1 gp41",2.6,64.4,7.1911141326401875,BLI,human-immunodeficiency-virus-1/mper-peptide-region-671-683-of-hiv-1-gp41
-6oan,B,N.A.,A,scFv,plasmodium vivax,duffy binding surface protein region ii,2.9,3.4,8.468521082957745,BLI,plasmodium-vivax/duffy-binding-surface-protein-region-ii
-6oao,B,N.A.,A,scFv,plasmodium vivax,duffy binding surface protein region ii,3.5,4.02,8.39577394691553,BLI,plasmodium-vivax/duffy-binding-surface-protein-region-ii
-6obc,B,N.A.,A,VHH,ricinus communis,ricin a chain,1.76,0.31,9.508638306165727,SPR,ricinus-communis/ricin-a-chain
-6obe,B,N.A.,A,VHH,ricinus communis,ricin a chain,1.73,4.01,8.396855627379818,SPR,ricinus-communis/ricin-a-chain
-6obg,C,N.A.,A,VHH,ricinus communis,ricin a chain,2.0,0.42,9.3767507096021,SPR,ricinus-communis/ricin-a-chain
-6obm,B,N.A.,A,VHH,ricinus communis,ricin a chain,2.5,4.2,8.3767507096021,SPR,ricinus-communis/ricin-a-chain
-6obo,C,N.A.,A,VHH,ricinus communis,ricin a chain,1.9,10.9,7.962573502059376,SPR,ricinus-communis/ricin-a-chain
-6oca,C,N.A.,A,VHH,ricinus communis,ricin a chain,2.11,0.28,9.55284196865778,SPR,ricinus-communis/ricin-a-chain
-6ocd,B,N.A.,A,VHH,ricinus communis,ricin a chain,2.1,9.51,8.021819483062586,SPR,ricinus-communis/ricin-a-chain
-6oe4,B,C,A,FabH:FabL,human respiratory syncytial virus a (strain a2),fusion glycoprotein f0,3.3,0.19,9.721246399047171,SPR,human-respiratory-syncytial-virus-a/fusion-glycoprotein-f0
-6oej,B,C,A,FabH:FabL,human immunodeficiency virus 1,clade a/e 93th057 hiv-1 gp120 core,3.45,0.25,9.602059991327963,SPR,human-immunodeficiency-virus-1/clade-a-e-93th057-hiv-1-gp120-core
-6ogx,C,D,G,FabH:FabL,homo sapiens,tumor necrosis factor receptor superfamily member 4,2.77,0.45,9.346787486224656,SPR,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-4
-6okm,H,L,R,FabH:FabL,homo sapiens,tumor necrosis factor receptor superfamily member 4,2.1,2.5,8.602059991327963,SPR,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-4
-6oor,H,L,A,FabH:FabL,mus musculus,antigen-presenting glycoprotein cd1d1,2.45,12.4,7.906578314837765,SPR,mus-musculus/antigen-presenting-glycoprotein-cd1d1
-6osh,H,L,K,VH:VL,homo sapiens,tyrosine-protein kinase transmembrane receptor ror2,1.12,7.0,8.154901959985743,SPR,homo-sapiens/tyrosine-protein-kinase-transmembrane-receptor-ror2
-6osv,H,L,K,VH:VL,homo sapiens,tyrosine-protein kinase transmembrane receptor ror2,1.34,3.8,8.42021640338319,SPR,homo-sapiens/tyrosine-protein-kinase-transmembrane-receptor-ror2
-6oz9,H,L,A;B,FabH:FabL,ebola virus;ebola virus,small secreted glycoprotein sgp;envelope glycoprotein,3.46,2.12,8.67366413907125,BLI,ebola-virus/envelope-glycoprotein;small-secreted-glycoprotein-sgp
-6p4a,H,L,C,FabH:FabL,gallus gallus,lysozyme c,2.2,0.736,9.1331221856625,BLI,gallus-gallus/lysozyme-c
-6p4b,B,A,D,FabH:FabL,gallus gallus,lysozyme c,1.9,0.976,9.010550182333308,BLI,gallus-gallus/lysozyme-c
-6p8n,B,D,A;C,FabH:FabL,human immunodeficiency virus 1;human immunodeficiency virus 1,env outer domain eod-gt8;env outer domain eod-gt8,3.2,0.502,9.29929628285498,BLI,human-immunodeficiency-virus-1/env-outer-domain-eod-gt8
-6phb,B,A,E;I,FabH:FabL,plasmodium falciparum;plasmodium falciparum,25 kda ookinete surface antigen;25 kda ookinete surface antigen,2.0,19.2,7.716698771296451,BLI,plasmodium-falciparum/25-kda-ookinete-surface-antigen
-6phc,A,B,I,FabH:FabL,plasmodium falciparum,25 kda ookinete surface antigen,2.9,4.6,8.337242168318426,BLI,plasmodium-falciparum/25-kda-ookinete-surface-antigen
-6phd,H,L,C,FabH:FabL,plasmodium falciparum,25 kda ookinete surface antigen,3.1,2.5,8.602059991327963,BLI,plasmodium-falciparum/25-kda-ookinete-surface-antigen
-6phf,A,B,G,FabH:FabL,plasmodium falciparum,25 kda ookinete surface antigen,3.1,4.6,8.337242168318426,BLI,plasmodium-falciparum/25-kda-ookinete-surface-antigen
-6plk,H,L,E,FabH:FabL,zika virus zikv/h. sapiens/frenchpolynesia/10087pf/2013,env,2.3,1.15,8.939302159646388,BLI,zika-virus-zikv-h-sapiens-frenchpolynesia-10087pf-2013/env
-6pxh,C,D,A,FabH:FabL,middle east respiratory syndrome-related coronavirus,mers-cov s1-ntd,2.3,28.0,7.552841968657781,SPR,middle-east-respiratory-syndrome-related-coronavirus/mers-cov-s1-ntd
-6qgw,B,N.A.,A,VHH,escherichia coli o157:h7,outer membrane protein assembly factor bama,1.94,5.5,8.259637310505756,SPR,escherichia-coli-o157-h7/outer-membrane-protein-assembly-factor-bama
-6qgx,B,N.A.,A,VHH,escherichia coli o157:h7,outer membrane protein assembly factor bama,2.2,1.8,8.744727494896694,SPR,escherichia-coli-o157-h7/outer-membrane-protein-assembly-factor-bama
-6qgy,B,N.A.,A,VHH,escherichia coli o157:h7,outer membrane protein assembly factor bama,2.51,1.3,8.886056647693163,SPR,escherichia-coli-o157-h7/outer-membrane-protein-assembly-factor-bama
-6r2s,B,A,C,FabH:FabL,plasmodium vivax (strain salvador i),duffy receptor,3.04,0.02,10.698970004336019,SPR,plasmodium-vivax/duffy-receptor
-6s3t,D,C,S,FabH:FabL,mycoplasma hyopneumoniae j,46 kda surface antigen,3.5,29.0,7.537602002101044,SPR,mycoplasma-hyopneumoniae-j/46-kda-surface-antigen
-6sc5,B,N.A.,A,VH,homo sapiens,e3 ubiquitin-protein ligase rnf31,2.1,2.9,8.537602002101044,BLI,homo-sapiens/e3-ubiquitin-protein-ligase-rnf31
-6sge,B,N.A.,A;C,VHH,homo sapiens;homo sapiens,rho-related gtp-binding protein rhob;rho-related gtp-binding protein rhob,1.5,30.8,7.511449283499556,SPR,homo-sapiens/rho-related-gtp-binding-protein-rhob
-6tej,C,N.A.,B,VH,mycolicibacterium thermoresistibile,drug abc transporter atp-binding protein,2.7,150.0,6.823908740944319,SPR,mycolicibacterium-thermoresistibile/drug-abc-transporter-atp-binding-protein
-6txz,H,L,A,FabH:FabL,homo sapiens,hepatitis a virus cellular receptor 2,3.06,2.3,8.638272163982407,SPR,homo-sapiens/hepatitis-a-virus-cellular-receptor-2
-6u12,B,N.A.,A,VHH,listeria monocytogenes,inlb,1.56,0.15,9.823908740944319,SPR,listeria-monocytogenes/inlb
-6umx,H,L,A,FabH:FabL,homo sapiens,growth/differentiation factor 8,2.79,1.51,8.821023052706831,BLI,homo-sapiens/growth-differentiation-factor-8
-6uta,A,B,C,FabH:FabL,zika virus zikv/h. sapiens/frenchpolynesia/10087pf/2013,env,3.1,1200.0,5.920818753952375,SPR,zika-virus-zikv-h-sapiens-frenchpolynesia-10087pf-2013/env
-6v4n,A,B,I,FabH:FabL,influenza b virus,neuraminidase,2.5,1.07,8.97061622231479,BLI,influenza-b-virus/neuraminidase
-6v4o,A,B,I,FabH:FabL,influenza b virus,neuraminidase,2.8,150.0,6.823908740944319,BLI,influenza-b-virus/neuraminidase
-6vc9,H,L,A,VH:VL,homo sapiens,"5'-nucleotidase, ecto (cd73), isoform cra_a",2.25,4.18,8.378823718224965,SPR,homo-sapiens/5-nucleotidase-ecto-cd73-isoform-cra-a
-6vgr,C,D,A;B,FabH:FabL,homo sapiens;homo sapiens,dipeptidase 3;dipeptidase 3,2.84,1.7,8.769551078621726,SPR,homo-sapiens/dipeptidase-3
-6vlw,H,L,G,FabH:FabL,human immunodeficiency virus 1,426cod,3.42,289.0,6.539102157243452,BLI,human-immunodeficiency-virus-1/426cod
-6vtw,H,L,A,FabH:FabL,human respiratory syncytial virus a2,s4_2.45,2.6,1.0,9.0,SPR,human-respiratory-syncytial-virus-a2/s4-2-45
-6vvu,E,F,C,FabH:FabL,homo sapiens,tryptase alpha/beta-1,3.0,0.5,9.301029995663981,SPR,homo-sapiens/tryptase-alpha-beta-1
-6vy4,C,D,B,FabH:FabL,hendra henipavirus,receptor binding protein,2.0,2.1,8.67778070526608,BLI,hendra-henipavirus/receptor-binding-protein
-6vy6,H,L,A,FabH:FabL,hendra henipavirus,receptor binding protein,2.6,2.9,8.537602002101044,BLI,hendra-henipavirus/receptor-binding-protein
-6w16,H,L,F,FabH:FabL,human metapneumovirus,"fusion glycoprotein f0,envelope glycoprotein fusion",3.1,0.85,9.070581074285707,BLI,human-metapneumovirus/fusion-glycoprotein-f0-envelope-glycoprotein-fusion
-6war,B,N.A.,A,VHH,middle east respiratory syndrome-related coronavirus,spike protein,3.4,0.079,10.102372908709558,SPR,middle-east-respiratory-syndrome-related-coronavirus/spike-protein
-6wjl,F,J,E,FabH:FabL,homo sapiens,glypican-2,3.3,1.0,9.0,BLI,homo-sapiens/glypican-2
-6wn1,B,C,A,FabH:FabL,plasmodium vivax sal-1,reticulocyte binding protein 2b,3.15,0.061,10.214670164989233,BLI,plasmodium-vivax-sal-1/reticulocyte-binding-protein-2b
-6wzj,A,B,E,FabH:FabL,macaca fascicularis,c-x-c motif chemokine 2,2.37,0.171,9.767003889607846,SPR,macaca-fascicularis/c-x-c-motif-chemokine-2
-6wzl,A,B,E,FabH:FabL,macaca fascicularis,c-x-c motif chemokine 7,2.29,0.181,9.742321425130816,SPR,macaca-fascicularis/c-x-c-motif-chemokine-7
-6wzm,A,B,E,FabH:FabL,homo sapiens,interleukin-8,2.28,0.384,9.415668775632469,SPR,homo-sapiens/interleukin-8
-6x07,B,N.A.,A,VHH,saccharomyces cerevisiae (strain atcc 204508 / s288c),nucleoporin nic96,2.1,1.3,8.886056647693163,BLI,saccharomyces-cerevisiae/nucleoporin-nic96
-6x4t,B,E,C,FabH:FabL,homo sapiens,icos ligand,3.15,5.5,8.259637310505756,BLI,homo-sapiens/icos-ligand
-6xkr,H,L,P,FabH:FabL,homo sapiens,programmed cell death protein 1,2.59,0.042,10.3767507096021,SPR,homo-sapiens/programmed-cell-death-protein-1
-6xsw,A,B,C,FabH:FabL,homo sapiens,neurogenic locus notch homolog protein 3,2.98,2.33,8.63264407897398,SPR,homo-sapiens/neurogenic-locus-notch-homolog-protein-3
-6xy2,H,L,A,FabH:FabL,homo sapiens,cytotoxic t-lymphocyte protein 4,3.05,199.0,6.701146923590294,BLI,homo-sapiens/cytotoxic-t-lymphocyte-protein-4
-6xzw,H,L,D,FabH:FabL,neisseria meningitidis serogroup b (strain mc58),lipoprot_c domain-containing protein,2.4,0.328,9.48412615628832,SPR,neisseria-meningitidis-serogroup-b/lipoprot-c-domain-containing-protein
-6y6c,C,N.A.,B,scFv,homo sapiens,triggering receptor expressed on myeloid cells 2,2.26,0.6,9.221848749616356,SPR,homo-sapiens/triggering-receptor-expressed-on-myeloid-cells-2
-6ywc,A,B,C,FabH:FabL,synthetic construct,de novo design 4e1h_95,2.85,22.0,7.657577319177793,SPR,synthetic-construct/de-novo-design-4e1h-95
-6ywd,A,B,C,FabH:FabL,synthetic construct,de novo designed protein 4h_01,3.2,1.0,9.0,SPR,synthetic-construct/de-novo-designed-protein-4h-01
-6yye,C,N.A.,A,scFv,homo sapiens,triggering receptor expressed on myeloid cells 2,3.36,1.6,8.795880017344075,SPR,homo-sapiens/triggering-receptor-expressed-on-myeloid-cells-2
-6zrv,B,N.A.,A,VHH,homo sapiens,plasminogen activator inhibitor 1,1.88,3.2,8.494850021680094,SPR,homo-sapiens/plasminogen-activator-inhibitor-1
-7a3n,H,L,A,FabH:FabL,zika virus,core protein,2.1,16.2,7.790484985457369,BLI,zika-virus/core-protein
-7a6o,B,N.A.,A,VHH,homo sapiens,von willebrand factor,2.12,91.6,7.03810452633215,BLI,homo-sapiens/von-willebrand-factor
-7amp,H,L,B,FabH:FabL,homo sapiens,beta chain 1 of a6 t-cell receptor trbc1,2.64,2.57,8.590066876668706,SPR,homo-sapiens/beta-chain-1-of-a6-t-cell-receptor-trbc1
-7ams,H,L,B,FabH:FabL,homo sapiens,human a6 t-cell receptor beta chain trbc2,2.42,479.0,6.319664486585437,SPR,homo-sapiens/human-a6-t-cell-receptor-beta-chain-trbc2
-7anq,B,N.A.,A,VHH,homo sapiens,proprotein convertase subtilisin/kexin type 9,2.2,5.56,8.254925208417943,BLI,homo-sapiens/proprotein-convertase-subtilisin-kexin-type-9
-7b27,C,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,surface glycoprotein,2.9,8.23,8.08460016478773,BLI,sars-cov-2_spike
-7bc6,B,N.A.,A,VHH,gallus gallus,proton-coupled folate transporter,3.2,7.7,8.113509274827518,BLI,gallus-gallus/proton-coupled-folate-transporter
-7bel,A,B,R,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.53,5.9,8.229147988357855,BLI,sars-cov-2_spike
-7bnv,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,surface glycoprotein,2.35,3.4,8.468521082957745,SPR,sars-cov-2_spike
-7bsc,H,L,A,FabH:FabL,dengue virus 2,non-structural protein 1,2.31,0.1,10.0,SPR,dengue-virus-2/non-structural-protein-1
-7bxa,B,C,A,FabH:FabL,homo sapiens,programmed cell death protein 1,3.32,0.13,9.886056647693163,SPR,homo-sapiens/programmed-cell-death-protein-1
-7c2l,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.1,0.996,9.001740661576301,BLI,sars-cov-2_spike
-7can,A,N.A.,B,VH,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.94,33.0,7.481486060122113,BLI,sars-cov-2_spike
-7ce2,Z,B,A,FabH:FabL,clostridium tetani,tetanus toxin,2.01,0.32,9.494850021680094,SPR,clostridium-tetani/tetanus-toxin
-7cgw,A,B,C,FabH:FabL,homo sapiens,programmed cell death protein 1,3.2,0.114,9.943095148663527,SPR,homo-sapiens/programmed-cell-death-protein-1
-7chy,H,L,I,FabH:FabL,homo sapiens,interleukin-1 beta,2.65,28.9,7.539102157243452,SPR,homo-sapiens/interleukin-1-beta
-7chz,H,L,I,FabH:FabL,homo sapiens,interleukin-1 beta,2.5,0.645,9.190440285364732,SPR,homo-sapiens/interleukin-1-beta
-7cr5,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,nucleoprotein,2.08,1.02,8.991399828238082,SPR,sars-cov-2_spike
-7cu5,A,B,E;Q,VHVL:VHVL,homo sapiens;homo sapiens,programmed cell death protein 1;programmed cell death protein 1,2.81,5.92,8.22767829327708,SPR,homo-sapiens/programmed-cell-death-protein-1
-7cyv,H,N.A.,B,scFv,severe acute respiratory syndrome coronavirus 2,spike protein s1,3.13,5.6,8.2518119729938,BLI,sars-cov-2_spike
-7d2z,A,N.A.,B,VH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.97,5.6,8.2518119729938,BLI,sars-cov-2_spike
-7d4b,B,N.A.,A,VHH,homo sapiens,tumor necrosis factor receptor superfamily member 9,3.14,4.9,8.309803919971486,BLI,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-9
-7d6y,B,N.A.,A,VH,homo sapiens,eukaryotic translation initiation factor 4e,1.67,154.3,6.811634073936852,SPR,homo-sapiens/eukaryotic-translation-initiation-factor-4e
-7d8b,B,N.A.,A,VH,homo sapiens,eukaryotic translation initiation factor 4e,2.46,0.057,10.244125144327509,SPR,homo-sapiens/eukaryotic-translation-initiation-factor-4e
-7dc8,B,A,C,FabH:FabL,homo sapiens,interleukin-6 receptor subunit alpha,2.76,48.0,7.318758762624412,SPR,homo-sapiens/interleukin-6-receptor-subunit-alpha
-7deo,A,N.A.,B,scFv,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.5,2.33,8.63264407897398,BLI,sars-cov-2_spike
-7det,B,N.A.,A,scFv,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.2,0.0507,10.294992040666664,BLI,sars-cov-2_spike
-7df1,F,J,C,VH:VL,homo sapiens,4f2 cell-surface antigen heavy chain,2.81,58.2,7.235077015350112,SPR,homo-sapiens/4f2-cell-surface-antigen-heavy-chain
-7dha,C,B,A,FabH:FabL,homo sapiens,adp-ribosyl cyclase/cyclic adp-ribose hydrolase 1,2.55,4.36,8.360513510731414,SPR,homo-sapiens/adp-ribosyl-cyclase-cyclic-adp-ribose-hydrolase-1
-7dm1,D,C,A,FabH:FabL,mycobacterium tuberculosis h37rv,phosphate-binding protein psts 1,2.1,1.44,8.84163750790475,SPR,mycobacterium-tuberculosis-h37rv/phosphate-binding-protein-psts-1
-7dm2,H,L,A,FabH:FabL,mycobacterium tuberculosis h37rv,phosphate-binding protein psts 1,2.4,1.34,8.872895201635192,SPR,mycobacterium-tuberculosis-h37rv/phosphate-binding-protein-psts-1
-7dst,E,N.A.,C,VHH,foot-and-mouth disease virus,vp3 of o type fmdv capsid,3.1,1.0,9.0,SPR,foot-and-mouth-disease-virus/vp3-of-o-type-fmdv-capsid
-7dv4,B,N.A.,A,VH,homo sapiens,cytotoxic t-lymphocyte protein 4,2.38,0.0428,10.368556230986828,BLI,homo-sapiens/cytotoxic-t-lymphocyte-protein-4
-7e9b,H,L,C,FabH:FabL,homo sapiens,programmed cell death protein 1,1.78,2.42,8.616184634019568,BLI,homo-sapiens/programmed-cell-death-protein-1
-7eam,C,D,B,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.4,0.003,11.522878745280337,SPR,sars-cov-2_spike
-7ean,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.91,0.01,11.0,SPR,sars-cov-2_spike
-7f5g,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,1.75,0.25,9.602059991327963,BLI,sars-cov-2_spike
-7f9w,B,C,A,FabH:FabL,homo sapiens,interleukin-2 receptor subunit alpha,3.2,8.84,8.053547734986926,SPR,homo-sapiens/interleukin-2-receptor-subunit-alpha
-7fcq,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.89,0.55,9.259637310505756,SPR,sars-cov-2_spike
-7jmp,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.71,20.9,7.679853713888946,BLI,sars-cov-2_spike
-7joo,H,L,C,FabH:FabL,homo sapiens,inducible t-cell costimulator,2.4,2.0,8.698970004336019,BLI,homo-sapiens/inducible-t-cell-costimulator
-7k7i,H,L,A,VH:VL,salmonella typhi,putative pertussis-like toxin subunit,3.13,0.0067,11.173925197299173,SPR,salmonella-typhi/putative-pertussis-like-toxin-subunit
-7k93,E,N.A.,A,scFv,dengue virus 2,non-structural protein 1,2.89,5.8,8.236572006437063,BLI,dengue-virus-2/non-structural-protein-1
-7ket,A,B,C,FabH:FabL,neisseria meningitidis,factor h binding protein,2.0,7.26,8.139063379299907,SPR,neisseria-meningitidis/factor-h-binding-protein
-7ki6,D,C,B,VH:VL,hendra henipavirus,fusion glycoprotein f0,2.8,1.0,9.0,BLI,hendra-henipavirus/fusion-glycoprotein-f0
-7kjh,A,N.A.,C,VHH,plasmodium falciparum,surface protein p12p,2.0,6.7,8.173925197299173,BLI,plasmodium-falciparum/surface-protein-p12p
-7kji,A,N.A.,B,VHH,plasmodium falciparum,surface protein p12p,3.25,5.0,8.301029995663981,BLI,plasmodium-falciparum/surface-protein-p12p
-7kn5,E,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.87,21.4,7.669586226650809,SPR,sars-cov-2_spike
-7kqg,B,C,A,FabH:FabL,influenza b virus,hemagglutinin,2.6,160.0,6.795880017344075,BLI,influenza-b-virus/hemagglutinin
-7kqh,C,D,A,FabH:FabL,influenza b virus,hemagglutinin,3.5,50.0,7.301029995663981,BLI,influenza-b-virus/hemagglutinin
-7kyl,H,L,E,FabH:FabL,powassan virus,envelope protein domain iii,2.0,68.4,7.164943898279883,BLI,powassan-virus/envelope-protein-domain-iii
-7l2e,G,J,B,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.97,0.0043,11.366531544420413,SPR,sars-cov-2_spike
-7lab,H,L,C,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.97,294.0,6.531652669587842,SPR,sars-cov-2_spike
-7lcn,B,D,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.35,16.4,7.785156151952302,SPR,sars-cov-2_spike
-7lcv,A,B,C,FabH:FabL,neisseria meningitidis,factor h binding protein,1.7,66.0,7.180456064458132,SPR,neisseria-meningitidis/factor-h-binding-protein
-7lf7,H,L,K,FabH:FabL,homo sapiens,apolipoprotein l1,2.03,0.86,9.065501548756432,SPR,homo-sapiens/apolipoprotein-l1
-7lfa,B,D,A,FabH:FabL,homo sapiens,apolipoprotein l1,1.86,1.56,8.806875401645538,SPR,homo-sapiens/apolipoprotein-l1
-7lfb,H,L,X,FabH:FabL,homo sapiens,apolipoprotein l1,1.91,1.63,8.787812395596042,SPR,homo-sapiens/apolipoprotein-l1
-7lm8,M,N,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.94,29.2,7.534617148551582,BLI,sars-cov-2_spike
-7lm9,H,L,A,FabH:FabL,sars coronavirus ma15,spike glycoprotein,1.53,53.6,7.27083521030723,BLI,sars-coronavirus-ma15/spike-glycoprotein
-7lqv,H,L,A,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.25,4.4802,8.348702598288101,SPR,sars-cov-2_spike
-7lr3,A,B,C,FabH:FabL,plasmodium berghei,hapless 2,2.8,7.8,8.10790539730952,SPR,plasmodium-berghei/hapless-2
-7lr4,A,B,C,FabH:FabL,plasmodium berghei,hapless 2,2.1,5.5,8.259637310505756,SPR,plasmodium-berghei/hapless-2
-7luc,D,E,C,VH:VL,respiratory syncytial virus,fusion glycoprotein f0,3.21,0.0057,11.244125144327509,BLI,respiratory-syncytial-virus/fusion-glycoprotein-f0
-7luc,J,K,A,VH:VL,respiratory syncytial virus,fusion glycoprotein f0,3.21,0.025,10.602059991327963,BLI,respiratory-syncytial-virus/fusion-glycoprotein-f0
-7lvw,G,N.A.,A,VHH,respiratory syncytial virus,fusion glycoprotein f0,2.1,0.084,10.075720713938118,SPR,respiratory-syncytial-virus/fusion-glycoprotein-f0
-7lxy,G,I,B,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.2,1.8,8.744727494896694,BLI,sars-cov-2_spike
-7lxz,G,I,B,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.6,0.3,9.522878745280337,BLI,sars-cov-2_spike
-7ly2,G,I,B,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.5,8.7,8.060480747381382,BLI,sars-cov-2_spike
-7ly3,D,C,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,3.0,8.7,8.060480747381382,BLI,sars-cov-2_spike
-7m7w,C,D,S,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.65,0.04,10.397940008672037,SPR,sars-cov-2_spike
-7m8j,H,L,A,VH:VL,severe acute respiratory syndrome coronavirus 2,spike protein s1,3.48,9.4,8.0268721464003,BLI,sars-cov-2_spike
-7mdu,H,L,A,VH:VL,human immunodeficiency virus 1,surface protein gp120,3.3,890.0,6.050609993355088,BLI,human-immunodeficiency-virus-1/surface-protein-gp120
-7mep,H,L,A,VH:VL,human immunodeficiency virus,bg505 sosipv5.2(7s) - gp120,3.5,180.0,6.7447274948966935,BLI,human-immunodeficiency-virus/bg505-sosipv5-2-7s-gp120
-7mfu,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.7,13.8,7.860120913598763,SPR,sars-cov-2_spike
-7mfu,C,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.7,62.7,7.202732459169283,SPR,sars-cov-2_spike
-7mlh,C,A,F,FabH:FabL,dermatophagoides pteronyssinus,der p 2 variant 3,2.1,0.474,9.324221658325914,SPR,dermatophagoides-pteronyssinus/der-p-2-variant-3
-7mxl,A,B,C,FabH:FabL,betula pendula,major pollen allergen bet v 1-a,3.2,0.475,9.323306390375134,SPR,betula-pendula/major-pollen-allergen-bet-v-1-a
-7mxl,H,L,C,FabH:FabL,betula pendula,major pollen allergen bet v 1-a,3.2,3.24,8.489454989793387,SPR,betula-pendula/major-pollen-allergen-bet-v-1-a
-7mxl,J,K,C,FabH:FabL,betula pendula,major pollen allergen bet v 1-a,3.2,1.81,8.742321425130816,SPR,betula-pendula/major-pollen-allergen-bet-v-1-a
-7n0a,B,A,C,FabH:FabL,homo sapiens,leukemia inhibitory factor,3.1,0.074,10.130768280269024,SPR,homo-sapiens/leukemia-inhibitory-factor
-7n0r,C,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,nucleoprotein,1.42,1.1,8.958607314841775,SPR,sars-cov-2_spike
-7n0u,H,L,C,FabH:FabL,betula pendula,recombinant bet v 1,3.0,0.475,9.323306390375134,SPR,betula-pendula/recombinant-bet-v-1
-7n8q,C,D,A,FabH:FabL,human immunodeficiency virus 1,clade a/e 93th057 hiv-1 gp120 core,2.9,2.54,8.595166283380062,SPR,human-immunodeficiency-virus-1/clade-a-e-93th057-hiv-1-gp120-core
-7neg,H,L,E,FabH:FabL,severe acute respiratory syndrome coronavirus 2,surface glycoprotein,2.19,2.2,8.657577319177793,BLI,sars-cov-2_spike
-7neh,H,L,E,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,1.77,2.2,8.657577319177793,BLI,sars-cov-2_spike
-7nkt,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.3,3.66,8.436518914605589,BLI,sars-cov-2_spike
-7nmu,C,N.A.,B,VHH,homo sapiens,platelet glycoprotein vi,2.5,0.57,9.244125144327509,SPR,homo-sapiens/platelet-glycoprotein-vi
-7nqk,B,N.A.,A,VHH,rattus norvegicus,solute carrier family 15 member 2,3.5,26.3,7.580044251510242,BLI,rattus-norvegicus/solute-carrier-family-15-member-2
-7nvl,N,N.A.,E,VHH,homo sapiens,t-complex protein 1 subunit epsilon,2.5,86.0,7.0655015487564325,BLI,homo-sapiens/t-complex-protein-1-subunit-epsilon
-7o52,H,L,U,FabH:FabL,homo sapiens,cd22 d6-d7 ig domains,2.41,24.8,7.605548319173784,BLI,homo-sapiens/cd22-d6-d7-ig-domains
-7oao,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.5,0.099,10.00436480540245,SPR,sars-cov-2_spike
-7oaq,A,N.A.,B,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.55,0.725,9.139661993429007,SPR,sars-cov-2_spike
-7oaq,C,N.A.,B,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.55,0.102,9.991399828238082,SPR,sars-cov-2_spike
-7oau,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.65,2.523,8.598082749482426,SPR,sars-cov-2_spike
-7olz,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.75,4.0,8.397940008672037,BLI,sars-cov-2_spike
-7olz,C,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.75,0.002,11.698970004336019,BLI,sars-cov-2_spike
-7ox1,A,B,G,FabH:FabL,homo sapiens,interleukin-9,2.49,1.81,8.742321425130816,BLI,homo-sapiens/interleukin-9
-7ox2,A,L,T,FabH:FabL,homo sapiens,interleukin-9,3.34,0.24,9.619788758288394,BLI,homo-sapiens/interleukin-9
-7ox3,A,B,C,FabH:FabL,homo sapiens,interleukin-9,1.7,0.13,9.886056647693163,BLI,homo-sapiens/interleukin-9
-7phw,B,C,A,FabH:FabL,plasmodium falciparum (isolate 3d7),cysteine-rich protective antigen,2.79,2800.0,5.552841968657781,SPR,plasmodium-falciparum/cysteine-rich-protective-antigen
-7pi2,B,C,A,FabH:FabL,plasmodium falciparum (isolate 3d7),cysteine-rich protective antigen,3.14,38.0,7.42021640338319,SPR,plasmodium-falciparum/cysteine-rich-protective-antigen
-7pi7,B,C,A,FabH:FabL,plasmodium falciparum (isolate 3d7),cysteine-rich protective antigen,2.72,0.94,9.0268721464003,SPR,plasmodium-falciparum/cysteine-rich-protective-antigen
-7q6c,H,L,A,FabH:FabL,homo sapiens,complement component c6,2.29,2.8,8.55284196865778,BLI,homo-sapiens/complement-component-c6
-7qf0,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.3,280.0,6.552841968657781,SPR,sars-cov-2_spike
-7qnw,A,B,E,FabH:FabL,severe acute respiratory syndrome coronavirus 2,surface glycoprotein,2.4,0.199,9.701146923590294,SPR,sars-cov-2_spike
-7qnw,H,L,E,FabH:FabL,severe acute respiratory syndrome coronavirus 2,surface glycoprotein,2.4,7.5,8.1249387366083,SPR,sars-cov-2_spike
-7quh,H,L,A,FabH:FabL,homo sapiens,sialic acid-binding ig-like lectin 8,2.87,0.464,9.33348201944512,BLI,homo-sapiens/sialic-acid-binding-ig-like-lectin-8
-7r58,H,L,A,FabH:FabL,homo sapiens,platelet glycoprotein vi,1.9,12.6,7.8996294548824375,SPR,homo-sapiens/platelet-glycoprotein-vi
-7r6w,A,B,R,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.83,0.2,9.698970004336019,SPR,sars-cov-2_spike
-7r6w,H,L,R,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.83,0.2,9.698970004336019,SPR,sars-cov-2_spike
-7r98,D,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,nucleoprotein,2.51,1.6,8.795880017344075,SPR,sars-cov-2_spike
-7rah,B,A,E,FabH:FabL,bordetella pertussis,"bifunctional adenylate cyclase toxin/hemolysin cyaa,bifunctional adenylate cyclase toxin/hemolysin cyaa",2.6,0.87,9.060480747381382,SPR,bordetella-pertussis/bifunctional-adenylate-cyclase-toxin-hemolysin-cyaa-bifunctional-adenylate-cyclase-toxin-hemolysin-cyaa
-7rah,D,C,E,FabH:FabL,bordetella pertussis,"bifunctional adenylate cyclase toxin/hemolysin cyaa,bifunctional adenylate cyclase toxin/hemolysin cyaa",2.6,0.75,9.1249387366083,SPR,bordetella-pertussis/bifunctional-adenylate-cyclase-toxin-hemolysin-cyaa-bifunctional-adenylate-cyclase-toxin-hemolysin-cyaa
-7rk1,C,N.A.,A,scFv,human astrovirus-8,capsid polyprotein vp70,2.05,40.03,7.397614409894895,BLI,human-astrovirus-8/capsid-polyprotein-vp70
-7rk2,C,N.A.,B,scFv,human astrovirus-8,capsid protein vp25,2.65,2.45,8.610833915635467,BLI,human-astrovirus-8/capsid-protein-vp25
-7rw2,G,J,B,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.5,6.94,8.158640529545146,SPR,sars-cov-2_spike
-7rxi,H,L,A,FabH:FabL,plasmodium falciparum (isolate 3d7),circumsporozoite protein,2.15,0.00377,11.423658649794207,SPR,plasmodium-falciparum/circumsporozoite-protein
-7rxj,A,B,G,FabH:FabL,plasmodium falciparum (isolate 3d7),circumsporozoite protein,2.35,0.00278,11.555955204081924,SPR,plasmodium-falciparum/circumsporozoite-protein
-7rxl,C,D,F,FabH:FabL,plasmodium falciparum (isolate 3d7),circumsporozoite protein,1.82,0.36,9.443697499232712,SPR,plasmodium-falciparum/circumsporozoite-protein
-7rxp,H,L,A,FabH:FabL,plasmodium falciparum (isolate 3d7),circumsporozoite protein,1.76,0.0291,10.536107011014092,SPR,plasmodium-falciparum/circumsporozoite-protein
-7s07,H,L,A,FabH:FabL,human gammaherpesvirus 4,envelope glycoprotein h,3.29,0.46,9.337242168318426,BLI,human-gammaherpesvirus-4/envelope-glycoprotein-h
-7s0d,H,L,C,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.5,0.00328,11.48412615628832,BLI,sars-cov-2_spike
-7s0x,C,D,F,FabH:FabL,plasmodium falciparum (isolate 3d7),circumsporozoite protein,2.8,0.0116,10.935542010773082,SPR,plasmodium-falciparum/circumsporozoite-protein
-7s11,H,L,C,FabH:FabL,mus musculus,t-cell surface protein tactile,2.58,47.2,7.3260580013659125,SPR,mus-musculus/t-cell-surface-protein-tactile
-7s1b,H,L,A,FabH:FabL,human gammaherpesvirus 4,envelope glycoprotein h,3.03,0.21,9.67778070526608,BLI,human-gammaherpesvirus-4/envelope-glycoprotein-h
-7s1b,X,Y,A;B,FabH:FabL,human gammaherpesvirus 4;human gammaherpesvirus 4,envelope glycoprotein h;envelope glycoprotein l,3.03,2.05,8.688246138944246,BLI,human-gammaherpesvirus-4/envelope-glycoprotein-h;envelope-glycoprotein-l
-7s2r,B,N.A.,A,VHH,homo sapiens,cytokine receptor common subunit gamma,2.49,69.0,7.161150909262744,SPR,homo-sapiens/cytokine-receptor-common-subunit-gamma
-7s2s,A,N.A.,D,VHH,homo sapiens,interleukin-2 receptor subunit beta,1.93,25.0,7.6020599913279625,SPR,homo-sapiens/interleukin-2-receptor-subunit-beta
-7s7r,B,N.A.,A,VHH,plasmodium falciparum 3d7,merozoite surface protein p12,1.77,26.25,7.580870692258024,BLI,plasmodium-falciparum-3d7/merozoite-surface-protein-p12
-7sbd,H,L,C,FabH:FabL,hevea brasiliensis,profilin-2,3.04,370.0,6.431798275933005,BLI,hevea-brasiliensis/profilin-2
-7sd5,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.53,0.00452,11.344861565188618,SPR,sars-cov-2_spike
-7seg,A,B,D,FabH:FabL,homo sapiens,low affinity immunoglobulin gamma fc region receptor iii-a,2.16,24.5,7.610833915635467,SPR,homo-sapiens/low-affinity-immunoglobulin-gamma-fc-region-receptor-iii-a
-7shu,C,D,A,VH:VL,homo sapiens,immunoglobulin heavy constant epsilon,2.75,0.95,9.022276394711152,BLI,homo-sapiens/immunoglobulin-heavy-constant-epsilon
-7shy,C,D,A,VH:VL,homo sapiens,ige fc,3.0,2.02,8.694648630553376,BLI,homo-sapiens/ige-fc
-7shz,C,D,A,VH:VL,homo sapiens,ige fc,3.0,0.166,9.779891911959945,BLI,homo-sapiens/ige-fc
-7si0,C,D,A,VH:VL,homo sapiens,ige fc,3.0,1.86,8.730487055782083,BLI,homo-sapiens/ige-fc
-7si2,E,D,B,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,3.2,0.000782,12.106793246940152,SPR,sars-cov-2_spike
-7su0,H,L,C,FabH:FabL,homo sapiens,cytotoxic t-lymphocyte protein 4,2.41,3.5,8.455931955649724,SPR,homo-sapiens/cytotoxic-t-lymphocyte-protein-4
-7su1,H,L,C,FabH:FabL,homo sapiens,cytotoxic t-lymphocyte protein 4,2.53,25.0,7.6020599913279625,SPR,homo-sapiens/cytotoxic-t-lymphocyte-protein-4
-7t3m,D,N.A.,A,scFv,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.0,0.107,9.97061622231479,BLI,sars-cov-2_spike
-7tjq,A,B,C,VH:VL,human metapneumovirus,fusion glycoprotein f0,3.13,0.368,9.434152181326482,SPR,human-metapneumovirus/fusion-glycoprotein-f0
-7tl0,D,E,A,VH:VL,human metapneumovirus,fusion glycoprotein f0,3.06,0.223,9.65169513695184,SPR,human-metapneumovirus/fusion-glycoprotein-f0
-7tn9,M,N,W;X,VH:VL,"ebola virus - mayinga, zaire, 1976;ebola virus - mayinga, zaire, 1976",gp2;gp2,3.1,1.64,8.785156151952302,SPR,ebola-virus-mayinga-zaire-1976/gp2
-7tuf,A,B,C,FabH:FabL,homo sapiens,tapasin,2.8,1.1,8.958607314841775,SPR,homo-sapiens/tapasin
-7txz,E,F,A,VH:VL,nipah henipavirus,glycoprotein g,3.2,2.65,8.576754126063193,BLI,nipah-henipavirus/glycoprotein-g
-7u9p,H,L,A,FabH:VL+,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.5,0.56,9.2518119729938,SPR,sars-cov-2_spike
-7uds,D,E,B;b,FabH:FabL,lassa mammarenavirus;lassa mammarenavirus,glycoprotein g1;glycoprotein g2,3.1,3.52,8.453457336521868,BLI,lassa-mammarenavirus/glycoprotein-g1;glycoprotein-g2
-7ue9,H,L,C,FabH:FabL,homo sapiens,complement c3dg fragment,1.75,12.9,7.889410289700751,SPR,homo-sapiens/complement-c3dg-fragment
-7ukl,H,L,A;C,VH:VL,severe acute respiratory syndrome coronavirus 2;severe acute respiratory syndrome coronavirus 2,spike glycoprotein;spike glycoprotein,3.09,16.0,7.795880017344075,SPR,sars-cov-2_spike
-7ul1,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus,spike protein s1,2.65,0.83,9.080921907623926,SPR,severe-acute-respiratory-syndrome-coronavirus/spike-protein-s1
-7unz,A,N.A.,D,VHH,plasmodium falciparum,"cysteine-rich small secreted protein css, putative",2.03,0.88,9.05551732784983,BLI,plasmodium-falciparum/cysteine-rich-small-secreted-protein-css-putative
-7urv,D,N.A.,C,scFv,homo sapiens,b-lymphocyte antigen cd19,3.05,4.5,8.346787486224656,SPR,homo-sapiens/b-lymphocyte-antigen-cd19
-7urx,H,L,C,FabH:FabL,homo sapiens,b-lymphocyte antigen cd19,3.4,26.9,7.570247719997592,SPR,homo-sapiens/b-lymphocyte-antigen-cd19
-7uvf,H,L,A,FabH:FabL,homo sapiens,t-cell surface glycoprotein cd8 alpha chain,2.6,5.0,8.301029995663981,SPR,homo-sapiens/t-cell-surface-glycoprotein-cd8-alpha-chain
-7v61,H,K,B,FabH:FabL,homo sapiens,angiotensin-converting enzyme 2,3.2,30.5,7.515700160653214,BLI,homo-sapiens/angiotensin-converting-enzyme-2
-7vfa,D,N.A.,E,VHH,severe acute respiratory syndrome coronavirus 2,3c-like proteinase,1.75,2.43,8.614393726401687,BLI,sars-cov-2_spike
-7vfb,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,3c-like proteinase,2.0,0.46,9.337242168318426,BLI,sars-cov-2_spike
-7vyt,B,C,A;T,VH:VL,homo sapiens;homo sapiens,t-cell immunoreceptor with ig and itim domains;t-cell immunoreceptor with ig and itim domains,1.53,2.2,8.657577319177793,BLI,homo-sapiens/t-cell-immunoreceptor-with-ig-and-itim-domains
-7w1s,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.0,0.0674,10.171340103464681,SPR,sars-cov-2_spike
-7wg3,E,A,I,FabH:FabL,bos taurus,il17rb protein,2.19,11.0,7.958607314841775,BLI,bos-taurus/il17rb-protein
-7whi,D,N.A.,B,VH,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.93,0.4,9.397940008672037,BLI,sars-cov-2_spike
-7whi,G,N.A.,A;B,VH,severe acute respiratory syndrome coronavirus 2;severe acute respiratory syndrome coronavirus 2,spike glycoprotein;spike glycoprotein,2.93,0.4,9.397940008672037,BLI,sars-cov-2_spike
-7wn8,H,L,A,FabH:FabL,homo sapiens,leukocyte surface antigen cd47,2.8,6.9,8.161150909262744,SPR,homo-sapiens/leukocyte-surface-antigen-cd47
-7wrv,U,V,C,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.47,3.2,8.494850021680094,BLI,sars-cov-2_spike
-7wrz,H,L,R,VH:VL,sars coronavirus b012,spike protein s1,3.26,0.29,9.537602002101044,BLI,sars-coronavirus-b012/spike-protein-s1
-7wsl,H,L,D,FabH:FabL,homo sapiens,programmed cell death protein 1,1.53,0.3,9.522878745280337,SPR,homo-sapiens/programmed-cell-death-protein-1
-7wvm,A,B,E,VH:VL,homo sapiens,programmed cell death protein 1,3.4,1.68,8.774690718274137,SPR,homo-sapiens/programmed-cell-death-protein-1
-7x08,H,L,A;B,FabH:FabL,severe acute respiratory syndrome coronavirus;severe acute respiratory syndrome coronavirus,spike glycoprotein;spike glycoprotein,2.7,1.02,8.991399828238082,SPR,severe-acute-respiratory-syndrome-coronavirus/spike-glycoprotein
-7x1m,H,L,M,VH:VL,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.74,2.6,8.585026652029182,SPR,sars-cov-2_spike
-7x2a,H,K,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,mers-cov spike glycoprotein,2.49,4.6,8.337242168318426,SPR,sars-cov-2_spike
-7x2h,A,B,E,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.1,4.21,8.375717904164333,BLI,sars-cov-2_spike
-7x3c,H,L,A;B;C,VH:VL,coxsackievirus b1;coxsackievirus b1;coxsackievirus b1,virion protein 1;vp2;vp3,3.03,2.1,8.67778070526608,SPR,coxsackievirus-b1/virion-protein-1;vp2;vp3
-7x4i,E,N.A.,A;D,VHH,severe acute respiratory syndrome coronavirus;severe acute respiratory syndrome coronavirus,spike glycoprotein;spike glycoprotein,3.38,0.361,9.442492798094342,SPR,severe-acute-respiratory-syndrome-coronavirus/spike-glycoprotein
-7xcz,D,E,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.2,0.186,9.730487055782083,SPR,sars-cov-2_spike
-7xda,D,E,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.98,0.901,9.045275209020938,SPR,sars-cov-2_spike
-7xdk,D,E,A,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.2,0.186,9.730487055782083,SPR,sars-cov-2_spike
-7xdl,K,J,C,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.08,0.901,9.045275209020938,SPR,sars-cov-2_spike
-7xjf,A,B,C,FabH:FabL,homo sapiens,leukocyte surface antigen cd47,2.6,4160.0,5.380906669373258,SPR,homo-sapiens/leukocyte-surface-antigen-cd47
-7xli,B,N.A.,A,VHH,staphylococcus aureus subsp. aureus mu50,iron-regulated surface determinant protein b,1.7,0.25,9.602059991327963,SPR,staphylococcus-aureus-subsp-aureus-mu50/iron-regulated-surface-determinant-protein-b
-7xqv,B,N.A.,A,VHH,rattus norvegicus,rhoa,2.76,60.5,7.218244625347531,SPR,rattus-norvegicus/rhoa
-7xy8,H,L,A,FabH:FabL,homo sapiens,isoform 2 of basigin,2.3,8.6,8.065501548756432,SPR,homo-sapiens/isoform-2-of-basigin
-7yk4,H,L,A,FabH:FabL,homo sapiens,tumor necrosis factor receptor superfamily member 4,2.7,4.39,8.357535479757878,BLI,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-4
-7yms,F,E,A,FabH:FabL,coxsackievirus a16,capsid protein vp1,2.9,0.35,9.455931955649724,BLI,coxsackievirus-a16/capsid-protein-vp1
-7yrf,F,E,C,FabH:FabL,coxsackievirus a16,capsid protein vp3,2.91,7.34,8.13430394008393,BLI,coxsackievirus-a16/capsid-protein-vp3
-7yru,H,L,A,FabH:FabL,homo sapiens,activin receptor type-1,2.6,5.6,8.2518119729938,SPR,homo-sapiens/activin-receptor-type-1
-7yvk,H,I,B,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.2,0.000976,12.010550182333308,SPR,sars-cov-2_spike
-7yvo,I,H,A,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.3,0.00171,11.767003889607846,SPR,sars-cov-2_spike
-7z1x,B,N.A.,A,VHH,homo sapiens,gasdermin-d,1.86,0.64,9.193820026016112,SPR,homo-sapiens/gasdermin-d
-7z1x,C,N.A.,A,VHH,homo sapiens,gasdermin-d,1.86,143.0,6.844663962534939,SPR,homo-sapiens/gasdermin-d
-7zk1,C,N.A.,A,VHH,arabidopsis thaliana,cystinosin homolog,2.65,760.0,6.119186407719209,BLI,arabidopsis-thaliana/cystinosin-homolog
-7zkz,B,N.A.,A,VHH,arabidopsis thaliana,cystinosin homolog,2.33,90.0,7.045757490560675,BLI,arabidopsis-thaliana/cystinosin-homolog
-7zkz,C,N.A.,A,VHH,arabidopsis thaliana,cystinosin homolog,2.33,189.0,6.723538195826756,BLI,arabidopsis-thaliana/cystinosin-homolog
-7zoz,H,L,A,FabH:FabL,homo sapiens,sialic acid-binding ig-like lectin 15,2.1,4.68,8.329754146925875,BLI,homo-sapiens/sialic-acid-binding-ig-like-lectin-15
-8ag1,H,L,A,FabH:FabL,homo sapiens,tumor necrosis factor receptor superfamily member 4,3.3,4.39,8.357535479757878,BLI,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-4
-8as0,B,C,A;R,FabH:FabL,homo sapiens;homo sapiens,programmed cell death protein 1;programmed cell death protein 1,3.5,54.0,7.267606240177032,SPR,homo-sapiens/programmed-cell-death-protein-1
-8b7h,H,L,A,FabH:FabL,homo sapiens,gremlin-1,1.95,0.0528,10.277366077466187,SPR,homo-sapiens/gremlin-1
-8bf4,A,N.A.,C,VHH,mus musculus,plexin-b1,2.15,0.237,9.625251653989896,BLI,mus-musculus/plexin-b1
-8bf4,B,N.A.,C,VHH,mus musculus,plexin-b1,2.15,37.5,7.425968732272281,BLI,mus-musculus/plexin-b1
-8bsf,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.2,0.789,9.10292299679058,SPR,sars-cov-2_spike
-8byu,H,L,A,FabH:FabL,homo sapiens,adp-ribosyl cyclase/cyclic adp-ribose hydrolase 1,1.85,1.1,8.958607314841775,BLI,homo-sapiens/adp-ribosyl-cyclase-cyclic-adp-ribose-hydrolase-1
-8bzy,B,N.A.,A,VH,homo sapiens,solute carrier family 40 member 1,3.24,500.0,6.301029995663981,SPR,homo-sapiens/solute-carrier-family-40-member-1
-8c9x,F,N.A.,A;B,VHH,homo sapiens;homo sapiens,neuronal acetylcholine receptor subunit alpha-7;neuronal acetylcholine receptor subunit alpha-7,2.3,0.2,9.698970004336019,SPR,homo-sapiens/neuronal-acetylcholine-receptor-subunit-alpha-7
-8ce4,F,N.A.,A;B,VHH,homo sapiens;homo sapiens,neuronal acetylcholine receptor subunit alpha-7;neuronal acetylcholine receptor subunit alpha-7,2.7,1.0,9.0,SPR,homo-sapiens/neuronal-acetylcholine-receptor-subunit-alpha-7
-8cw9,G,M,A;F,VH:VL,human metapneumovirus;human metapneumovirus,fusion glycoprotein f0;fusion glycoprotein f0,3.46,54.0,7.267606240177032,BLI,human-metapneumovirus/fusion-glycoprotein-f0
-8cyd,D,N.A.,B,VHH,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.6,0.387,9.41228903498109,SPR,sars-cov-2_spike
-8df1,H,L,A,FabH:FabL,homo sapiens,chitinase-3-like protein 1,3.3,3.21,8.493494967595128,BLI,homo-sapiens/chitinase-3-like-protein-1
-8dfg,H,L,A,FabH:FabL,plasmodium falciparum 3d7,merozoite surface protein 1,2.0,4.24,8.372634143407268,BLI,plasmodium-falciparum-3d7/merozoite-surface-protein-1
-8dfh,H,L,A,FabH:FabL,plasmodium falciparum 3d7,merozoite surface protein 1,2.3,0.66,9.18045606445813,BLI,plasmodium-falciparum-3d7/merozoite-surface-protein-1
-8dfi,H,L,A,FabH:FabL,plasmodium falciparum 3d7,merozoite surface protein 1,1.9,1.84,8.735182176990463,BLI,plasmodium-falciparum-3d7/merozoite-surface-protein-1
-8dl7,D,C,A,FabH:FabL,homo sapiens,solute carrier family 40 member 1,2.7,10.6,7.97469413473523,BLI,homo-sapiens/solute-carrier-family-40-member-1
-8dp0,B,N.A.,A,VHH,homo sapiens,"phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",2.96,2.1,8.67778070526608,BLI,homo-sapiens/phosphatidylinositol-4-5-bisphosphate-3-kinase-catalytic-subunit-gamma-isoform
-8dpl,A,B,D,VH:VL,"ebola virus - mayinga, zaire, 1976",glycoprotein gp1,2.53,0.00375,11.425968732272281,BLI,ebola-virus-mayinga-zaire-1976/glycoprotein-gp1
-8dpm,D,E,A,VH:VL,"ebola virus - mayinga, zaire, 1976",glycoprotein gp1,3.0,0.00113,11.94692155651658,BLI,ebola-virus-mayinga-zaire-1976/glycoprotein-gp1
-8ds5,C,B,A,FabH:FabL,homo sapiens,cd27 antigen,1.93,5.1,8.292429823902063,SPR,homo-sapiens/cd27-antigen
-8dt8,D,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.34,382.0,6.4179366370882915,SPR,sars-cov-2_spike
-8dt8,H,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.34,391.0,6.407823242604133,SPR,sars-cov-2_spike
-8dzw,H,L,C,FabH:FabL,human respiratory syncytial virus a2,rsv fusion protein,2.46,1.23,8.910094888560602,BLI,human-respiratory-syncytial-virus-a2/rsv-fusion-protein
-8e7m,H,L,A,FabH:FabL,homo sapiens,angiotensin-converting enzyme 2,3.3,0.276,9.559090917934782,SPR,homo-sapiens/angiotensin-converting-enzyme-2
-8edf,H,L,A,VH+:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,3.4,0.412,9.385102783966865,SPR,sars-cov-2_spike
-8ejj,H,L,a;c,VH:VL,lassa mammarenavirus;lassa mammarenavirus,glycoprotein gp2;glycoprotein gp2,3.22,0.5,9.301029995663981,BLI,lassa-mammarenavirus/glycoprotein-gp2
-8eqf,H,L,A,VH:VL,severe acute respiratory syndrome coronavirus 2,spike protein s1,3.16,0.125,9.903089986991944,BLI,sars-cov-2_spike
-8ew6,V,N.A.,W,VHH,homo sapiens,t-cell surface glycoprotein cd8 alpha chain,1.9,2.4,8.619788758288394,SPR,homo-sapiens/t-cell-surface-glycoprotein-cd8-alpha-chain
-8ezk,H,N.A.,A,scFv,plasmodium falciparum (isolate nf54),25 kda ookinete surface antigen,2.3,0.37,9.431798275933005,BLI,plasmodium-falciparum/25-kda-ookinete-surface-antigen
-8ezm,H,N.A.,A,scFv,plasmodium falciparum,25 kda ookinete surface antigen,2.1,8.71,8.059981844992336,BLI,plasmodium-falciparum/25-kda-ookinete-surface-antigen
-8f8x,C,N.A.,A;B,VHH,homo sapiens;homo sapiens,uncharacterized protein dkfzp686c11235;uncharacterized protein dkfzp686c11235,2.6,142.0,6.847711655616943,SPR,homo-sapiens/uncharacterized-protein-dkfzp686c11235
-8fdo,A,B,C,FabH:FabL,escherichia coli,fp15,2.2,0.6,9.221848749616356,SPR,escherichia-coli/fp15
-8fgx,B,A,C,FabH:FabL,homo sapiens,plasma kallikrein light chain,2.62,1.07,8.97061622231479,SPR,homo-sapiens/plasma-kallikrein-light-chain
-8fxb,H,L,E,VH:VL,severe acute respiratory syndrome coronavirus,spike protein s1,3.1,2.0,8.698970004336019,SPR,severe-acute-respiratory-syndrome-coronavirus/spike-protein-s1
-8ghr,C,N.A.,A,VH,homo sapiens,"ectonucleotide pyrophosphatase/phosphodiesterase family member 1, secreted form, immunoglobulin gamma-1 heavy chain fusion",3.2,0.56,9.2518119729938,BLI,homo-sapiens/ectonucleotide-pyrophosphatase-phosphodiesterase-family-member-1-secreted-form-immunoglobulin-gamma-1-heavy-chain-fusion
-8gje,G,J,C,VH:VL,human immunodeficiency virus 1,cza97.12 sosip.664 envelope glycoprotein gp120,3.4,5.4,8.267606240177031,SPR,human-immunodeficiency-virus-1/cza97-12-sosip-664-envelope-glycoprotein-gp120
-8gpi,A,C,T;Z,VH:VL,human immunodeficiency virus 1;human immunodeficiency virus 1,x18 ufo gp41;x18 ufo gp41,3.0,530.0,6.275724130399211,SPR,human-immunodeficiency-virus-1/x18-ufo-gp41
-8gpt,D,E,A,VH:VL,yellow fever virus,envelope protein,3.07,0.00149,11.826813731587727,SPR,yellow-fever-virus/envelope-protein
-8gpu,C,D,B,FabH:FabL,yellow fever virus,envelope protein,2.79,0.00149,11.826813731587727,SPR,yellow-fever-virus/envelope-protein
-8gq1,H,L,C,FabH:FabL,gallus gallus,lysozyme c,3.13,0.23,9.638272163982407,SPR,gallus-gallus/lysozyme-c
-8gz5,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.7,0.37,9.431798275933005,BLI,sars-cov-2_spike
-8h63,B,N.A.,A,VHH,listeria monocytogenes serovar 1/2a,internalin a,1.53,0.696,9.157390760389438,SPR,listeria-monocytogenes-serovar-1-2a/internalin-a
-8h64,B,N.A.,A,VHH,listeria monocytogenes serovar 1/2a,internalin a,2.35,0.194,9.712198270069774,SPR,listeria-monocytogenes-serovar-1-2a/internalin-a
-8hit,A,B,C,VH:VL,homo sapiens,cytotoxic t-lymphocyte protein 4,3.2,0.206,9.686132779630846,SPR,homo-sapiens/cytotoxic-t-lymphocyte-protein-4
-8hn6,A,B,E;F,VH:VL,severe acute respiratory syndrome coronavirus 2;severe acute respiratory syndrome coronavirus 2,spike protein s1;spike protein s1,2.07,1.37,8.863279432843592,BLI,sars-cov-2_spike
-8hpu,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s2',2.56,0.00547,11.26201267366657,BLI,sars-cov-2_spike
-8hr2,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.94,5.07,8.294992040666664,BLI,sars-cov-2_spike
-8hr2,C,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.94,1.76,8.75448733218585,BLI,sars-cov-2_spike
-8i4f,C,N.A.,A,VH,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.44,4.09,8.388276691992658,BLI,sars-cov-2_spike
-8j5j,E,N.A.,A,VHH,betacoronavirus sp.,spike protein s1,3.0,0.2,9.698970004336019,SPR,betacoronavirus-sp/spike-protein-s1
-8jel,A,B,E,FabH:FabL,homo sapiens,t-cell immunoreceptor with ig and itim domains,2.45,0.21,9.67778070526608,SPR,homo-sapiens/t-cell-immunoreceptor-with-ig-and-itim-domains
-8jeo,B,C,A,FabH:FabL,homo sapiens,t-cell immunoreceptor with ig and itim domains,2.06,0.193,9.714442690992227,SPR,homo-sapiens/t-cell-immunoreceptor-with-ig-and-itim-domains
-8jlw,H,L,A,VH:VL,crimean-congo hemorrhagic fever orthonairovirus,"glycoprotein c,cchfv envelope protein gc fusion loops",3.0,0.0834,10.078833949362261,BLI,crimean-congo-hemorrhagic-fever-orthonairovirus/glycoprotein-c-cchfv-envelope-protein-gc-fusion-loops
-8jlx,H,L,A,VH:VL,crimean-congo hemorrhagic fever orthonairovirus,"glycoprotein c,cchfv gc fusion loops",3.0,0.0324,10.489454989793387,BLI,crimean-congo-hemorrhagic-fever-orthonairovirus/glycoprotein-c-cchfv-gc-fusion-loops
-8opr,B,N.A.,A,VHH,bacillus anthracis,s-layer protein ea1,1.81,1.9,8.721246399047171,BLI,bacillus-anthracis/s-layer-protein-ea1
-8opr,C,N.A.,A,VHH,bacillus anthracis,s-layer protein ea1,1.81,2.2,8.657577319177793,BLI,bacillus-anthracis/s-layer-protein-ea1
-8oz3,A,B,C,VH:VL,homo sapiens,tumor necrosis factor receptor superfamily member 9,3.1,0.1,10.0,BLI,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-9
-8pe9,H,L,A,FabH:FabL,homo sapiens,epithelial discoidin domain-containing receptor 1,3.15,0.39,9.4089353929735,BLI,homo-sapiens/epithelial-discoidin-domain-containing-receptor-1
-8q95,C,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.6,0.04,10.397940008672037,SPR,sars-cov-2_spike
-8r4o,B,N.A.,A,scFv,homo sapiens,serine/threonine-protein kinase sik3,2.73,280.0,6.552841968657781,SPR,homo-sapiens/serine-threonine-protein-kinase-sik3
-8r4u,B,N.A.,A;E,scFv,homo sapiens;homo sapiens,serine/threonine-protein kinase sik3;serine/threonine-protein kinase sik3,2.42,280.0,6.552841968657781,SPR,homo-sapiens/serine-threonine-protein-kinase-sik3
-8sdf,B,C,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.79,0.48,9.318758762624412,BLI,sars-cov-2_spike
-8sdg,A,B,D,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.71,0.42,9.3767507096021,BLI,sars-cov-2_spike
-8sk5,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.01,0.22,9.657577319177793,SPR,sars-cov-2_spike
-8slb,H,L,A,FabH:FabL,thermotoga maritima msb8,cobalt/magnesium transport protein cora,2.04,1.5,8.823908740944319,SPR,thermotoga-maritima-msb8/cobalt-magnesium-transport-protein-cora
-8smk,B,C,A;D,FabH:FabL,homo sapiens;homo sapiens,protein-arginine deiminase type-4;protein-arginine deiminase type-4,3.5,1.0,9.0,BLI,homo-sapiens/protein-arginine-deiminase-type-4
-8sxp,H,L,C,FabH:FabL,ophiophagus hannah,long neurotoxin 2,2.9,0.61,9.214670164989233,SPR,ophiophagus-hannah/long-neurotoxin-2
-8szy,H,L,T,FabH:FabL,homo sapiens,t-cell immunoreceptor with ig and itim domains,2.31,0.11,9.958607314841775,SPR,homo-sapiens/t-cell-immunoreceptor-with-ig-and-itim-domains
-8t4a,H,L,A,VH:VL,human immunodeficiency virus 1,md65 n332-gt5 sosip gp120,3.4,0.038,10.42021640338319,SPR,human-immunodeficiency-virus-1/md65-n332-gt5-sosip-gp120
-8t7a,D,E,a,VH:VL,respiratory syncytial virus,fusion glycoprotein f1,2.8,4.2,8.3767507096021,SPR,respiratory-syncytial-virus/fusion-glycoprotein-f1
-8t9z,H,L,A,FabH:FabL,human metapneumovirus,fusion glycoprotein f0,3.0,1.2,8.920818753952375,SPR,human-metapneumovirus/fusion-glycoprotein-f0
-8tfn,H,L,B,FabH:FabL,homo sapiens,trbv6-5,2.54,1.8,8.744727494896694,SPR,homo-sapiens/trbv6-5
-8tnt,E,D,A;B,FabH:FabL,epstein-barr virus;epstein-barr virus,envelope glycoprotein h;envelope glycoprotein l,3.15,2.05,8.688246138944246,BLI,epstein-barr-virus/envelope-glycoprotein-h;envelope-glycoprotein-l
-8tpa,D,E,C,VH:VL,influenza a virus (a/new caledonia/20/1999(h1n1)),hemagglutinin ha1 chain,3.0,0.297,9.527243550682787,BLI,influenza-a-virus/hemagglutinin-ha1-chain
-8uky,B,A,D,FabH:FabL,homo sapiens,bcl-2 homologous antagonist/killer,2.4,10.0,8.0,SPR,homo-sapiens/bcl-2-homologous-antagonist-killer
-8w9j,B,A,D,FabH:FabL,homo sapiens,c-type lectin domain family 12 member a,3.5,70.0,7.154901959985743,SPR,homo-sapiens/c-type-lectin-domain-family-12-member-a
-8x0t,H,L,A,FabH:FabL,homo sapiens,frizzled-8,2.5,14.21,7.8474059220725305,SPR,homo-sapiens/frizzled-8
-8yx1,A,B,C,FabH:FabL,homo sapiens,tumor necrosis factor receptor superfamily member 5,2.7,0.69,9.161150909262744,SPR,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-5
-8yx9,B,C,J,FabH:FabL,homo sapiens,tumor necrosis factor receptor superfamily member 5,2.8,3.4,8.468521082957745,SPR,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-5
+complex_id,PDB_ID,H_chain_ID,L_chain_ID,Ag_chain_ID(s),Ab_type,Ag_species,Ag_mol_name(s),Resolution,KD_nM,neg_log10_KD,Affinity_method,antigen_group
+6a0z_H_L_A,6a0z,H,L,A,FabH:FabL,influenza a virus,"hemagglutinin,envelope glycoprotein",2.33,53.0,7.275724130399211,SPR,influenza-a-virus/hemagglutinin-envelope-glycoprotein
+6a3w_A_B_C,6a3w,A,B,C,VH:VL,homo sapiens,tumor necrosis factor receptor superfamily member 9,2.0,2.3,8.638272163982407,SPR,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-9
+6dc3_H_L_F,6dc3,H,L,F,FabH:FabL,human respiratory syncytial virus a (strain a2),rsv fusion glycoprotein,3.5,34.0,7.468521082957745,SPR,human-respiratory-syncytial-virus-a/rsv-fusion-glycoprotein
+6dc5_B_C_A,6dc5,B,C,A,FabH:FabL,human respiratory syncytial virus a (strain a2),rsv fusion glycoprotein,3.5,0.12,9.920818753952377,SPR,human-respiratory-syncytial-virus-a/rsv-fusion-glycoprotein
+6e62_B_C_A,6e62,B,C,A,FabH:FabL,plasmodium falciparum,pf48/45,2.7,3.2,8.494850021680094,BLI,plasmodium-falciparum/pf48-45
+6e63_B_C_A,6e63,B,C,A,FabH:FabL,plasmodium falciparum,pf48/45,2.6,3.7,8.431798275933005,BLI,plasmodium-falciparum/pf48-45
+6her_B_N.A._A,6her,B,N.A.,A,VHH,mus musculus,major prion protein,1.2,40.0,7.397940008672037,SPR,mus-musculus/major-prion-protein
+6hhc_H_L_A,6hhc,H,L,A,FabH:FabL,homo sapiens,coagulation factor xi,2.7,2.4,8.619788758288394,SPR,homo-sapiens/coagulation-factor-xi
+6i04_C_D_B,6i04,C,D,B,FabH:FabL,homo sapiens,hepatocyte growth factor receptor,3.1,0.2,9.69897000433602,BLI,homo-sapiens/hepatocyte-growth-factor-receptor
+6i8s_E_I_A-D,6i8s,E,I,A;D,FabH:FabL,homo sapiens;homo sapiens,plasminogen activator inhibitor 1;plasminogen activator inhibitor 1,2.9,0.006,11.221848749616356,SPR,homo-sapiens/plasminogen-activator-inhibitor-1
+6iea_H_L_A,6iea,H,L,A,FabH:FabL,rift valley fever virus,nsmgngc,2.0,295.0,6.530177984021837,SPR,rift-valley-fever-virus/nsmgngc
+6ieb_E_F_B,6ieb,E,F,B,FabH:FabL,rift valley fever virus,nsmgngc,2.41,18.5,7.732828271596986,SPR,rift-valley-fever-virus/nsmgngc
+6iec_C_D_B,6iec,C,D,B,VH:VL,rift valley fever virus,nsmgngc,3.2,743.0,6.129011186239425,SPR,rift-valley-fever-virus/nsmgngc
+6iek_B_C_A,6iek,B,C,A,FabH:FabL,rift valley fever virus,nsmgngc,2.7,47.7,7.3214816209598865,SPR,rift-valley-fever-virus/nsmgngc
+6ivz_H_L_A,6ivz,H,L,A,VH:VL,yellow fever virus,envelope protein,2.4,9.7,8.013228265733755,SPR,yellow-fever-virus/envelope-protein
+6j11_D_E_C,6j11,D,E,C,VH:VL,middle east respiratory syndrome-related coronavirus,n-terminal domain of spike glycoprotein,3.0,25.0,7.602059991327962,SPR,middle-east-respiratory-syndrome-related-coronavirus/n-terminal-domain-of-spike-glycoprotein
+6j14_A_B_G,6j14,A,B,G,VH:VL,homo sapiens,programmed cell death protein 1,1.4,1.54,8.812479279163536,SPR,homo-sapiens/programmed-cell-death-protein-1
+6j15_A_B_C,6j15,A,B,C,FabH:FabL,homo sapiens,programmed cell death protein 1,2.6,1.22,8.913640169325252,SPR,homo-sapiens/programmed-cell-death-protein-1
+6j5f_H_L_A,6j5f,H,L,A,VH:VL,tick-borne encephalitis virus,envelope protein,1.8,390.0,6.4089353929735005,SPR,tick-borne-encephalitis-virus/envelope-protein
+6jb2_A_N.A._B,6jb2,A,N.A.,B,VHH,gallus gallus,lysozyme c,1.5,635.0,6.197226274708024,SPR,gallus-gallus/lysozyme-c
+6jb8_A_N.A._B,6jb8,A,N.A.,B,VHH,gallus gallus,lysozyme c,1.65,0.13,9.886056647693165,SPR,gallus-gallus/lysozyme-c
+6jep_H_L_E,6jep,H,L,E,FabH:FabL,zika virus,genome polyprotein,2.32,1.06,8.97469413473523,SPR,zika-virus/genome-polyprotein
+6jhs_E_D_C,6jhs,E,D,C,FabH:FabL,human hepatitis a virus hu/australia/hm175/1976,vp3,3.05,7.1,8.148741651280925,SPR,human-hepatitis-a-virus-hu-australia-hm175-1976/vp3
+6jjp_A_B_C,6jjp,A,B,C,FabH:FabL,homo sapiens,programmed cell death protein 1,2.9,3.55,8.449771646944907,SPR,homo-sapiens/programmed-cell-death-protein-1
+6k0y_A_B_C,6k0y,A,B,C,FabH:FabL,homo sapiens,programmed cell death protein 1,1.7,40.3,7.394694953858891,SPR,homo-sapiens/programmed-cell-death-protein-1
+6k7o_B_C_P,6k7o,B,C,P,FabH:FabL,homo sapiens,leukocyte immunoglobulin-like receptor subfamily b member 4,3.0,2.9,8.537602002101044,BLI,homo-sapiens/leukocyte-immunoglobulin-like-receptor-subfamily-b-member-4
+6knm_A_N.A._B,6knm,A,N.A.,B,VHH,homo sapiens,"apelin receptor,rubredoxin,apelin receptor",3.2,0.083,10.080921907623926,SPR,homo-sapiens/apelin-receptor-rubredoxin-apelin-receptor
+6lgw_A_N.A._E,6lgw,A,N.A.,E,scFv,lyssavirus rabies,glycoprotein,2.9,35.3,7.452225294612178,SPR,lyssavirus-rabies/glycoprotein
+6m58_C_D_B,6m58,C,D,B,FabH:FabL,homo sapiens,serum albumin,2.95,1.0,9.0,BLI,homo-sapiens/serum-albumin
+6mfp_C_D_A,6mfp,C,D,A,FabH:FabL,human immunodeficiency virus 1,clade a/e 93th057 hiv-1 gp120 core,3.0,0.6,9.221848749616356,SPR,human-immunodeficiency-virus-1/clade-a-e-93th057-hiv-1-gp120-core
+6mg7_H_L_G,6mg7,H,L,G,FabH:FabL,human immunodeficiency virus 1,clade a/e 93th057 hiv-1 gp120 core,2.91,2.1,8.67778070526608,SPR,human-immunodeficiency-virus-1/clade-a-e-93th057-hiv-1-gp120-core
+6mhr_A_B_C,6mhr,A,B,C,FabH:FabL,homo sapiens,tumor necrosis factor receptor superfamily member 9,2.8,22.0,7.657577319177793,SPR,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-9
+6mi2_A_B_C,6mi2,A,B,C,FabH:FabL,homo sapiens,tumor necrosis factor receptor superfamily member 9,2.72,69.0,7.161150909262744,SPR,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-9
+6mlm_E_I_A,6mlm,E,I,A,VH:VL,influenza a virus (a/new york/107/2003(h7n2)),hemagglutinin ha1 chain,3.5,0.1,10.0,SPR,influenza-a-virus/hemagglutinin-ha1-chain
+6mpg_3_4_A-2,6mpg,3,4,A;2,VH:VL,human immunodeficiency virus 1;human immunodeficiency virus 1,envelope glycoprotein gp41;envelope glycoprotein gp120,3.2,42.4,7.372634143407267,SPR,human-immunodeficiency-virus-1/envelope-glycoprotein-gp120;envelope-glycoprotein-gp41
+6o39_B_A_C,6o39,B,A,C,FabH:FabL,homo sapiens,frizzled-5,1.8,1.7,8.769551078621726,BLI,homo-sapiens/frizzled-5
+6o3a_B_A_E,6o3a,B,A,E,FabH:FabL,homo sapiens,frizzled-7,2.1,5.2,8.2839966563652,BLI,homo-sapiens/frizzled-7
+6o3b_B_A_C,6o3b,B,A,C,FabH:FabL,homo sapiens,frizzled-7,2.5,4.5,8.346787486224656,BLI,homo-sapiens/frizzled-7
+6o3c_B_N.A._A,6o3c,B,N.A.,A,VHH,mus musculus,smoothened homolog,2.8,117.0,6.931814138253839,SPR,mus-musculus/smoothened-homolog
+6o3j_A_B_I,6o3j,A,B,I,FabH:FabL,human immunodeficiency virus 1,"mper peptide, region 671-683 of hiv-1 gp41",3.42,9.9,8.00436480540245,BLI,human-immunodeficiency-virus-1/mper-peptide-region-671-683-of-hiv-1-gp41
+6o3l_A_B_E,6o3l,A,B,E,FabH:FabL,human immunodeficiency virus 1,"mper peptide, region 671-683 of hiv-1 gp41",1.98,7.5,8.1249387366083,BLI,human-immunodeficiency-virus-1/mper-peptide-region-671-683-of-hiv-1-gp41
+6o42_B_A_I,6o42,B,A,I,FabH:FabL,human immunodeficiency virus 1,"mper peptide, region 671-683 of hiv-1 gp41",2.6,64.4,7.191114132640188,BLI,human-immunodeficiency-virus-1/mper-peptide-region-671-683-of-hiv-1-gp41
+6oan_B_N.A._A,6oan,B,N.A.,A,scFv,plasmodium vivax,duffy binding surface protein region ii,2.9,3.4,8.468521082957745,BLI,plasmodium-vivax/duffy-binding-surface-protein-region-ii
+6oao_B_N.A._A,6oao,B,N.A.,A,scFv,plasmodium vivax,duffy binding surface protein region ii,3.5,4.02,8.39577394691553,BLI,plasmodium-vivax/duffy-binding-surface-protein-region-ii
+6obc_B_N.A._A,6obc,B,N.A.,A,VHH,ricinus communis,ricin a chain,1.76,0.31,9.508638306165729,SPR,ricinus-communis/ricin-a-chain
+6obe_B_N.A._A,6obe,B,N.A.,A,VHH,ricinus communis,ricin a chain,1.73,4.01,8.396855627379818,SPR,ricinus-communis/ricin-a-chain
+6obg_C_N.A._A,6obg,C,N.A.,A,VHH,ricinus communis,ricin a chain,2.0,0.42,9.3767507096021,SPR,ricinus-communis/ricin-a-chain
+6obm_B_N.A._A,6obm,B,N.A.,A,VHH,ricinus communis,ricin a chain,2.5,4.2,8.3767507096021,SPR,ricinus-communis/ricin-a-chain
+6obo_C_N.A._A,6obo,C,N.A.,A,VHH,ricinus communis,ricin a chain,1.9,10.9,7.962573502059376,SPR,ricinus-communis/ricin-a-chain
+6oca_C_N.A._A,6oca,C,N.A.,A,VHH,ricinus communis,ricin a chain,2.11,0.28,9.55284196865778,SPR,ricinus-communis/ricin-a-chain
+6ocd_B_N.A._A,6ocd,B,N.A.,A,VHH,ricinus communis,ricin a chain,2.1,9.51,8.021819483062586,SPR,ricinus-communis/ricin-a-chain
+6oe4_B_C_A,6oe4,B,C,A,FabH:FabL,human respiratory syncytial virus a (strain a2),fusion glycoprotein f0,3.3,0.19,9.721246399047171,SPR,human-respiratory-syncytial-virus-a/fusion-glycoprotein-f0
+6oej_B_C_A,6oej,B,C,A,FabH:FabL,human immunodeficiency virus 1,clade a/e 93th057 hiv-1 gp120 core,3.45,0.25,9.602059991327964,SPR,human-immunodeficiency-virus-1/clade-a-e-93th057-hiv-1-gp120-core
+6ogx_C_D_G,6ogx,C,D,G,FabH:FabL,homo sapiens,tumor necrosis factor receptor superfamily member 4,2.77,0.45,9.346787486224656,SPR,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-4
+6okm_H_L_R,6okm,H,L,R,FabH:FabL,homo sapiens,tumor necrosis factor receptor superfamily member 4,2.1,2.5,8.602059991327963,SPR,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-4
+6oor_H_L_A,6oor,H,L,A,FabH:FabL,mus musculus,antigen-presenting glycoprotein cd1d1,2.45,12.4,7.906578314837765,SPR,mus-musculus/antigen-presenting-glycoprotein-cd1d1
+6osh_H_L_K,6osh,H,L,K,VH:VL,homo sapiens,tyrosine-protein kinase transmembrane receptor ror2,1.12,7.0,8.154901959985743,SPR,homo-sapiens/tyrosine-protein-kinase-transmembrane-receptor-ror2
+6osv_H_L_K,6osv,H,L,K,VH:VL,homo sapiens,tyrosine-protein kinase transmembrane receptor ror2,1.34,3.8,8.42021640338319,SPR,homo-sapiens/tyrosine-protein-kinase-transmembrane-receptor-ror2
+6oz9_H_L_A-B,6oz9,H,L,A;B,FabH:FabL,ebola virus;ebola virus,small secreted glycoprotein sgp;envelope glycoprotein,3.46,2.12,8.67366413907125,BLI,ebola-virus/envelope-glycoprotein;small-secreted-glycoprotein-sgp
+6p4a_H_L_C,6p4a,H,L,C,FabH:FabL,gallus gallus,lysozyme c,2.2,0.736,9.1331221856625,BLI,gallus-gallus/lysozyme-c
+6p4b_B_A_D,6p4b,B,A,D,FabH:FabL,gallus gallus,lysozyme c,1.9,0.976,9.010550182333308,BLI,gallus-gallus/lysozyme-c
+6p8n_B_D_A-C,6p8n,B,D,A;C,FabH:FabL,human immunodeficiency virus 1;human immunodeficiency virus 1,env outer domain eod-gt8;env outer domain eod-gt8,3.2,0.502,9.29929628285498,BLI,human-immunodeficiency-virus-1/env-outer-domain-eod-gt8
+6phb_B_A_E-I,6phb,B,A,E;I,FabH:FabL,plasmodium falciparum;plasmodium falciparum,25 kda ookinete surface antigen;25 kda ookinete surface antigen,2.0,19.2,7.716698771296451,BLI,plasmodium-falciparum/25-kda-ookinete-surface-antigen
+6phc_A_B_I,6phc,A,B,I,FabH:FabL,plasmodium falciparum,25 kda ookinete surface antigen,2.9,4.6,8.337242168318426,BLI,plasmodium-falciparum/25-kda-ookinete-surface-antigen
+6phd_H_L_C,6phd,H,L,C,FabH:FabL,plasmodium falciparum,25 kda ookinete surface antigen,3.1,2.5,8.602059991327963,BLI,plasmodium-falciparum/25-kda-ookinete-surface-antigen
+6phf_A_B_G,6phf,A,B,G,FabH:FabL,plasmodium falciparum,25 kda ookinete surface antigen,3.1,4.6,8.337242168318426,BLI,plasmodium-falciparum/25-kda-ookinete-surface-antigen
+6plk_H_L_E,6plk,H,L,E,FabH:FabL,zika virus zikv/h. sapiens/frenchpolynesia/10087pf/2013,env,2.3,1.15,8.939302159646388,BLI,zika-virus-zikv-h-sapiens-frenchpolynesia-10087pf-2013/env
+6pxh_C_D_A,6pxh,C,D,A,FabH:FabL,middle east respiratory syndrome-related coronavirus,mers-cov s1-ntd,2.3,28.0,7.552841968657781,SPR,middle-east-respiratory-syndrome-related-coronavirus/mers-cov-s1-ntd
+6qgw_B_N.A._A,6qgw,B,N.A.,A,VHH,escherichia coli o157:h7,outer membrane protein assembly factor bama,1.94,5.5,8.259637310505756,SPR,escherichia-coli-o157-h7/outer-membrane-protein-assembly-factor-bama
+6qgx_B_N.A._A,6qgx,B,N.A.,A,VHH,escherichia coli o157:h7,outer membrane protein assembly factor bama,2.2,1.8,8.744727494896694,SPR,escherichia-coli-o157-h7/outer-membrane-protein-assembly-factor-bama
+6qgy_B_N.A._A,6qgy,B,N.A.,A,VHH,escherichia coli o157:h7,outer membrane protein assembly factor bama,2.51,1.3,8.886056647693163,SPR,escherichia-coli-o157-h7/outer-membrane-protein-assembly-factor-bama
+6r2s_B_A_C,6r2s,B,A,C,FabH:FabL,plasmodium vivax (strain salvador i),duffy receptor,3.04,0.02,10.69897000433602,SPR,plasmodium-vivax/duffy-receptor
+6s3t_D_C_S,6s3t,D,C,S,FabH:FabL,mycoplasma hyopneumoniae j,46 kda surface antigen,3.5,29.0,7.537602002101044,SPR,mycoplasma-hyopneumoniae-j/46-kda-surface-antigen
+6sc5_B_N.A._A,6sc5,B,N.A.,A,VH,homo sapiens,e3 ubiquitin-protein ligase rnf31,2.1,2.9,8.537602002101044,BLI,homo-sapiens/e3-ubiquitin-protein-ligase-rnf31
+6sge_B_N.A._A-C,6sge,B,N.A.,A;C,VHH,homo sapiens;homo sapiens,rho-related gtp-binding protein rhob;rho-related gtp-binding protein rhob,1.5,30.8,7.511449283499556,SPR,homo-sapiens/rho-related-gtp-binding-protein-rhob
+6tej_C_N.A._B,6tej,C,N.A.,B,VH,mycolicibacterium thermoresistibile,drug abc transporter atp-binding protein,2.7,150.0,6.823908740944319,SPR,mycolicibacterium-thermoresistibile/drug-abc-transporter-atp-binding-protein
+6txz_H_L_A,6txz,H,L,A,FabH:FabL,homo sapiens,hepatitis a virus cellular receptor 2,3.06,2.3,8.638272163982407,SPR,homo-sapiens/hepatitis-a-virus-cellular-receptor-2
+6u12_B_N.A._A,6u12,B,N.A.,A,VHH,listeria monocytogenes,inlb,1.56,0.15,9.82390874094432,SPR,listeria-monocytogenes/inlb
+6umx_H_L_A,6umx,H,L,A,FabH:FabL,homo sapiens,growth/differentiation factor 8,2.79,1.51,8.821023052706831,BLI,homo-sapiens/growth-differentiation-factor-8
+6uta_A_B_C,6uta,A,B,C,FabH:FabL,zika virus zikv/h. sapiens/frenchpolynesia/10087pf/2013,env,3.1,1200.0,5.920818753952375,SPR,zika-virus-zikv-h-sapiens-frenchpolynesia-10087pf-2013/env
+6v4n_A_B_I,6v4n,A,B,I,FabH:FabL,influenza b virus,neuraminidase,2.5,1.07,8.97061622231479,BLI,influenza-b-virus/neuraminidase
+6v4o_A_B_I,6v4o,A,B,I,FabH:FabL,influenza b virus,neuraminidase,2.8,150.0,6.823908740944319,BLI,influenza-b-virus/neuraminidase
+6vc9_H_L_A,6vc9,H,L,A,VH:VL,homo sapiens,"5'-nucleotidase, ecto (cd73), isoform cra_a",2.25,4.18,8.378823718224965,SPR,homo-sapiens/5-nucleotidase-ecto-cd73-isoform-cra-a
+6vgr_C_D_A-B,6vgr,C,D,A;B,FabH:FabL,homo sapiens;homo sapiens,dipeptidase 3;dipeptidase 3,2.84,1.7,8.769551078621726,SPR,homo-sapiens/dipeptidase-3
+6vlw_H_L_G,6vlw,H,L,G,FabH:FabL,human immunodeficiency virus 1,426cod,3.42,289.0,6.539102157243452,BLI,human-immunodeficiency-virus-1/426cod
+6vtw_H_L_A,6vtw,H,L,A,FabH:FabL,human respiratory syncytial virus a2,s4_2.45,2.6,1.0,9.0,SPR,human-respiratory-syncytial-virus-a2/s4-2-45
+6vvu_E_F_C,6vvu,E,F,C,FabH:FabL,homo sapiens,tryptase alpha/beta-1,3.0,0.5,9.30102999566398,SPR,homo-sapiens/tryptase-alpha-beta-1
+6vy4_C_D_B,6vy4,C,D,B,FabH:FabL,hendra henipavirus,receptor binding protein,2.0,2.1,8.67778070526608,BLI,hendra-henipavirus/receptor-binding-protein
+6vy6_H_L_A,6vy6,H,L,A,FabH:FabL,hendra henipavirus,receptor binding protein,2.6,2.9,8.537602002101044,BLI,hendra-henipavirus/receptor-binding-protein
+6w16_H_L_F,6w16,H,L,F,FabH:FabL,human metapneumovirus,"fusion glycoprotein f0,envelope glycoprotein fusion",3.1,0.85,9.070581074285707,BLI,human-metapneumovirus/fusion-glycoprotein-f0-envelope-glycoprotein-fusion
+6war_B_N.A._A,6war,B,N.A.,A,VHH,middle east respiratory syndrome-related coronavirus,spike protein,3.4,0.079,10.102372908709558,SPR,middle-east-respiratory-syndrome-related-coronavirus/spike-protein
+6wjl_F_J_E,6wjl,F,J,E,FabH:FabL,homo sapiens,glypican-2,3.3,1.0,9.0,BLI,homo-sapiens/glypican-2
+6wn1_B_C_A,6wn1,B,C,A,FabH:FabL,plasmodium vivax sal-1,reticulocyte binding protein 2b,3.15,0.061,10.214670164989233,BLI,plasmodium-vivax-sal-1/reticulocyte-binding-protein-2b
+6wzj_A_B_E,6wzj,A,B,E,FabH:FabL,macaca fascicularis,c-x-c motif chemokine 2,2.37,0.171,9.767003889607846,SPR,macaca-fascicularis/c-x-c-motif-chemokine-2
+6wzl_A_B_E,6wzl,A,B,E,FabH:FabL,macaca fascicularis,c-x-c motif chemokine 7,2.29,0.181,9.742321425130816,SPR,macaca-fascicularis/c-x-c-motif-chemokine-7
+6wzm_A_B_E,6wzm,A,B,E,FabH:FabL,homo sapiens,interleukin-8,2.28,0.384,9.415668775632469,SPR,homo-sapiens/interleukin-8
+6x07_B_N.A._A,6x07,B,N.A.,A,VHH,saccharomyces cerevisiae (strain atcc 204508 / s288c),nucleoporin nic96,2.1,1.3,8.886056647693163,BLI,saccharomyces-cerevisiae/nucleoporin-nic96
+6x4t_B_E_C,6x4t,B,E,C,FabH:FabL,homo sapiens,icos ligand,3.15,5.5,8.259637310505756,BLI,homo-sapiens/icos-ligand
+6xkr_H_L_P,6xkr,H,L,P,FabH:FabL,homo sapiens,programmed cell death protein 1,2.59,0.042,10.3767507096021,SPR,homo-sapiens/programmed-cell-death-protein-1
+6xsw_A_B_C,6xsw,A,B,C,FabH:FabL,homo sapiens,neurogenic locus notch homolog protein 3,2.98,2.33,8.63264407897398,SPR,homo-sapiens/neurogenic-locus-notch-homolog-protein-3
+6xy2_H_L_A,6xy2,H,L,A,FabH:FabL,homo sapiens,cytotoxic t-lymphocyte protein 4,3.05,199.0,6.701146923590294,BLI,homo-sapiens/cytotoxic-t-lymphocyte-protein-4
+6xzw_H_L_D,6xzw,H,L,D,FabH:FabL,neisseria meningitidis serogroup b (strain mc58),lipoprot_c domain-containing protein,2.4,0.328,9.48412615628832,SPR,neisseria-meningitidis-serogroup-b/lipoprot-c-domain-containing-protein
+6y6c_C_N.A._B,6y6c,C,N.A.,B,scFv,homo sapiens,triggering receptor expressed on myeloid cells 2,2.26,0.6,9.221848749616356,SPR,homo-sapiens/triggering-receptor-expressed-on-myeloid-cells-2
+6ywc_A_B_C,6ywc,A,B,C,FabH:FabL,synthetic construct,de novo design 4e1h_95,2.85,22.0,7.657577319177793,SPR,synthetic-construct/de-novo-design-4e1h-95
+6ywd_A_B_C,6ywd,A,B,C,FabH:FabL,synthetic construct,de novo designed protein 4h_01,3.2,1.0,9.0,SPR,synthetic-construct/de-novo-designed-protein-4h-01
+6yye_C_N.A._A,6yye,C,N.A.,A,scFv,homo sapiens,triggering receptor expressed on myeloid cells 2,3.36,1.6,8.795880017344075,SPR,homo-sapiens/triggering-receptor-expressed-on-myeloid-cells-2
+6zrv_B_N.A._A,6zrv,B,N.A.,A,VHH,homo sapiens,plasminogen activator inhibitor 1,1.88,3.2,8.494850021680094,SPR,homo-sapiens/plasminogen-activator-inhibitor-1
+7a3n_H_L_A,7a3n,H,L,A,FabH:FabL,zika virus,core protein,2.1,16.2,7.790484985457369,BLI,zika-virus/core-protein
+7a6o_B_N.A._A,7a6o,B,N.A.,A,VHH,homo sapiens,von willebrand factor,2.12,91.6,7.03810452633215,BLI,homo-sapiens/von-willebrand-factor
+7amp_H_L_B,7amp,H,L,B,FabH:FabL,homo sapiens,beta chain 1 of a6 t-cell receptor trbc1,2.64,2.57,8.590066876668706,SPR,homo-sapiens/beta-chain-1-of-a6-t-cell-receptor-trbc1
+7ams_H_L_B,7ams,H,L,B,FabH:FabL,homo sapiens,human a6 t-cell receptor beta chain trbc2,2.42,479.0,6.319664486585437,SPR,homo-sapiens/human-a6-t-cell-receptor-beta-chain-trbc2
+7anq_B_N.A._A,7anq,B,N.A.,A,VHH,homo sapiens,proprotein convertase subtilisin/kexin type 9,2.2,5.56,8.254925208417943,BLI,homo-sapiens/proprotein-convertase-subtilisin-kexin-type-9
+7b27_C_N.A._A,7b27,C,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,surface glycoprotein,2.9,8.23,8.08460016478773,BLI,sars-cov-2_spike
+7bc6_B_N.A._A,7bc6,B,N.A.,A,VHH,gallus gallus,proton-coupled folate transporter,3.2,7.7,8.113509274827518,BLI,gallus-gallus/proton-coupled-folate-transporter
+7bel_A_B_R,7bel,A,B,R,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.53,5.9,8.229147988357855,BLI,sars-cov-2_spike
+7bnv_H_L_A,7bnv,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,surface glycoprotein,2.35,3.4,8.468521082957745,SPR,sars-cov-2_spike
+7bsc_H_L_A,7bsc,H,L,A,FabH:FabL,dengue virus 2,non-structural protein 1,2.31,0.1,10.0,SPR,dengue-virus-2/non-structural-protein-1
+7bxa_B_C_A,7bxa,B,C,A,FabH:FabL,homo sapiens,programmed cell death protein 1,3.32,0.13,9.886056647693165,SPR,homo-sapiens/programmed-cell-death-protein-1
+7c2l_H_L_A,7c2l,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.1,0.996,9.001740661576301,BLI,sars-cov-2_spike
+7can_A_N.A._B,7can,A,N.A.,B,VH,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.94,33.0,7.481486060122113,BLI,sars-cov-2_spike
+7ce2_Z_B_A,7ce2,Z,B,A,FabH:FabL,clostridium tetani,tetanus toxin,2.01,0.32,9.494850021680094,SPR,clostridium-tetani/tetanus-toxin
+7cgw_A_B_C,7cgw,A,B,C,FabH:FabL,homo sapiens,programmed cell death protein 1,3.2,0.114,9.943095148663527,SPR,homo-sapiens/programmed-cell-death-protein-1
+7chy_H_L_I,7chy,H,L,I,FabH:FabL,homo sapiens,interleukin-1 beta,2.65,28.9,7.539102157243452,SPR,homo-sapiens/interleukin-1-beta
+7chz_H_L_I,7chz,H,L,I,FabH:FabL,homo sapiens,interleukin-1 beta,2.5,0.645,9.190440285364732,SPR,homo-sapiens/interleukin-1-beta
+7cr5_H_L_A,7cr5,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,nucleoprotein,2.08,1.02,8.991399828238082,SPR,sars-cov-2_spike
+7cu5_A_B_E-Q,7cu5,A,B,E;Q,VHVL:VHVL,homo sapiens;homo sapiens,programmed cell death protein 1;programmed cell death protein 1,2.81,5.92,8.22767829327708,SPR,homo-sapiens/programmed-cell-death-protein-1
+7cyv_H_N.A._B,7cyv,H,N.A.,B,scFv,severe acute respiratory syndrome coronavirus 2,spike protein s1,3.13,5.6,8.2518119729938,BLI,sars-cov-2_spike
+7d2z_A_N.A._B,7d2z,A,N.A.,B,VH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.97,5.6,8.2518119729938,BLI,sars-cov-2_spike
+7d4b_B_N.A._A,7d4b,B,N.A.,A,VHH,homo sapiens,tumor necrosis factor receptor superfamily member 9,3.14,4.9,8.309803919971486,BLI,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-9
+7d6y_B_N.A._A,7d6y,B,N.A.,A,VH,homo sapiens,eukaryotic translation initiation factor 4e,1.67,154.3,6.811634073936852,SPR,homo-sapiens/eukaryotic-translation-initiation-factor-4e
+7d8b_B_N.A._A,7d8b,B,N.A.,A,VH,homo sapiens,eukaryotic translation initiation factor 4e,2.46,0.057,10.244125144327509,SPR,homo-sapiens/eukaryotic-translation-initiation-factor-4e
+7dc8_B_A_C,7dc8,B,A,C,FabH:FabL,homo sapiens,interleukin-6 receptor subunit alpha,2.76,48.0,7.318758762624412,SPR,homo-sapiens/interleukin-6-receptor-subunit-alpha
+7deo_A_N.A._B,7deo,A,N.A.,B,scFv,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.5,2.33,8.63264407897398,BLI,sars-cov-2_spike
+7det_B_N.A._A,7det,B,N.A.,A,scFv,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.2,0.0507,10.294992040666664,BLI,sars-cov-2_spike
+7df1_F_J_C,7df1,F,J,C,VH:VL,homo sapiens,4f2 cell-surface antigen heavy chain,2.81,58.2,7.235077015350112,SPR,homo-sapiens/4f2-cell-surface-antigen-heavy-chain
+7dha_C_B_A,7dha,C,B,A,FabH:FabL,homo sapiens,adp-ribosyl cyclase/cyclic adp-ribose hydrolase 1,2.55,4.36,8.360513510731414,SPR,homo-sapiens/adp-ribosyl-cyclase-cyclic-adp-ribose-hydrolase-1
+7dm1_D_C_A,7dm1,D,C,A,FabH:FabL,mycobacterium tuberculosis h37rv,phosphate-binding protein psts 1,2.1,1.44,8.84163750790475,SPR,mycobacterium-tuberculosis-h37rv/phosphate-binding-protein-psts-1
+7dm2_H_L_A,7dm2,H,L,A,FabH:FabL,mycobacterium tuberculosis h37rv,phosphate-binding protein psts 1,2.4,1.34,8.872895201635192,SPR,mycobacterium-tuberculosis-h37rv/phosphate-binding-protein-psts-1
+7dst_E_N.A._C,7dst,E,N.A.,C,VHH,foot-and-mouth disease virus,vp3 of o type fmdv capsid,3.1,1.0,9.0,SPR,foot-and-mouth-disease-virus/vp3-of-o-type-fmdv-capsid
+7dv4_B_N.A._A,7dv4,B,N.A.,A,VH,homo sapiens,cytotoxic t-lymphocyte protein 4,2.38,0.0428,10.368556230986828,BLI,homo-sapiens/cytotoxic-t-lymphocyte-protein-4
+7e9b_H_L_C,7e9b,H,L,C,FabH:FabL,homo sapiens,programmed cell death protein 1,1.78,2.42,8.616184634019568,BLI,homo-sapiens/programmed-cell-death-protein-1
+7eam_C_D_B,7eam,C,D,B,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.4,0.003,11.522878745280336,SPR,sars-cov-2_spike
+7ean_H_L_A,7ean,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.91,0.01,11.0,SPR,sars-cov-2_spike
+7f5g_B_N.A._A,7f5g,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,1.75,0.25,9.602059991327964,BLI,sars-cov-2_spike
+7f9w_B_C_A,7f9w,B,C,A,FabH:FabL,homo sapiens,interleukin-2 receptor subunit alpha,3.2,8.84,8.053547734986926,SPR,homo-sapiens/interleukin-2-receptor-subunit-alpha
+7fcq_H_L_A,7fcq,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.89,0.55,9.259637310505756,SPR,sars-cov-2_spike
+7jmp_H_L_A,7jmp,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.71,20.9,7.679853713888946,BLI,sars-cov-2_spike
+7joo_H_L_C,7joo,H,L,C,FabH:FabL,homo sapiens,inducible t-cell costimulator,2.4,2.0,8.698970004336019,BLI,homo-sapiens/inducible-t-cell-costimulator
+7k7i_H_L_A,7k7i,H,L,A,VH:VL,salmonella typhi,putative pertussis-like toxin subunit,3.13,0.0067,11.173925197299171,SPR,salmonella-typhi/putative-pertussis-like-toxin-subunit
+7k93_E_N.A._A,7k93,E,N.A.,A,scFv,dengue virus 2,non-structural protein 1,2.89,5.8,8.236572006437063,BLI,dengue-virus-2/non-structural-protein-1
+7ket_A_B_C,7ket,A,B,C,FabH:FabL,neisseria meningitidis,factor h binding protein,2.0,7.26,8.139063379299907,SPR,neisseria-meningitidis/factor-h-binding-protein
+7ki6_D_C_B,7ki6,D,C,B,VH:VL,hendra henipavirus,fusion glycoprotein f0,2.8,1.0,9.0,BLI,hendra-henipavirus/fusion-glycoprotein-f0
+7kjh_A_N.A._C,7kjh,A,N.A.,C,VHH,plasmodium falciparum,surface protein p12p,2.0,6.7,8.173925197299173,BLI,plasmodium-falciparum/surface-protein-p12p
+7kji_A_N.A._B,7kji,A,N.A.,B,VHH,plasmodium falciparum,surface protein p12p,3.25,5.0,8.301029995663981,BLI,plasmodium-falciparum/surface-protein-p12p
+7kn5_E_N.A._A,7kn5,E,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.87,21.4,7.669586226650809,SPR,sars-cov-2_spike
+7kqg_B_C_A,7kqg,B,C,A,FabH:FabL,influenza b virus,hemagglutinin,2.6,160.0,6.795880017344075,BLI,influenza-b-virus/hemagglutinin
+7kqh_C_D_A,7kqh,C,D,A,FabH:FabL,influenza b virus,hemagglutinin,3.5,50.0,7.301029995663981,BLI,influenza-b-virus/hemagglutinin
+7kyl_H_L_E,7kyl,H,L,E,FabH:FabL,powassan virus,envelope protein domain iii,2.0,68.4,7.164943898279883,BLI,powassan-virus/envelope-protein-domain-iii
+7l2e_G_J_B,7l2e,G,J,B,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.97,0.0043,11.366531544420411,SPR,sars-cov-2_spike
+7lab_H_L_C,7lab,H,L,C,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.97,294.0,6.531652669587842,SPR,sars-cov-2_spike
+7lcn_B_D_A,7lcn,B,D,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.35,16.4,7.785156151952302,SPR,sars-cov-2_spike
+7lcv_A_B_C,7lcv,A,B,C,FabH:FabL,neisseria meningitidis,factor h binding protein,1.7,66.0,7.180456064458132,SPR,neisseria-meningitidis/factor-h-binding-protein
+7lf7_H_L_K,7lf7,H,L,K,FabH:FabL,homo sapiens,apolipoprotein l1,2.03,0.86,9.065501548756432,SPR,homo-sapiens/apolipoprotein-l1
+7lfa_B_D_A,7lfa,B,D,A,FabH:FabL,homo sapiens,apolipoprotein l1,1.86,1.56,8.806875401645538,SPR,homo-sapiens/apolipoprotein-l1
+7lfb_H_L_X,7lfb,H,L,X,FabH:FabL,homo sapiens,apolipoprotein l1,1.91,1.63,8.787812395596042,SPR,homo-sapiens/apolipoprotein-l1
+7lm8_M_N_A,7lm8,M,N,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.94,29.2,7.534617148551582,BLI,sars-cov-2_spike
+7lm9_H_L_A,7lm9,H,L,A,FabH:FabL,sars coronavirus ma15,spike glycoprotein,1.53,53.6,7.27083521030723,BLI,sars-coronavirus-ma15/spike-glycoprotein
+7lqv_H_L_A,7lqv,H,L,A,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.25,4.4802,8.348702598288101,SPR,sars-cov-2_spike
+7lr3_A_B_C,7lr3,A,B,C,FabH:FabL,plasmodium berghei,hapless 2,2.8,7.8,8.10790539730952,SPR,plasmodium-berghei/hapless-2
+7lr4_A_B_C,7lr4,A,B,C,FabH:FabL,plasmodium berghei,hapless 2,2.1,5.5,8.259637310505756,SPR,plasmodium-berghei/hapless-2
+7luc_D_E_C,7luc,D,E,C,VH:VL,respiratory syncytial virus,fusion glycoprotein f0,3.21,0.0057,11.244125144327509,BLI,respiratory-syncytial-virus/fusion-glycoprotein-f0
+7luc_J_K_A,7luc,J,K,A,VH:VL,respiratory syncytial virus,fusion glycoprotein f0,3.21,0.025,10.602059991327964,BLI,respiratory-syncytial-virus/fusion-glycoprotein-f0
+7lvw_G_N.A._A,7lvw,G,N.A.,A,VHH,respiratory syncytial virus,fusion glycoprotein f0,2.1,0.084,10.075720713938118,SPR,respiratory-syncytial-virus/fusion-glycoprotein-f0
+7lxy_G_I_B,7lxy,G,I,B,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.2,1.8,8.744727494896694,BLI,sars-cov-2_spike
+7lxz_G_I_B,7lxz,G,I,B,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.6,0.3,9.522878745280336,BLI,sars-cov-2_spike
+7ly2_G_I_B,7ly2,G,I,B,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.5,8.7,8.060480747381382,BLI,sars-cov-2_spike
+7ly3_D_C_A,7ly3,D,C,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,3.0,8.7,8.060480747381382,BLI,sars-cov-2_spike
+7m7w_C_D_S,7m7w,C,D,S,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.65,0.04,10.397940008672036,SPR,sars-cov-2_spike
+7m8j_H_L_A,7m8j,H,L,A,VH:VL,severe acute respiratory syndrome coronavirus 2,spike protein s1,3.48,9.4,8.0268721464003,BLI,sars-cov-2_spike
+7mdu_H_L_A,7mdu,H,L,A,VH:VL,human immunodeficiency virus 1,surface protein gp120,3.3,890.0,6.050609993355088,BLI,human-immunodeficiency-virus-1/surface-protein-gp120
+7mep_H_L_A,7mep,H,L,A,VH:VL,human immunodeficiency virus,bg505 sosipv5.2(7s) - gp120,3.5,180.0,6.7447274948966935,BLI,human-immunodeficiency-virus/bg505-sosipv5-2-7s-gp120
+7mfu_B_N.A._A,7mfu,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.7,13.8,7.860120913598763,SPR,sars-cov-2_spike
+7mfu_C_N.A._A,7mfu,C,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.7,62.7,7.202732459169283,SPR,sars-cov-2_spike
+7mlh_C_A_F,7mlh,C,A,F,FabH:FabL,dermatophagoides pteronyssinus,der p 2 variant 3,2.1,0.474,9.324221658325914,SPR,dermatophagoides-pteronyssinus/der-p-2-variant-3
+7mxl_A_B_C,7mxl,A,B,C,FabH:FabL,betula pendula,major pollen allergen bet v 1-a,3.2,0.475,9.323306390375134,SPR,betula-pendula/major-pollen-allergen-bet-v-1-a
+7mxl_H_L_C,7mxl,H,L,C,FabH:FabL,betula pendula,major pollen allergen bet v 1-a,3.2,3.24,8.489454989793387,SPR,betula-pendula/major-pollen-allergen-bet-v-1-a
+7mxl_J_K_C,7mxl,J,K,C,FabH:FabL,betula pendula,major pollen allergen bet v 1-a,3.2,1.81,8.742321425130816,SPR,betula-pendula/major-pollen-allergen-bet-v-1-a
+7n0a_B_A_C,7n0a,B,A,C,FabH:FabL,homo sapiens,leukemia inhibitory factor,3.1,0.074,10.130768280269024,SPR,homo-sapiens/leukemia-inhibitory-factor
+7n0r_C_N.A._A,7n0r,C,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,nucleoprotein,1.42,1.1,8.958607314841775,SPR,sars-cov-2_spike
+7n0u_H_L_C,7n0u,H,L,C,FabH:FabL,betula pendula,recombinant bet v 1,3.0,0.475,9.323306390375134,SPR,betula-pendula/recombinant-bet-v-1
+7n8q_C_D_A,7n8q,C,D,A,FabH:FabL,human immunodeficiency virus 1,clade a/e 93th057 hiv-1 gp120 core,2.9,2.54,8.595166283380062,SPR,human-immunodeficiency-virus-1/clade-a-e-93th057-hiv-1-gp120-core
+7neg_H_L_E,7neg,H,L,E,FabH:FabL,severe acute respiratory syndrome coronavirus 2,surface glycoprotein,2.19,2.2,8.657577319177793,BLI,sars-cov-2_spike
+7neh_H_L_E,7neh,H,L,E,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,1.77,2.2,8.657577319177793,BLI,sars-cov-2_spike
+7nkt_B_N.A._A,7nkt,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.3,3.66,8.436518914605589,BLI,sars-cov-2_spike
+7nmu_C_N.A._B,7nmu,C,N.A.,B,VHH,homo sapiens,platelet glycoprotein vi,2.5,0.57,9.244125144327509,SPR,homo-sapiens/platelet-glycoprotein-vi
+7nqk_B_N.A._A,7nqk,B,N.A.,A,VHH,rattus norvegicus,solute carrier family 15 member 2,3.5,26.3,7.580044251510242,BLI,rattus-norvegicus/solute-carrier-family-15-member-2
+7nvl_N_N.A._E,7nvl,N,N.A.,E,VHH,homo sapiens,t-complex protein 1 subunit epsilon,2.5,86.0,7.0655015487564325,BLI,homo-sapiens/t-complex-protein-1-subunit-epsilon
+7o52_H_L_U,7o52,H,L,U,FabH:FabL,homo sapiens,cd22 d6-d7 ig domains,2.41,24.8,7.605548319173784,BLI,homo-sapiens/cd22-d6-d7-ig-domains
+7oao_B_N.A._A,7oao,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.5,0.099,10.00436480540245,SPR,sars-cov-2_spike
+7oaq_A_N.A._B,7oaq,A,N.A.,B,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.55,0.725,9.139661993429009,SPR,sars-cov-2_spike
+7oaq_C_N.A._B,7oaq,C,N.A.,B,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.55,0.102,9.991399828238082,SPR,sars-cov-2_spike
+7oau_B_N.A._A,7oau,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.65,2.523,8.598082749482426,SPR,sars-cov-2_spike
+7olz_B_N.A._A,7olz,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.75,4.0,8.397940008672037,BLI,sars-cov-2_spike
+7olz_C_N.A._A,7olz,C,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.75,0.002,11.69897000433602,BLI,sars-cov-2_spike
+7ox1_A_B_G,7ox1,A,B,G,FabH:FabL,homo sapiens,interleukin-9,2.49,1.81,8.742321425130816,BLI,homo-sapiens/interleukin-9
+7ox2_A_L_T,7ox2,A,L,T,FabH:FabL,homo sapiens,interleukin-9,3.34,0.24,9.619788758288394,BLI,homo-sapiens/interleukin-9
+7ox3_A_B_C,7ox3,A,B,C,FabH:FabL,homo sapiens,interleukin-9,1.7,0.13,9.886056647693165,BLI,homo-sapiens/interleukin-9
+7phw_B_C_A,7phw,B,C,A,FabH:FabL,plasmodium falciparum (isolate 3d7),cysteine-rich protective antigen,2.79,2800.0,5.552841968657781,SPR,plasmodium-falciparum/cysteine-rich-protective-antigen
+7pi2_B_C_A,7pi2,B,C,A,FabH:FabL,plasmodium falciparum (isolate 3d7),cysteine-rich protective antigen,3.14,38.0,7.42021640338319,SPR,plasmodium-falciparum/cysteine-rich-protective-antigen
+7pi7_B_C_A,7pi7,B,C,A,FabH:FabL,plasmodium falciparum (isolate 3d7),cysteine-rich protective antigen,2.72,0.94,9.0268721464003,SPR,plasmodium-falciparum/cysteine-rich-protective-antigen
+7q6c_H_L_A,7q6c,H,L,A,FabH:FabL,homo sapiens,complement component c6,2.29,2.8,8.55284196865778,BLI,homo-sapiens/complement-component-c6
+7qf0_H_L_A,7qf0,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.3,280.0,6.552841968657781,SPR,sars-cov-2_spike
+7qnw_A_B_E,7qnw,A,B,E,FabH:FabL,severe acute respiratory syndrome coronavirus 2,surface glycoprotein,2.4,0.199,9.701146923590294,SPR,sars-cov-2_spike
+7qnw_H_L_E,7qnw,H,L,E,FabH:FabL,severe acute respiratory syndrome coronavirus 2,surface glycoprotein,2.4,7.5,8.1249387366083,SPR,sars-cov-2_spike
+7quh_H_L_A,7quh,H,L,A,FabH:FabL,homo sapiens,sialic acid-binding ig-like lectin 8,2.87,0.464,9.33348201944512,BLI,homo-sapiens/sialic-acid-binding-ig-like-lectin-8
+7r58_H_L_A,7r58,H,L,A,FabH:FabL,homo sapiens,platelet glycoprotein vi,1.9,12.6,7.899629454882437,SPR,homo-sapiens/platelet-glycoprotein-vi
+7r6w_A_B_R,7r6w,A,B,R,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.83,0.2,9.69897000433602,SPR,sars-cov-2_spike
+7r6w_H_L_R,7r6w,H,L,R,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.83,0.2,9.69897000433602,SPR,sars-cov-2_spike
+7r98_D_N.A._A,7r98,D,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,nucleoprotein,2.51,1.6,8.795880017344075,SPR,sars-cov-2_spike
+7rah_B_A_E,7rah,B,A,E,FabH:FabL,bordetella pertussis,"bifunctional adenylate cyclase toxin/hemolysin cyaa,bifunctional adenylate cyclase toxin/hemolysin cyaa",2.6,0.87,9.060480747381382,SPR,bordetella-pertussis/bifunctional-adenylate-cyclase-toxin-hemolysin-cyaa-bifunctional-adenylate-cyclase-toxin-hemolysin-cyaa
+7rah_D_C_E,7rah,D,C,E,FabH:FabL,bordetella pertussis,"bifunctional adenylate cyclase toxin/hemolysin cyaa,bifunctional adenylate cyclase toxin/hemolysin cyaa",2.6,0.75,9.1249387366083,SPR,bordetella-pertussis/bifunctional-adenylate-cyclase-toxin-hemolysin-cyaa-bifunctional-adenylate-cyclase-toxin-hemolysin-cyaa
+7rk1_C_N.A._A,7rk1,C,N.A.,A,scFv,human astrovirus-8,capsid polyprotein vp70,2.05,40.03,7.397614409894895,BLI,human-astrovirus-8/capsid-polyprotein-vp70
+7rk2_C_N.A._B,7rk2,C,N.A.,B,scFv,human astrovirus-8,capsid protein vp25,2.65,2.45,8.610833915635467,BLI,human-astrovirus-8/capsid-protein-vp25
+7rw2_G_J_B,7rw2,G,J,B,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.5,6.94,8.158640529545146,SPR,sars-cov-2_spike
+7rxi_H_L_A,7rxi,H,L,A,FabH:FabL,plasmodium falciparum (isolate 3d7),circumsporozoite protein,2.15,0.00377,11.423658649794207,SPR,plasmodium-falciparum/circumsporozoite-protein
+7rxj_A_B_G,7rxj,A,B,G,FabH:FabL,plasmodium falciparum (isolate 3d7),circumsporozoite protein,2.35,0.00278,11.555955204081924,SPR,plasmodium-falciparum/circumsporozoite-protein
+7rxl_C_D_F,7rxl,C,D,F,FabH:FabL,plasmodium falciparum (isolate 3d7),circumsporozoite protein,1.82,0.36,9.443697499232712,SPR,plasmodium-falciparum/circumsporozoite-protein
+7rxp_H_L_A,7rxp,H,L,A,FabH:FabL,plasmodium falciparum (isolate 3d7),circumsporozoite protein,1.76,0.0291,10.536107011014092,SPR,plasmodium-falciparum/circumsporozoite-protein
+7s07_H_L_A,7s07,H,L,A,FabH:FabL,human gammaherpesvirus 4,envelope glycoprotein h,3.29,0.46,9.337242168318426,BLI,human-gammaherpesvirus-4/envelope-glycoprotein-h
+7s0d_H_L_C,7s0d,H,L,C,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.5,0.00328,11.48412615628832,BLI,sars-cov-2_spike
+7s0x_C_D_F,7s0x,C,D,F,FabH:FabL,plasmodium falciparum (isolate 3d7),circumsporozoite protein,2.8,0.0116,10.935542010773082,SPR,plasmodium-falciparum/circumsporozoite-protein
+7s11_H_L_C,7s11,H,L,C,FabH:FabL,mus musculus,t-cell surface protein tactile,2.58,47.2,7.326058001365912,SPR,mus-musculus/t-cell-surface-protein-tactile
+7s1b_H_L_A,7s1b,H,L,A,FabH:FabL,human gammaherpesvirus 4,envelope glycoprotein h,3.03,0.21,9.67778070526608,BLI,human-gammaherpesvirus-4/envelope-glycoprotein-h
+7s1b_X_Y_A-B,7s1b,X,Y,A;B,FabH:FabL,human gammaherpesvirus 4;human gammaherpesvirus 4,envelope glycoprotein h;envelope glycoprotein l,3.03,2.05,8.688246138944246,BLI,human-gammaherpesvirus-4/envelope-glycoprotein-h;envelope-glycoprotein-l
+7s2r_B_N.A._A,7s2r,B,N.A.,A,VHH,homo sapiens,cytokine receptor common subunit gamma,2.49,69.0,7.161150909262744,SPR,homo-sapiens/cytokine-receptor-common-subunit-gamma
+7s2s_A_N.A._D,7s2s,A,N.A.,D,VHH,homo sapiens,interleukin-2 receptor subunit beta,1.93,25.0,7.602059991327962,SPR,homo-sapiens/interleukin-2-receptor-subunit-beta
+7s7r_B_N.A._A,7s7r,B,N.A.,A,VHH,plasmodium falciparum 3d7,merozoite surface protein p12,1.77,26.25,7.580870692258024,BLI,plasmodium-falciparum-3d7/merozoite-surface-protein-p12
+7sbd_H_L_C,7sbd,H,L,C,FabH:FabL,hevea brasiliensis,profilin-2,3.04,370.0,6.431798275933005,BLI,hevea-brasiliensis/profilin-2
+7sd5_H_L_A,7sd5,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.53,0.00452,11.344861565188618,SPR,sars-cov-2_spike
+7seg_A_B_D,7seg,A,B,D,FabH:FabL,homo sapiens,low affinity immunoglobulin gamma fc region receptor iii-a,2.16,24.5,7.610833915635467,SPR,homo-sapiens/low-affinity-immunoglobulin-gamma-fc-region-receptor-iii-a
+7shu_C_D_A,7shu,C,D,A,VH:VL,homo sapiens,immunoglobulin heavy constant epsilon,2.75,0.95,9.022276394711152,BLI,homo-sapiens/immunoglobulin-heavy-constant-epsilon
+7shy_C_D_A,7shy,C,D,A,VH:VL,homo sapiens,ige fc,3.0,2.02,8.694648630553376,BLI,homo-sapiens/ige-fc
+7shz_C_D_A,7shz,C,D,A,VH:VL,homo sapiens,ige fc,3.0,0.166,9.779891911959943,BLI,homo-sapiens/ige-fc
+7si0_C_D_A,7si0,C,D,A,VH:VL,homo sapiens,ige fc,3.0,1.86,8.730487055782083,BLI,homo-sapiens/ige-fc
+7si2_E_D_B,7si2,E,D,B,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,3.2,0.000782,12.106793246940152,SPR,sars-cov-2_spike
+7su0_H_L_C,7su0,H,L,C,FabH:FabL,homo sapiens,cytotoxic t-lymphocyte protein 4,2.41,3.5,8.455931955649724,SPR,homo-sapiens/cytotoxic-t-lymphocyte-protein-4
+7su1_H_L_C,7su1,H,L,C,FabH:FabL,homo sapiens,cytotoxic t-lymphocyte protein 4,2.53,25.0,7.602059991327962,SPR,homo-sapiens/cytotoxic-t-lymphocyte-protein-4
+7t3m_D_N.A._A,7t3m,D,N.A.,A,scFv,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.0,0.107,9.97061622231479,BLI,sars-cov-2_spike
+7tjq_A_B_C,7tjq,A,B,C,VH:VL,human metapneumovirus,fusion glycoprotein f0,3.13,0.368,9.434152181326482,SPR,human-metapneumovirus/fusion-glycoprotein-f0
+7tl0_D_E_A,7tl0,D,E,A,VH:VL,human metapneumovirus,fusion glycoprotein f0,3.06,0.223,9.65169513695184,SPR,human-metapneumovirus/fusion-glycoprotein-f0
+7tn9_M_N_W-X,7tn9,M,N,W;X,VH:VL,"ebola virus - mayinga, zaire, 1976;ebola virus - mayinga, zaire, 1976",gp2;gp2,3.1,1.64,8.785156151952302,SPR,ebola-virus-mayinga-zaire-1976/gp2
+7tuf_A_B_C,7tuf,A,B,C,FabH:FabL,homo sapiens,tapasin,2.8,1.1,8.958607314841775,SPR,homo-sapiens/tapasin
+7txz_E_F_A,7txz,E,F,A,VH:VL,nipah henipavirus,glycoprotein g,3.2,2.65,8.576754126063193,BLI,nipah-henipavirus/glycoprotein-g
+7u9p_H_L_A,7u9p,H,L,A,FabH:VL+,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.5,0.56,9.2518119729938,SPR,sars-cov-2_spike
+7uds_D_E_B-b,7uds,D,E,B;b,FabH:FabL,lassa mammarenavirus;lassa mammarenavirus,glycoprotein g1;glycoprotein g2,3.1,3.52,8.453457336521868,BLI,lassa-mammarenavirus/glycoprotein-g1;glycoprotein-g2
+7ue9_H_L_C,7ue9,H,L,C,FabH:FabL,homo sapiens,complement c3dg fragment,1.75,12.9,7.889410289700751,SPR,homo-sapiens/complement-c3dg-fragment
+7ukl_H_L_A-C,7ukl,H,L,A;C,VH:VL,severe acute respiratory syndrome coronavirus 2;severe acute respiratory syndrome coronavirus 2,spike glycoprotein;spike glycoprotein,3.09,16.0,7.795880017344075,SPR,sars-cov-2_spike
+7ul1_H_L_A,7ul1,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus,spike protein s1,2.65,0.83,9.080921907623926,SPR,severe-acute-respiratory-syndrome-coronavirus/spike-protein-s1
+7unz_A_N.A._D,7unz,A,N.A.,D,VHH,plasmodium falciparum,"cysteine-rich small secreted protein css, putative",2.03,0.88,9.05551732784983,BLI,plasmodium-falciparum/cysteine-rich-small-secreted-protein-css-putative
+7urv_D_N.A._C,7urv,D,N.A.,C,scFv,homo sapiens,b-lymphocyte antigen cd19,3.05,4.5,8.346787486224656,SPR,homo-sapiens/b-lymphocyte-antigen-cd19
+7urx_H_L_C,7urx,H,L,C,FabH:FabL,homo sapiens,b-lymphocyte antigen cd19,3.4,26.9,7.570247719997592,SPR,homo-sapiens/b-lymphocyte-antigen-cd19
+7uvf_H_L_A,7uvf,H,L,A,FabH:FabL,homo sapiens,t-cell surface glycoprotein cd8 alpha chain,2.6,5.0,8.301029995663981,SPR,homo-sapiens/t-cell-surface-glycoprotein-cd8-alpha-chain
+7v61_H_K_B,7v61,H,K,B,FabH:FabL,homo sapiens,angiotensin-converting enzyme 2,3.2,30.5,7.515700160653214,BLI,homo-sapiens/angiotensin-converting-enzyme-2
+7vfa_D_N.A._E,7vfa,D,N.A.,E,VHH,severe acute respiratory syndrome coronavirus 2,3c-like proteinase,1.75,2.43,8.614393726401687,BLI,sars-cov-2_spike
+7vfb_B_N.A._A,7vfb,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,3c-like proteinase,2.0,0.46,9.337242168318426,BLI,sars-cov-2_spike
+7vyt_B_C_A-T,7vyt,B,C,A;T,VH:VL,homo sapiens;homo sapiens,t-cell immunoreceptor with ig and itim domains;t-cell immunoreceptor with ig and itim domains,1.53,2.2,8.657577319177793,BLI,homo-sapiens/t-cell-immunoreceptor-with-ig-and-itim-domains
+7w1s_B_N.A._A,7w1s,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.0,0.0674,10.17134010346468,SPR,sars-cov-2_spike
+7wg3_E_A_I,7wg3,E,A,I,FabH:FabL,bos taurus,il17rb protein,2.19,11.0,7.958607314841775,BLI,bos-taurus/il17rb-protein
+7whi_D_N.A._B,7whi,D,N.A.,B,VH,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.93,0.4,9.397940008672036,BLI,sars-cov-2_spike
+7whi_G_N.A._A-B,7whi,G,N.A.,A;B,VH,severe acute respiratory syndrome coronavirus 2;severe acute respiratory syndrome coronavirus 2,spike glycoprotein;spike glycoprotein,2.93,0.4,9.397940008672036,BLI,sars-cov-2_spike
+7wn8_H_L_A,7wn8,H,L,A,FabH:FabL,homo sapiens,leukocyte surface antigen cd47,2.8,6.9,8.161150909262744,SPR,homo-sapiens/leukocyte-surface-antigen-cd47
+7wrv_U_V_C,7wrv,U,V,C,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.47,3.2,8.494850021680094,BLI,sars-cov-2_spike
+7wrz_H_L_R,7wrz,H,L,R,VH:VL,sars coronavirus b012,spike protein s1,3.26,0.29,9.537602002101044,BLI,sars-coronavirus-b012/spike-protein-s1
+7wsl_H_L_D,7wsl,H,L,D,FabH:FabL,homo sapiens,programmed cell death protein 1,1.53,0.3,9.522878745280336,SPR,homo-sapiens/programmed-cell-death-protein-1
+7wvm_A_B_E,7wvm,A,B,E,VH:VL,homo sapiens,programmed cell death protein 1,3.4,1.68,8.774690718274137,SPR,homo-sapiens/programmed-cell-death-protein-1
+7x08_H_L_A-B,7x08,H,L,A;B,FabH:FabL,severe acute respiratory syndrome coronavirus;severe acute respiratory syndrome coronavirus,spike glycoprotein;spike glycoprotein,2.7,1.02,8.991399828238082,SPR,severe-acute-respiratory-syndrome-coronavirus/spike-glycoprotein
+7x1m_H_L_M,7x1m,H,L,M,VH:VL,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.74,2.6,8.585026652029182,SPR,sars-cov-2_spike
+7x2a_H_K_A,7x2a,H,K,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,mers-cov spike glycoprotein,2.49,4.6,8.337242168318426,SPR,sars-cov-2_spike
+7x2h_A_B_E,7x2h,A,B,E,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.1,4.21,8.375717904164333,BLI,sars-cov-2_spike
+7x3c_H_L_A-B-C,7x3c,H,L,A;B;C,VH:VL,coxsackievirus b1;coxsackievirus b1;coxsackievirus b1,virion protein 1;vp2;vp3,3.03,2.1,8.67778070526608,SPR,coxsackievirus-b1/virion-protein-1;vp2;vp3
+7x4i_E_N.A._A-D,7x4i,E,N.A.,A;D,VHH,severe acute respiratory syndrome coronavirus;severe acute respiratory syndrome coronavirus,spike glycoprotein;spike glycoprotein,3.38,0.361,9.442492798094342,SPR,severe-acute-respiratory-syndrome-coronavirus/spike-glycoprotein
+7xcz_D_E_A,7xcz,D,E,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.2,0.186,9.730487055782085,SPR,sars-cov-2_spike
+7xda_D_E_A,7xda,D,E,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.98,0.901,9.045275209020938,SPR,sars-cov-2_spike
+7xdk_D_E_A,7xdk,D,E,A,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.2,0.186,9.730487055782085,SPR,sars-cov-2_spike
+7xdl_K_J_C,7xdl,K,J,C,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.08,0.901,9.045275209020938,SPR,sars-cov-2_spike
+7xjf_A_B_C,7xjf,A,B,C,FabH:FabL,homo sapiens,leukocyte surface antigen cd47,2.6,4160.0,5.380906669373258,SPR,homo-sapiens/leukocyte-surface-antigen-cd47
+7xli_B_N.A._A,7xli,B,N.A.,A,VHH,staphylococcus aureus subsp. aureus mu50,iron-regulated surface determinant protein b,1.7,0.25,9.602059991327964,SPR,staphylococcus-aureus-subsp-aureus-mu50/iron-regulated-surface-determinant-protein-b
+7xqv_B_N.A._A,7xqv,B,N.A.,A,VHH,rattus norvegicus,rhoa,2.76,60.5,7.218244625347531,SPR,rattus-norvegicus/rhoa
+7xy8_H_L_A,7xy8,H,L,A,FabH:FabL,homo sapiens,isoform 2 of basigin,2.3,8.6,8.065501548756432,SPR,homo-sapiens/isoform-2-of-basigin
+7yk4_H_L_A,7yk4,H,L,A,FabH:FabL,homo sapiens,tumor necrosis factor receptor superfamily member 4,2.7,4.39,8.357535479757878,BLI,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-4
+7yms_F_E_A,7yms,F,E,A,FabH:FabL,coxsackievirus a16,capsid protein vp1,2.9,0.35,9.455931955649724,BLI,coxsackievirus-a16/capsid-protein-vp1
+7yrf_F_E_C,7yrf,F,E,C,FabH:FabL,coxsackievirus a16,capsid protein vp3,2.91,7.34,8.13430394008393,BLI,coxsackievirus-a16/capsid-protein-vp3
+7yru_H_L_A,7yru,H,L,A,FabH:FabL,homo sapiens,activin receptor type-1,2.6,5.6,8.2518119729938,SPR,homo-sapiens/activin-receptor-type-1
+7yvk_H_I_B,7yvk,H,I,B,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.2,0.000976,12.010550182333308,SPR,sars-cov-2_spike
+7yvo_I_H_A,7yvo,I,H,A,VH:VL,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.3,0.00171,11.767003889607846,SPR,sars-cov-2_spike
+7z1x_B_N.A._A,7z1x,B,N.A.,A,VHH,homo sapiens,gasdermin-d,1.86,0.64,9.193820026016112,SPR,homo-sapiens/gasdermin-d
+7z1x_C_N.A._A,7z1x,C,N.A.,A,VHH,homo sapiens,gasdermin-d,1.86,143.0,6.844663962534939,SPR,homo-sapiens/gasdermin-d
+7zk1_C_N.A._A,7zk1,C,N.A.,A,VHH,arabidopsis thaliana,cystinosin homolog,2.65,760.0,6.119186407719209,BLI,arabidopsis-thaliana/cystinosin-homolog
+7zkz_B_N.A._A,7zkz,B,N.A.,A,VHH,arabidopsis thaliana,cystinosin homolog,2.33,90.0,7.045757490560675,BLI,arabidopsis-thaliana/cystinosin-homolog
+7zkz_C_N.A._A,7zkz,C,N.A.,A,VHH,arabidopsis thaliana,cystinosin homolog,2.33,189.0,6.723538195826756,BLI,arabidopsis-thaliana/cystinosin-homolog
+7zoz_H_L_A,7zoz,H,L,A,FabH:FabL,homo sapiens,sialic acid-binding ig-like lectin 15,2.1,4.68,8.329754146925875,BLI,homo-sapiens/sialic-acid-binding-ig-like-lectin-15
+8ag1_H_L_A,8ag1,H,L,A,FabH:FabL,homo sapiens,tumor necrosis factor receptor superfamily member 4,3.3,4.39,8.357535479757878,BLI,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-4
+8as0_B_C_A-R,8as0,B,C,A;R,FabH:FabL,homo sapiens;homo sapiens,programmed cell death protein 1;programmed cell death protein 1,3.5,54.0,7.267606240177032,SPR,homo-sapiens/programmed-cell-death-protein-1
+8b7h_H_L_A,8b7h,H,L,A,FabH:FabL,homo sapiens,gremlin-1,1.95,0.0528,10.277366077466189,SPR,homo-sapiens/gremlin-1
+8bf4_A_N.A._C,8bf4,A,N.A.,C,VHH,mus musculus,plexin-b1,2.15,0.237,9.625251653989896,BLI,mus-musculus/plexin-b1
+8bf4_B_N.A._C,8bf4,B,N.A.,C,VHH,mus musculus,plexin-b1,2.15,37.5,7.425968732272281,BLI,mus-musculus/plexin-b1
+8bsf_H_L_A,8bsf,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.2,0.789,9.10292299679058,SPR,sars-cov-2_spike
+8byu_H_L_A,8byu,H,L,A,FabH:FabL,homo sapiens,adp-ribosyl cyclase/cyclic adp-ribose hydrolase 1,1.85,1.1,8.958607314841775,BLI,homo-sapiens/adp-ribosyl-cyclase-cyclic-adp-ribose-hydrolase-1
+8bzy_B_N.A._A,8bzy,B,N.A.,A,VH,homo sapiens,solute carrier family 40 member 1,3.24,500.0,6.301029995663981,SPR,homo-sapiens/solute-carrier-family-40-member-1
+8c9x_F_N.A._A-B,8c9x,F,N.A.,A;B,VHH,homo sapiens;homo sapiens,neuronal acetylcholine receptor subunit alpha-7;neuronal acetylcholine receptor subunit alpha-7,2.3,0.2,9.69897000433602,SPR,homo-sapiens/neuronal-acetylcholine-receptor-subunit-alpha-7
+8ce4_F_N.A._A-B,8ce4,F,N.A.,A;B,VHH,homo sapiens;homo sapiens,neuronal acetylcholine receptor subunit alpha-7;neuronal acetylcholine receptor subunit alpha-7,2.7,1.0,9.0,SPR,homo-sapiens/neuronal-acetylcholine-receptor-subunit-alpha-7
+8cw9_G_M_A-F,8cw9,G,M,A;F,VH:VL,human metapneumovirus;human metapneumovirus,fusion glycoprotein f0;fusion glycoprotein f0,3.46,54.0,7.267606240177032,BLI,human-metapneumovirus/fusion-glycoprotein-f0
+8cyd_D_N.A._B,8cyd,D,N.A.,B,VHH,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,2.6,0.387,9.41228903498109,SPR,sars-cov-2_spike
+8df1_H_L_A,8df1,H,L,A,FabH:FabL,homo sapiens,chitinase-3-like protein 1,3.3,3.21,8.493494967595128,BLI,homo-sapiens/chitinase-3-like-protein-1
+8dfg_H_L_A,8dfg,H,L,A,FabH:FabL,plasmodium falciparum 3d7,merozoite surface protein 1,2.0,4.24,8.372634143407268,BLI,plasmodium-falciparum-3d7/merozoite-surface-protein-1
+8dfh_H_L_A,8dfh,H,L,A,FabH:FabL,plasmodium falciparum 3d7,merozoite surface protein 1,2.3,0.66,9.18045606445813,BLI,plasmodium-falciparum-3d7/merozoite-surface-protein-1
+8dfi_H_L_A,8dfi,H,L,A,FabH:FabL,plasmodium falciparum 3d7,merozoite surface protein 1,1.9,1.84,8.735182176990463,BLI,plasmodium-falciparum-3d7/merozoite-surface-protein-1
+8dl7_D_C_A,8dl7,D,C,A,FabH:FabL,homo sapiens,solute carrier family 40 member 1,2.7,10.6,7.97469413473523,BLI,homo-sapiens/solute-carrier-family-40-member-1
+8dp0_B_N.A._A,8dp0,B,N.A.,A,VHH,homo sapiens,"phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",2.96,2.1,8.67778070526608,BLI,homo-sapiens/phosphatidylinositol-4-5-bisphosphate-3-kinase-catalytic-subunit-gamma-isoform
+8dpl_A_B_D,8dpl,A,B,D,VH:VL,"ebola virus - mayinga, zaire, 1976",glycoprotein gp1,2.53,0.00375,11.42596873227228,BLI,ebola-virus-mayinga-zaire-1976/glycoprotein-gp1
+8dpm_D_E_A,8dpm,D,E,A,VH:VL,"ebola virus - mayinga, zaire, 1976",glycoprotein gp1,3.0,0.00113,11.94692155651658,BLI,ebola-virus-mayinga-zaire-1976/glycoprotein-gp1
+8ds5_C_B_A,8ds5,C,B,A,FabH:FabL,homo sapiens,cd27 antigen,1.93,5.1,8.292429823902063,SPR,homo-sapiens/cd27-antigen
+8dt8_D_N.A._A,8dt8,D,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.34,382.0,6.417936637088292,SPR,sars-cov-2_spike
+8dt8_H_N.A._A,8dt8,H,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.34,391.0,6.407823242604133,SPR,sars-cov-2_spike
+8dzw_H_L_C,8dzw,H,L,C,FabH:FabL,human respiratory syncytial virus a2,rsv fusion protein,2.46,1.23,8.910094888560602,BLI,human-respiratory-syncytial-virus-a2/rsv-fusion-protein
+8e7m_H_L_A,8e7m,H,L,A,FabH:FabL,homo sapiens,angiotensin-converting enzyme 2,3.3,0.276,9.559090917934782,SPR,homo-sapiens/angiotensin-converting-enzyme-2
+8edf_H_L_A,8edf,H,L,A,VH+:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,3.4,0.412,9.385102783966865,SPR,sars-cov-2_spike
+8ejj_H_L_a-c,8ejj,H,L,a;c,VH:VL,lassa mammarenavirus;lassa mammarenavirus,glycoprotein gp2;glycoprotein gp2,3.22,0.5,9.30102999566398,BLI,lassa-mammarenavirus/glycoprotein-gp2
+8eqf_H_L_A,8eqf,H,L,A,VH:VL,severe acute respiratory syndrome coronavirus 2,spike protein s1,3.16,0.125,9.903089986991944,BLI,sars-cov-2_spike
+8ew6_V_N.A._W,8ew6,V,N.A.,W,VHH,homo sapiens,t-cell surface glycoprotein cd8 alpha chain,1.9,2.4,8.619788758288394,SPR,homo-sapiens/t-cell-surface-glycoprotein-cd8-alpha-chain
+8ezk_H_N.A._A,8ezk,H,N.A.,A,scFv,plasmodium falciparum (isolate nf54),25 kda ookinete surface antigen,2.3,0.37,9.431798275933003,BLI,plasmodium-falciparum/25-kda-ookinete-surface-antigen
+8ezm_H_N.A._A,8ezm,H,N.A.,A,scFv,plasmodium falciparum,25 kda ookinete surface antigen,2.1,8.71,8.059981844992336,BLI,plasmodium-falciparum/25-kda-ookinete-surface-antigen
+8f8x_C_N.A._A-B,8f8x,C,N.A.,A;B,VHH,homo sapiens;homo sapiens,uncharacterized protein dkfzp686c11235;uncharacterized protein dkfzp686c11235,2.6,142.0,6.847711655616943,SPR,homo-sapiens/uncharacterized-protein-dkfzp686c11235
+8fdo_A_B_C,8fdo,A,B,C,FabH:FabL,escherichia coli,fp15,2.2,0.6,9.221848749616356,SPR,escherichia-coli/fp15
+8fgx_B_A_C,8fgx,B,A,C,FabH:FabL,homo sapiens,plasma kallikrein light chain,2.62,1.07,8.97061622231479,SPR,homo-sapiens/plasma-kallikrein-light-chain
+8fxb_H_L_E,8fxb,H,L,E,VH:VL,severe acute respiratory syndrome coronavirus,spike protein s1,3.1,2.0,8.698970004336019,SPR,severe-acute-respiratory-syndrome-coronavirus/spike-protein-s1
+8ghr_C_N.A._A,8ghr,C,N.A.,A,VH,homo sapiens,"ectonucleotide pyrophosphatase/phosphodiesterase family member 1, secreted form, immunoglobulin gamma-1 heavy chain fusion",3.2,0.56,9.2518119729938,BLI,homo-sapiens/ectonucleotide-pyrophosphatase-phosphodiesterase-family-member-1-secreted-form-immunoglobulin-gamma-1-heavy-chain-fusion
+8gje_G_J_C,8gje,G,J,C,VH:VL,human immunodeficiency virus 1,cza97.12 sosip.664 envelope glycoprotein gp120,3.4,5.4,8.267606240177031,SPR,human-immunodeficiency-virus-1/cza97-12-sosip-664-envelope-glycoprotein-gp120
+8gpi_A_C_T-Z,8gpi,A,C,T;Z,VH:VL,human immunodeficiency virus 1;human immunodeficiency virus 1,x18 ufo gp41;x18 ufo gp41,3.0,530.0,6.275724130399211,SPR,human-immunodeficiency-virus-1/x18-ufo-gp41
+8gpt_D_E_A,8gpt,D,E,A,VH:VL,yellow fever virus,envelope protein,3.07,0.00149,11.826813731587729,SPR,yellow-fever-virus/envelope-protein
+8gpu_C_D_B,8gpu,C,D,B,FabH:FabL,yellow fever virus,envelope protein,2.79,0.00149,11.826813731587729,SPR,yellow-fever-virus/envelope-protein
+8gq1_H_L_C,8gq1,H,L,C,FabH:FabL,gallus gallus,lysozyme c,3.13,0.23,9.638272163982409,SPR,gallus-gallus/lysozyme-c
+8gz5_B_N.A._A,8gz5,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.7,0.37,9.431798275933003,BLI,sars-cov-2_spike
+8h63_B_N.A._A,8h63,B,N.A.,A,VHH,listeria monocytogenes serovar 1/2a,internalin a,1.53,0.696,9.157390760389438,SPR,listeria-monocytogenes-serovar-1-2a/internalin-a
+8h64_B_N.A._A,8h64,B,N.A.,A,VHH,listeria monocytogenes serovar 1/2a,internalin a,2.35,0.194,9.712198270069774,SPR,listeria-monocytogenes-serovar-1-2a/internalin-a
+8hit_A_B_C,8hit,A,B,C,VH:VL,homo sapiens,cytotoxic t-lymphocyte protein 4,3.2,0.206,9.686132779630846,SPR,homo-sapiens/cytotoxic-t-lymphocyte-protein-4
+8hn6_A_B_E-F,8hn6,A,B,E;F,VH:VL,severe acute respiratory syndrome coronavirus 2;severe acute respiratory syndrome coronavirus 2,spike protein s1;spike protein s1,2.07,1.37,8.863279432843592,BLI,sars-cov-2_spike
+8hpu_H_L_A,8hpu,H,L,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s2',2.56,0.00547,11.26201267366657,BLI,sars-cov-2_spike
+8hr2_B_N.A._A,8hr2,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.94,5.07,8.294992040666664,BLI,sars-cov-2_spike
+8hr2_C_N.A._A,8hr2,C,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.94,1.76,8.75448733218585,BLI,sars-cov-2_spike
+8i4f_C_N.A._A,8i4f,C,N.A.,A,VH,severe acute respiratory syndrome coronavirus 2,spike glycoprotein,3.44,4.09,8.388276691992658,BLI,sars-cov-2_spike
+8j5j_E_N.A._A,8j5j,E,N.A.,A,VHH,betacoronavirus sp.,spike protein s1,3.0,0.2,9.69897000433602,SPR,betacoronavirus-sp/spike-protein-s1
+8jel_A_B_E,8jel,A,B,E,FabH:FabL,homo sapiens,t-cell immunoreceptor with ig and itim domains,2.45,0.21,9.67778070526608,SPR,homo-sapiens/t-cell-immunoreceptor-with-ig-and-itim-domains
+8jeo_B_C_A,8jeo,B,C,A,FabH:FabL,homo sapiens,t-cell immunoreceptor with ig and itim domains,2.06,0.193,9.714442690992229,SPR,homo-sapiens/t-cell-immunoreceptor-with-ig-and-itim-domains
+8jlw_H_L_A,8jlw,H,L,A,VH:VL,crimean-congo hemorrhagic fever orthonairovirus,"glycoprotein c,cchfv envelope protein gc fusion loops",3.0,0.0834,10.07883394936226,BLI,crimean-congo-hemorrhagic-fever-orthonairovirus/glycoprotein-c-cchfv-envelope-protein-gc-fusion-loops
+8jlx_H_L_A,8jlx,H,L,A,VH:VL,crimean-congo hemorrhagic fever orthonairovirus,"glycoprotein c,cchfv gc fusion loops",3.0,0.0324,10.489454989793389,BLI,crimean-congo-hemorrhagic-fever-orthonairovirus/glycoprotein-c-cchfv-gc-fusion-loops
+8opr_B_N.A._A,8opr,B,N.A.,A,VHH,bacillus anthracis,s-layer protein ea1,1.81,1.9,8.721246399047171,BLI,bacillus-anthracis/s-layer-protein-ea1
+8opr_C_N.A._A,8opr,C,N.A.,A,VHH,bacillus anthracis,s-layer protein ea1,1.81,2.2,8.657577319177793,BLI,bacillus-anthracis/s-layer-protein-ea1
+8oz3_A_B_C,8oz3,A,B,C,VH:VL,homo sapiens,tumor necrosis factor receptor superfamily member 9,3.1,0.1,10.0,BLI,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-9
+8pe9_H_L_A,8pe9,H,L,A,FabH:FabL,homo sapiens,epithelial discoidin domain-containing receptor 1,3.15,0.39,9.4089353929735,BLI,homo-sapiens/epithelial-discoidin-domain-containing-receptor-1
+8q95_C_N.A._A,8q95,C,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.6,0.04,10.397940008672036,SPR,sars-cov-2_spike
+8r4o_B_N.A._A,8r4o,B,N.A.,A,scFv,homo sapiens,serine/threonine-protein kinase sik3,2.73,280.0,6.552841968657781,SPR,homo-sapiens/serine-threonine-protein-kinase-sik3
+8r4u_B_N.A._A-E,8r4u,B,N.A.,A;E,scFv,homo sapiens;homo sapiens,serine/threonine-protein kinase sik3;serine/threonine-protein kinase sik3,2.42,280.0,6.552841968657781,SPR,homo-sapiens/serine-threonine-protein-kinase-sik3
+8sdf_B_C_A,8sdf,B,C,A,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,1.79,0.48,9.318758762624412,BLI,sars-cov-2_spike
+8sdg_A_B_D,8sdg,A,B,D,FabH:FabL,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.71,0.42,9.3767507096021,BLI,sars-cov-2_spike
+8sk5_B_N.A._A,8sk5,B,N.A.,A,VHH,severe acute respiratory syndrome coronavirus 2,spike protein s1,2.01,0.22,9.657577319177792,SPR,sars-cov-2_spike
+8slb_H_L_A,8slb,H,L,A,FabH:FabL,thermotoga maritima msb8,cobalt/magnesium transport protein cora,2.04,1.5,8.823908740944319,SPR,thermotoga-maritima-msb8/cobalt-magnesium-transport-protein-cora
+8smk_B_C_A-D,8smk,B,C,A;D,FabH:FabL,homo sapiens;homo sapiens,protein-arginine deiminase type-4;protein-arginine deiminase type-4,3.5,1.0,9.0,BLI,homo-sapiens/protein-arginine-deiminase-type-4
+8sxp_H_L_C,8sxp,H,L,C,FabH:FabL,ophiophagus hannah,long neurotoxin 2,2.9,0.61,9.214670164989233,SPR,ophiophagus-hannah/long-neurotoxin-2
+8szy_H_L_T,8szy,H,L,T,FabH:FabL,homo sapiens,t-cell immunoreceptor with ig and itim domains,2.31,0.11,9.958607314841776,SPR,homo-sapiens/t-cell-immunoreceptor-with-ig-and-itim-domains
+8t4a_H_L_A,8t4a,H,L,A,VH:VL,human immunodeficiency virus 1,md65 n332-gt5 sosip gp120,3.4,0.038,10.42021640338319,SPR,human-immunodeficiency-virus-1/md65-n332-gt5-sosip-gp120
+8t7a_D_E_a,8t7a,D,E,a,VH:VL,respiratory syncytial virus,fusion glycoprotein f1,2.8,4.2,8.3767507096021,SPR,respiratory-syncytial-virus/fusion-glycoprotein-f1
+8t9z_H_L_A,8t9z,H,L,A,FabH:FabL,human metapneumovirus,fusion glycoprotein f0,3.0,1.2,8.920818753952375,SPR,human-metapneumovirus/fusion-glycoprotein-f0
+8tfn_H_L_B,8tfn,H,L,B,FabH:FabL,homo sapiens,trbv6-5,2.54,1.8,8.744727494896694,SPR,homo-sapiens/trbv6-5
+8tnt_E_D_A-B,8tnt,E,D,A;B,FabH:FabL,epstein-barr virus;epstein-barr virus,envelope glycoprotein h;envelope glycoprotein l,3.15,2.05,8.688246138944246,BLI,epstein-barr-virus/envelope-glycoprotein-h;envelope-glycoprotein-l
+8tpa_D_E_C,8tpa,D,E,C,VH:VL,influenza a virus (a/new caledonia/20/1999(h1n1)),hemagglutinin ha1 chain,3.0,0.297,9.527243550682789,BLI,influenza-a-virus/hemagglutinin-ha1-chain
+8uky_B_A_D,8uky,B,A,D,FabH:FabL,homo sapiens,bcl-2 homologous antagonist/killer,2.4,10.0,8.0,SPR,homo-sapiens/bcl-2-homologous-antagonist-killer
+8w9j_B_A_D,8w9j,B,A,D,FabH:FabL,homo sapiens,c-type lectin domain family 12 member a,3.5,70.0,7.154901959985743,SPR,homo-sapiens/c-type-lectin-domain-family-12-member-a
+8x0t_H_L_A,8x0t,H,L,A,FabH:FabL,homo sapiens,frizzled-8,2.5,14.21,7.84740592207253,SPR,homo-sapiens/frizzled-8
+8yx1_A_B_C,8yx1,A,B,C,FabH:FabL,homo sapiens,tumor necrosis factor receptor superfamily member 5,2.7,0.69,9.161150909262744,SPR,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-5
+8yx9_B_C_J,8yx9,B,C,J,FabH:FabL,homo sapiens,tumor necrosis factor receptor superfamily member 5,2.8,3.4,8.468521082957745,SPR,homo-sapiens/tumor-necrosis-factor-receptor-superfamily-member-5

@@ -1,0 +1,83 @@
+complex_id,PDB_ID,H_chain_ID,L_chain_ID,Ag_chain_ID(s),Ab_type,Ag_species,Ag_mol_name(s),Resolution,Affinity_method,antigen_group
+6gku_H_L_A,6gku,H,L,A,FabH:FabL,homo sapiens,galectin-10,1.91,SPR,homo-sapiens/galectin-10
+6i07_A_N.A._C,6i07,A,N.A.,C,scFv,homo sapiens,epithelial cell adhesion molecule,2.35,BLI,homo-sapiens/epithelial-cell-adhesion-molecule
+6j5d_H_L_A,6j5d,H,L,A,VH:VL,louping ill virus,envelope,1.8,SPR,louping-ill-virus/envelope
+6j5g_H_L_A,6j5g,H,L,A,VH:VL,tick-borne encephalitis virus european subtype (strain neudoerfl),envelope protein e,3.29,SPR,tick-borne-encephalitis-virus-european-subtype/envelope-protein-e
+6kn9_D_N.A._A,6kn9,D,N.A.,A,scFv,homo sapiens,interleukin-18 receptor accessory protein,3.3,BLI,homo-sapiens/interleukin-18-receptor-accessory-protein
+6m3b_C_B_A,6m3b,C,B,A,FabH:FabL,homo sapiens,vitamin k-dependent protein c heavy chain,2.2,SPR,homo-sapiens/vitamin-k-dependent-protein-c-heavy-chain
+6nmr_A_B_E,6nmr,A,B,E,FabH:FabL,homo sapiens,tyrosine-protein phosphatase non-receptor type substrate 1,2.42,SPR,homo-sapiens/tyrosine-protein-phosphatase-non-receptor-type-substrate-1
+6nms_B_A_C,6nms,B,A,C,FabH:FabL,homo sapiens,tyrosine-protein phosphatase non-receptor type substrate 1,2.11,SPR,homo-sapiens/tyrosine-protein-phosphatase-non-receptor-type-substrate-1
+6nmt_B_A_C,6nmt,B,A,C,FabH:FabL,homo sapiens,tyrosine-protein phosphatase non-receptor type substrate 1,1.83,SPR,homo-sapiens/tyrosine-protein-phosphatase-non-receptor-type-substrate-1
+6nmu_B_A_C,6nmu,B,A,C,FabH:FabL,homo sapiens,tyrosine-protein phosphatase non-receptor type substrate 1,2.55,SPR,homo-sapiens/tyrosine-protein-phosphatase-non-receptor-type-substrate-1
+6nmv_H_L_S,6nmv,H,L,S,FabH:FabL,homo sapiens,tyrosine-protein phosphatase non-receptor type substrate 1,2.61,SPR,homo-sapiens/tyrosine-protein-phosphatase-non-receptor-type-substrate-1
+6p50_H_L_C,6p50,H,L,C,FabH:FabL,homo sapiens,interleukin-7 receptor subunit alpha,2.9,SPR,homo-sapiens/interleukin-7-receptor-subunit-alpha
+6p67_A_B_K,6p67,A,B,K,FabH:FabL,homo sapiens,interleukin-7 receptor subunit alpha,2.9,SPR,homo-sapiens/interleukin-7-receptor-subunit-alpha
+6v8x_C_D_A,6v8x,C,D,A,FabH:FabL,human immunodeficiency virus 1,envelope glycoprotein gp120,3.0,SPR,human-immunodeficiency-virus-1/envelope-glycoprotein-gp120
+6wm9_B_C_A,6wm9,B,C,A,FabH:FabL,plasmodium vivax (strain salvador i),reticulocyte binding protein 2b,2.45,BLI,plasmodium-vivax/reticulocyte-binding-protein-2b
+6wqo_B_C_A,6wqo,B,C,A,FabH:FabL,plasmodium vivax (strain salvador i),reticulocyte binding protein 2b,3.15,BLI,plasmodium-vivax/reticulocyte-binding-protein-2b
+6wtu_B_C_A-D,6wtu,B,C,A;D,FabH:FabL,plasmodium vivax (strain salvador i);plasmodium vivax (strain salvador i),reticulocyte binding protein 2b;reticulocyte binding protein 2b,2.55,BLI,plasmodium-vivax/reticulocyte-binding-protein-2b
+6wtv_B_C_A-D,6wtv,B,C,A;D,FabH:FabL,plasmodium vivax (strain salvador i);plasmodium vivax (strain salvador i),reticulocyte binding protein 2b;reticulocyte binding protein 2b,3.05,BLI,plasmodium-vivax/reticulocyte-binding-protein-2b
+6wty_B_C_A,6wty,B,C,A,FabH:FabL,plasmodium vivax (strain salvador i),reticulocyte binding protein 2b,3.48,BLI,plasmodium-vivax/reticulocyte-binding-protein-2b
+6ye3_A_B_C,6ye3,A,B,C,FabH:FabL,homo sapiens,interleukin-2,2.89,SPR,homo-sapiens/interleukin-2
+6ysq_G_N.A._B-C,6ysq,G,N.A.,B;C,VHH,homo sapiens;homo sapiens,complement c4 beta chain;complement c4-a alpha chain,3.3,SPR,homo-sapiens/complement-c4-beta-chain;complement-c4-a-alpha-chain
+6z2l_C_B_A,6z2l,C,B,A,FabH:FabL,plasmodium falciparum 3d7,surface protein p113,1.95,SPR,plasmodium-falciparum-3d7/surface-protein-p113
+6ztr_A_B_J,6ztr,A,B,J,FabH:FabL,homo sapiens,cadherin-3,2.1,SPR,homo-sapiens/cadherin-3
+7amq_H_L_B,7amq,H,L,B,FabH:FabL,homo sapiens,human a6 t-cell receptor beta chain trbc1,2.35,SPR,homo-sapiens/human-a6-t-cell-receptor-beta-chain-trbc1
+7apj_B_N.A._A,7apj,B,N.A.,A,VHH,homo sapiens,"rac-alpha serine/threonine-protein kinase,non-specific serine/threonine protein kinase,rac-alpha serine/threonine-protein kinase",2.05,SPR,homo-sapiens/rac-alpha-serine-threonine-protein-kinase-non-specific-serine-threonine-protein-kinase-rac-alpha-serine-threonine-protein-kinase
+7bsd_A_B_G,7bsd,A,B,G,FabH:FabL,zika virus,ns1c,2.53,SPR,zika-virus/ns1c
+7c88_A_B_C,7c88,A,B,C,FabH:FabL,homo sapiens,programmed cell death 1 ligand 1,2.0,SPR,homo-sapiens/programmed-cell-death-1-ligand-1
+7czd_A_N.A._B-D,7czd,A,N.A.,B;D,VHH,homo sapiens;homo sapiens,programmed cell death 1 ligand 1;programmed cell death 1 ligand 1,1.64,BLI,homo-sapiens/programmed-cell-death-1-ligand-1
+7dr4_A_B_G-J,7dr4,A,B,G;J,FabH:FabL,homo sapiens;homo sapiens,interleukin-2;interleukin-2,2.49,SPR,homo-sapiens/interleukin-2
+7jr7_C_D_B,7jr7,C,D,B,FabH:FabL,homo sapiens,atp-binding cassette sub-family g member 8,3.3,SPR,homo-sapiens/atp-binding-cassette-sub-family-g-member-8
+7jr7_E_F_B,7jr7,E,F,B,FabH:FabL,homo sapiens,atp-binding cassette sub-family g member 8,3.3,SPR,homo-sapiens/atp-binding-cassette-sub-family-g-member-8
+7jum_H_N.A._A,7jum,H,N.A.,A,scFv,plasmodium falciparum (isolate 3d7),gametocyte surface protein p230,2.0,BLI,plasmodium-falciparum/gametocyte-surface-protein-p230
+7mxd_X_Y_F,7mxd,X,Y,F,FabH:FabL,human immunodeficiency virus 1,envelope glycoprotein gp120,3.4,SPR,human-immunodeficiency-virus-1/envelope-glycoprotein-gp120
+7pa5_B_N.A._A,7pa5,B,N.A.,A,VHH,escherichia coli,beta-lactamase,3.18,BLI,escherichia-coli/beta-lactamase
+7phv_B_C_A,7phv,B,C,A,FabH:FabL,plasmodium falciparum 3d7,cysteine-rich protective antigen,3.09,SPR,plasmodium-falciparum-3d7/cysteine-rich-protective-antigen
+7pi3_B_C_A,7pi3,B,C,A,FabH:FabL,plasmodium falciparum 3d7,cysteine-rich protective antigen,3.27,SPR,plasmodium-falciparum-3d7/cysteine-rich-protective-antigen
+7pi3_D_E_A,7pi3,D,E,A,FabH:FabL,plasmodium falciparum 3d7,cysteine-rich protective antigen,3.27,SPR,plasmodium-falciparum-3d7/cysteine-rich-protective-antigen
+7ri1_B_N.A._A,7ri1,B,N.A.,A,VHH,human immunodeficiency virus 1,glycoprotein 120,2.55,SPR,human-immunodeficiency-virus-1/glycoprotein-120
+7st5_H_L_A,7st5,H,L,A,FabH:FabL,homo sapiens,tyrosine-protein phosphatase non-receptor type substrate 1,2.2,SPR,homo-sapiens/tyrosine-protein-phosphatase-non-receptor-type-substrate-1
+7t5o_H_L_C,7t5o,H,L,C,FabH:FabL,severe acute respiratory syndrome-related coronavirus,spike glycoprotein,3.39,BLI,severe-acute-respiratory-syndrome-related-coronavirus/spike-glycoprotein
+7te1_C_F_E,7te1,C,F,E,FabH:FabL,homo sapiens,spike protein s1,3.5,BLI,homo-sapiens/spike-protein-s1
+7tgi_B_N.A._A,7tgi,B,N.A.,A,VHH,ricinus communis,ricin chain a,2.1,SPR,ricinus-communis/ricin-chain-a
+7th3_B_N.A._A,7th3,B,N.A.,A,VHH,ricinus communis,ricin chain a,2.29,SPR,ricinus-communis/ricin-chain-a
+7tn9_A_B_U,7tn9,A,B,U,VH:VL,"ebola virus - mayinga, zaire, 1976",envelope glycoprotein,3.1,SPR,ebola-virus-mayinga-zaire-1976/envelope-glycoprotein
+7tn9_G_H_T,7tn9,G,H,T,VH:VL,"ebola virus - mayinga, zaire, 1976",envelope glycoprotein,3.1,SPR,ebola-virus-mayinga-zaire-1976/envelope-glycoprotein
+7u5b_A_B_J,7u5b,A,B,J,FabH:FabL,homo sapiens,kallikrein-5,2.37,SPR,homo-sapiens/kallikrein-5
+7u9e_H_N.A._A,7u9e,H,N.A.,A,scFv,plasmodium falciparum,gametocyte surface protein p230,2.39,BLI,plasmodium-falciparum/gametocyte-surface-protein-p230
+7u9w_H_N.A._A,7u9w,H,N.A.,A,scFv,plasmodium falciparum,gametocyte surface protein p230,2.79,BLI,plasmodium-falciparum/gametocyte-surface-protein-p230
+7ua2_H_N.A._A,7ua2,H,N.A.,A,scFv,plasmodium falciparum,gametocyte surface protein p230,2.19,BLI,plasmodium-falciparum/gametocyte-surface-protein-p230
+7ua8_H_N.A._A,7ua8,H,N.A.,A,scFv,plasmodium falciparum,gametocyte surface protein p230,2.8,BLI,plasmodium-falciparum/gametocyte-surface-protein-p230
+7ubs_H_N.A._A,7ubs,H,N.A.,A,scFv,plasmodium falciparum,gametocyte surface protein p230,2.5,BLI,plasmodium-falciparum/gametocyte-surface-protein-p230
+7uc8_H_N.A._A,7uc8,H,N.A.,A,scFv,plasmodium falciparum,gametocyte surface protein p230,2.9,BLI,plasmodium-falciparum/gametocyte-surface-protein-p230
+7ucq_H_N.A._A,7ucq,H,N.A.,A,scFv,plasmodium falciparum,gametocyte surface protein p230,2.5,BLI,plasmodium-falciparum/gametocyte-surface-protein-p230
+7ui1_H_N.A._A,7ui1,H,N.A.,A,scFv,plasmodium falciparum,gametocyte surface protein p230,3.3,BLI,plasmodium-falciparum/gametocyte-surface-protein-p230
+7ust_B_N.A._A,7ust,B,N.A.,A,VHH,plasmodium falciparum,gametocyte surface protein p230,1.7,BLI,plasmodium-falciparum/gametocyte-surface-protein-p230
+7usv_C_N.A._A,7usv,C,N.A.,A,VHH,plasmodium falciparum,gametocyte surface protein p230,2.1,BLI,plasmodium-falciparum/gametocyte-surface-protein-p230
+7uvh_A_B_C,7uvh,A,B,C,FabH:FabL,plasmodium falciparum,gametocyte surface protein p230,2.59,BLI,plasmodium-falciparum/gametocyte-surface-protein-p230
+7uvi_A_B_C,7uvi,A,B,C,FabH:FabL,plasmodium falciparum,gametocyte surface protein p230,2.92,BLI,plasmodium-falciparum/gametocyte-surface-protein-p230
+7uvo_A_B_C,7uvo,A,B,C,FabH:FabL,plasmodium falciparum,gametocyte surface protein p230,2.09,BLI,plasmodium-falciparum/gametocyte-surface-protein-p230
+7uvq_C_B_A,7uvq,C,B,A,FabH:FabL,plasmodium falciparum,gametocyte surface protein p230,3.29,BLI,plasmodium-falciparum/gametocyte-surface-protein-p230
+7uvq_D_E_A,7uvq,D,E,A,FabH:FabL,plasmodium falciparum,gametocyte surface protein p230,3.29,BLI,plasmodium-falciparum/gametocyte-surface-protein-p230
+7uvs_A_B_C,7uvs,A,B,C,FabH:FabL,plasmodium falciparum,gametocyte surface protein p230,2.06,BLI,plasmodium-falciparum/gametocyte-surface-protein-p230
+7wkx_A_C_F,7wkx,A,C,F,FabH:FabL,homo sapiens,interleukin-17a,2.81,SPR,homo-sapiens/interleukin-17a
+7x25_A_C_G,7x25,A,C,G,FabH:FabL,middle east respiratory syndrome-related coronavirus,spike glycoprotein,2.49,SPR,middle-east-respiratory-syndrome-related-coronavirus/spike-glycoprotein
+7x2o_H_L_B,7x2o,H,L,B,VH:VL,coxsackievirus b1,vp2,3.15,SPR,coxsackievirus-b1/vp2
+7x3c_F_E_B,7x3c,F,E,B,VH:VL,coxsackievirus b1,vp2,3.03,SPR,coxsackievirus-b1/vp2
+7x3d_H_L_B-C,7x3d,H,L,B;C,VH:VL,coxsackievirus b1;coxsackievirus b1,vp2;vp3,3.48,SPR,coxsackievirus-b1/vp2;vp3
+7xnf_H_L_A,7xnf,H,L,A,FabH:FabL,pangolin coronavirus,spike protein s1,2.79,SPR,pangolin-coronavirus/spike-protein-s1
+7xsw_A_B_C,7xsw,A,B,C,FabH:FabL,pangolin coronavirus,spike protein s1,3.3,SPR,pangolin-coronavirus/spike-protein-s1
+7z2m_B_A_K,7z2m,B,A,K,FabH:FabL,homo sapiens,interleukin-17a,1.9,SPR,homo-sapiens/interleukin-17a
+8a1e_B_C_A,8a1e,B,C,A,VH:VL,rabies virus strain pasteur vaccin,glycoprotein,2.83,SPR,rabies-virus-strain-pasteur-vaccin/glycoprotein
+8a1e_D_E_A,8a1e,D,E,A,VH:VL,rabies virus strain pasteur vaccin,glycoprotein,2.83,SPR,rabies-virus-strain-pasteur-vaccin/glycoprotein
+8aok_B_N.A._A,8aok,B,N.A.,A,VHH,homo sapiens,programmed cell death 1 ligand 1,1.6,BLI,homo-sapiens/programmed-cell-death-1-ligand-1
+8aom_V_N.A._A,8aom,V,N.A.,A,VHH,homo sapiens,programmed cell death 1 ligand 1,2.2,BLI,homo-sapiens/programmed-cell-death-1-ligand-1
+8ath_E_F_B,8ath,E,F,B,FabH:FabL,homo sapiens,lysosome-associated membrane glycoprotein 1,2.37,BLI,homo-sapiens/lysosome-associated-membrane-glycoprotein-1
+8b7w_H_N.A._C,8b7w,H,N.A.,C,VH,homo sapiens,interleukin-17a,2.85,SPR,homo-sapiens/interleukin-17a
+8ct6_H_L_A,8ct6,H,L,A,VH:VL,influenza a virus,cobra p1 ha,3.1,BLI,influenza-a-virus/cobra-p1-ha
+8ezl_H_N.A._A,8ezl,H,N.A.,A,scFv,plasmodium falciparum nf54,25 kda ookinete surface antigen,2.3,BLI,plasmodium-falciparum-nf54/25-kda-ookinete-surface-antigen
+8f8w_C_N.A._A-B,8f8w,C,N.A.,A;B,VHH,homo sapiens;homo sapiens,afucosylated igg1 fragment;afucosylated igg1 fragment,2.71,SPR,homo-sapiens/afucosylated-igg1-fragment
+8k3c_C_D_B,8k3c,C,D,B,FabH:FabL,henipavirus nipahense,glycoprotein g,2.88,BLI,henipavirus-nipahense/glycoprotein-g
+8omu_B_N.A._A,8omu,B,N.A.,A,VHH,rattus norvegicus,solute carrier family 22 member 6,3.43,BLI,rattus-norvegicus/solute-carrier-family-22-member-6
+8tnn_H_G_C,8tnn,H,G,C,FabH:FabL,human herpesvirus 4 strain b95-8,glycoprotein 42,3.36,BLI,human-herpesvirus-4-strain-b95-8/glycoprotein-42
